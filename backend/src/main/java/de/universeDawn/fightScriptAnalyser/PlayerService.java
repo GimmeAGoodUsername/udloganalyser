@@ -1,7 +1,5 @@
 package de.universeDawn.fightScriptAnalyser;
 
-import de.universeDawn.fightScriptAnalyser.user.Planet;
-import de.universeDawn.fightScriptAnalyser.user.Player;
 import org.springframework.stereotype.Service;
 
 @Service

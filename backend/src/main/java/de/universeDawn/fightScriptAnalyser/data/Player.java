@@ -3,10 +3,8 @@ package de.universeDawn.fightScriptAnalyser.data;
 import java.util.HashMap;
 import java.util.Map;
 
-import jakarta.persistence.Entity;
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.data.annotation.Id;
 
 @Getter
 @Setter
