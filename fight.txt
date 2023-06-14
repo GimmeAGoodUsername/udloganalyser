@@ -1,3639 +1,557 @@
 {
-  "Quirun": {
-    "name": "Quirun",
-    "shipsAmount": 76,
+  "Tolo": {
+    "name": "Tolo",
+    "shipsAmount": 39,
     "side": "Verteidiger",
     "shipMap": {
-      "GUN BOX 01": {
-        "shipName": "GUN BOX 01",
-        "damageDealt": 9101,
-        "hits": 17,
-        "misses": 7,
+      "Titan Vektorgeschütz": {
+        "shipName": "Titan Vektorgeschütz",
+        "damageDealt": 20350,
+        "hits": 56,
+        "misses": 23,
         "failedEscapes": 0,
         "hitDamage": [
-          329,
-          230,
-          157,
-          332,
-          776,
-          894,
-          1018,
-          205,
-          262,
-          828,
-          731,
-          759,
-          265,
-          278,
-          891,
-          498,
-          648
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 51": {
-        "shipName": "BOX 51",
-        "damageDealt": 1584,
-        "hits": 6,
-        "misses": 6,
-        "failedEscapes": 0,
-        "hitDamage": [
-          640,
-          153,
-          135,
-          396,
-          109,
-          151
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 50": {
-        "shipName": "BOX 50",
-        "damageDealt": 2531,
-        "hits": 9,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          592,
-          261,
           391,
-          175,
-          71,
-          102,
-          131,
-          724,
-          84
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 53": {
-        "shipName": "BOX 53",
-        "damageDealt": 2626,
-        "hits": 9,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          427,
-          628,
-          243,
-          108,
-          352,
-          420,
-          192,
-          98,
-          158
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 52": {
-        "shipName": "BOX 52",
-        "damageDealt": 2884,
-        "hits": 8,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          352,
-          536,
-          290,
-          176,
-          469,
-          455,
-          251,
-          355
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "MINI BOX 13": {
-        "shipName": "MINI BOX 13",
-        "damageDealt": 938,
-        "hits": 5,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          84,
-          260,
-          221,
-          130,
-          243
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 55": {
-        "shipName": "BOX 55",
-        "damageDealt": 2016,
-        "hits": 7,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          507,
-          219,
-          65,
-          241,
-          158,
-          646,
-          180
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 11": {
-        "shipName": "BOX 11",
-        "damageDealt": 3965,
-        "hits": 11,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          371,
-          274,
-          1085,
-          273,
-          362,
-          353,
-          279,
-          442,
-          69,
-          342,
-          115
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 10": {
-        "shipName": "BOX 10",
-        "damageDealt": 6563,
-        "hits": 8,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          124,
-          854,
-          304,
-          3175,
-          59,
-          733,
-          595,
-          719
-        ],
-        "crits": 1,
-        "heavy": 1
-      },
-      "BOX 54": {
-        "shipName": "BOX 54",
-        "damageDealt": 1926,
-        "hits": 8,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          198,
-          193,
-          79,
-          299,
-          298,
-          144,
-          235,
-          480
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 13": {
-        "shipName": "BOX 13",
-        "damageDealt": 4333,
-        "hits": 9,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          268,
-          765,
-          83,
-          227,
-          1087,
-          556,
-          60,
-          996,
-          291
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 57": {
-        "shipName": "BOX 57",
-        "damageDealt": 2794,
-        "hits": 8,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          381,
-          630,
-          722,
-          99,
-          155,
-          115,
-          95,
-          597
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 56": {
-        "shipName": "BOX 56",
-        "damageDealt": 3051,
-        "hits": 7,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          582,
-          433,
-          117,
-          442,
-          391,
-          353,
-          733
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 12": {
-        "shipName": "BOX 12",
-        "damageDealt": 3937,
-        "hits": 7,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          215,
-          1109,
-          284,
-          151,
-          859,
-          1023,
-          296
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 15": {
-        "shipName": "BOX 15",
-        "damageDealt": 2811,
-        "hits": 8,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          220,
-          856,
-          75,
-          906,
-          137,
-          154,
-          370,
-          93
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 59": {
-        "shipName": "BOX 59",
-        "damageDealt": 2908,
-        "hits": 6,
-        "misses": 6,
-        "failedEscapes": 0,
-        "hitDamage": [
-          525,
-          487,
-          363,
-          658,
-          449,
-          426
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 01 ECHO": {
-        "shipName": "BOX 01 ECHO",
-        "damageDealt": 615,
-        "hits": 1,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          615
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 58": {
-        "shipName": "BOX 58",
-        "damageDealt": 2879,
-        "hits": 8,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          413,
-          117,
-          159,
-          389,
-          587,
-          449,
-          411,
-          354
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 14": {
-        "shipName": "BOX 14",
-        "damageDealt": 2070,
-        "hits": 5,
-        "misses": 7,
-        "failedEscapes": 0,
-        "hitDamage": [
-          66,
-          729,
-          277,
-          296,
-          702
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 17": {
-        "shipName": "BOX 17",
-        "damageDealt": 3154,
-        "hits": 8,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          59,
-          278,
-          75,
-          89,
-          607,
-          221,
-          1023,
-          802
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 16": {
-        "shipName": "BOX 16",
-        "damageDealt": 4088,
-        "hits": 9,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          635,
-          456,
-          469,
-          191,
-          769,
-          668,
-          375,
-          205,
-          320
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "BOX 19": {
-        "shipName": "BOX 19",
-        "damageDealt": 5174,
-        "hits": 10,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          507,
-          117,
-          843,
-          72,
-          834,
-          215,
-          2089,
-          64,
-          356,
-          77
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "BOX 18": {
-        "shipName": "BOX 18",
-        "damageDealt": 2435,
-        "hits": 9,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          253,
-          296,
-          107,
-          1029,
-          90,
-          118,
-          234,
-          195,
-          113
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "MINI BOX 11": {
-        "shipName": "MINI BOX 11",
-        "damageDealt": 732,
-        "hits": 4,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          284,
-          94,
-          108,
-          246
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "MINI BOX 10": {
-        "shipName": "MINI BOX 10",
-        "damageDealt": 875,
-        "hits": 4,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          115,
-          117,
-          322,
-          321
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 40": {
-        "shipName": "BOX 40",
-        "damageDealt": 2481,
-        "hits": 9,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          347,
-          623,
-          79,
-          267,
-          252,
-          290,
-          285,
-          212,
-          126
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "MINI BOX 05": {
-        "shipName": "MINI BOX 05",
-        "damageDealt": 784,
-        "hits": 3,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          106,
-          286,
-          392
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "MINI BOX 04": {
-        "shipName": "MINI BOX 04",
-        "damageDealt": 836,
-        "hits": 5,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          265,
-          100,
-          269,
-          87,
-          115
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 42": {
-        "shipName": "BOX 42",
-        "damageDealt": 3790,
-        "hits": 10,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          165,
-          304,
-          942,
-          130,
-          134,
-          265,
-          625,
-          322,
-          552,
-          351
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "BOX 36 T": {
-        "shipName": "BOX 36 T",
-        "damageDealt": 2135,
-        "hits": 9,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          191,
-          96,
-          387,
-          138,
-          522,
-          457,
-          110,
-          153,
-          81
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "MINI BOX 02": {
-        "shipName": "MINI BOX 02",
-        "damageDealt": 1021,
-        "hits": 4,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          334,
-          268,
-          328,
-          91
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 41": {
-        "shipName": "BOX 41",
-        "damageDealt": 1328,
-        "hits": 7,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          90,
-          120,
-          71,
-          82,
-          89,
-          664,
-          212
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "MINI BOX 09": {
-        "shipName": "MINI BOX 09",
-        "damageDealt": 1287,
-        "hits": 5,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          80,
-          364,
-          352,
-          152,
-          339
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 44": {
-        "shipName": "BOX 44",
-        "damageDealt": 2817,
-        "hits": 10,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          609,
-          302,
-          140,
-          400,
-          208,
-          133,
-          246,
-          296,
-          149,
-          334
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "MINI BOX 08": {
-        "shipName": "MINI BOX 08",
-        "damageDealt": 779,
-        "hits": 4,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          131,
-          70,
-          300,
-          278
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 21 ECHO": {
-        "shipName": "BOX 21 ECHO",
-        "damageDealt": 896,
-        "hits": 2,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          635,
-          261
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 43": {
-        "shipName": "BOX 43",
-        "damageDealt": 2480,
-        "hits": 7,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          440,
-          92,
-          272,
-          468,
-          95,
-          764,
-          349
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "MINI BOX 07": {
-        "shipName": "MINI BOX 07",
-        "damageDealt": 1142,
-        "hits": 5,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          376,
-          112,
-          84,
-          305,
-          265
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 02": {
-        "shipName": "BOX 02",
-        "damageDealt": 3661,
-        "hits": 10,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          65,
+          209,
           230,
-          54,
-          471,
-          462,
-          482,
-          573,
-          121,
-          776,
-          427
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "BOX 45": {
-        "shipName": "BOX 45",
-        "damageDealt": 1539,
-        "hits": 7,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          277,
-          600,
-          195,
-          166,
-          57,
-          71,
-          173
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 04": {
-        "shipName": "BOX 04",
-        "damageDealt": 2834,
-        "hits": 5,
-        "misses": 7,
-        "failedEscapes": 0,
-        "hitDamage": [
-          451,
-          627,
-          107,
-          693,
-          956
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 48": {
-        "shipName": "BOX 48",
-        "damageDealt": 3256,
-        "hits": 7,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          558,
-          116,
-          289,
-          1332,
-          454,
-          104,
-          403
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "BOX 06": {
-        "shipName": "BOX 06",
-        "damageDealt": 2016,
-        "hits": 9,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          57,
-          365,
-          69,
-          212,
-          97,
-          74,
-          592,
-          267,
-          283
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 05": {
-        "shipName": "BOX 05",
-        "damageDealt": 2666,
-        "hits": 7,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          223,
-          304,
-          260,
-          788,
-          79,
-          774,
-          238
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 49": {
-        "shipName": "BOX 49",
-        "damageDealt": 2639,
-        "hits": 6,
-        "misses": 6,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1271,
-          268,
-          342,
-          470,
-          206,
-          82
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "BOX 08": {
-        "shipName": "BOX 08",
-        "damageDealt": 4221,
-        "hits": 8,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          321,
-          937,
-          171,
-          833,
-          980,
-          194,
-          114,
-          671
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "BOX 47 EK1T": {
-        "shipName": "BOX 47 EK1T",
-        "damageDealt": 3630,
-        "hits": 9,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          152,
-          451,
-          601,
-          144,
-          1364,
-          164,
-          133,
-          181,
-          440
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "BOX 07": {
-        "shipName": "BOX 07",
-        "damageDealt": 1726,
-        "hits": 7,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          795,
-          91,
-          96,
-          144,
-          337,
-          172,
-          91
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 09": {
-        "shipName": "BOX 09",
-        "damageDealt": 3312,
-        "hits": 8,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          176,
-          118,
-          1076,
-          269,
-          282,
-          212,
-          877,
-          302
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 46 EK1T": {
-        "shipName": "BOX 46 EK1T",
-        "damageDealt": 2846,
-        "hits": 7,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          616,
-          131,
-          450,
-          419,
-          158,
-          415,
-          657
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "MINI BOX 01": {
-        "shipName": "MINI BOX 01",
-        "damageDealt": 1161,
-        "hits": 5,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          189,
-          256,
-          94,
-          354,
-          268
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 03 ECHO": {
-        "shipName": "BOX 03 ECHO",
-        "damageDealt": 2737,
-        "hits": 3,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1374,
-          287,
-          1076
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 30": {
-        "shipName": "BOX 30",
-        "damageDealt": 2010,
-        "hits": 6,
-        "misses": 6,
-        "failedEscapes": 0,
-        "hitDamage": [
-          464,
-          354,
-          277,
-          266,
-          421,
-          228
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 32": {
-        "shipName": "BOX 32",
-        "damageDealt": 1567,
-        "hits": 5,
-        "misses": 7,
-        "failedEscapes": 0,
-        "hitDamage": [
-          234,
-          698,
-          254,
-          61,
-          320
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "BOX 34": {
-        "shipName": "BOX 34",
-        "damageDealt": 3001,
-        "hits": 8,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          303,
-          211,
-          144,
-          363,
-          487,
-          471,
-          633,
-          389
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 37": {
-        "shipName": "BOX 37",
-        "damageDealt": 2262,
-        "hits": 6,
-        "misses": 6,
-        "failedEscapes": 0,
-        "hitDamage": [
-          415,
-          384,
-          212,
-          97,
-          639,
-          515
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 39": {
-        "shipName": "BOX 39",
-        "damageDealt": 1896,
-        "hits": 7,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          484,
-          158,
-          173,
-          120,
-          107,
-          497,
-          357
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 38": {
-        "shipName": "BOX 38",
-        "damageDealt": 3054,
-        "hits": 8,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          261,
-          251,
-          289,
-          103,
-          738,
-          989,
-          102,
-          321
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 31 EK1T": {
-        "shipName": "BOX 31 EK1T",
-        "damageDealt": 3565,
-        "hits": 6,
-        "misses": 6,
-        "failedEscapes": 0,
-        "hitDamage": [
-          617,
-          293,
-          186,
-          481,
-          156,
-          1832
-        ],
-        "crits": 1,
-        "heavy": 0
-      },
-      "BOX 60": {
-        "shipName": "BOX 60",
-        "damageDealt": 3850,
-        "hits": 11,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          732,
-          725,
-          115,
-          643,
-          69,
-          415,
-          244,
-          106,
-          112,
-          564,
-          125
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 62": {
-        "shipName": "BOX 62",
-        "damageDealt": 1711,
-        "hits": 7,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          418,
-          135,
-          208,
-          103,
-          90,
-          665,
-          92
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 61": {
-        "shipName": "BOX 61",
-        "damageDealt": 2554,
-        "hits": 9,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          92,
-          164,
-          269,
-          584,
-          329,
-          488,
-          393,
-          106,
-          129
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 20": {
-        "shipName": "BOX 20",
-        "damageDealt": 1835,
-        "hits": 8,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          324,
-          138,
-          255,
-          257,
-          212,
-          451,
-          134,
-          64
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 22": {
-        "shipName": "BOX 22",
-        "damageDealt": 2199,
-        "hits": 7,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          866,
-          93,
-          202,
-          555,
-          295,
-          142,
-          46
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 35 T": {
-        "shipName": "BOX 35 T",
-        "damageDealt": 1909,
-        "hits": 6,
-        "misses": 6,
-        "failedEscapes": 0,
-        "hitDamage": [
-          507,
-          574,
-          106,
-          473,
-          100,
-          149
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 33 T": {
-        "shipName": "BOX 33 T",
-        "damageDealt": 3359,
-        "hits": 10,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          460,
-          470,
-          521,
-          503,
-          113,
-          145,
-          530,
-          91,
-          114,
-          412
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 24": {
-        "shipName": "BOX 24",
-        "damageDealt": 3014,
-        "hits": 7,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          392,
-          102,
-          729,
-          241,
           407,
-          277,
-          866
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 23": {
-        "shipName": "BOX 23",
-        "damageDealt": 4886,
-        "hits": 10,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          435,
-          325,
-          911,
-          350,
-          328,
+          453,
+          494,
+          168,
+          150,
+          510,
+          517,
+          198,
           192,
-          1101,
-          67,
-          833,
-          344
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 26": {
-        "shipName": "BOX 26",
-        "damageDealt": 4104,
-        "hits": 8,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
+          464,
           310,
-          125,
-          586,
-          92,
-          883,
-          306,
-          786,
-          1016
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 25": {
-        "shipName": "BOX 25",
-        "damageDealt": 2606,
-        "hits": 7,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          316,
-          623,
-          118,
-          473,
-          89,
-          669,
-          318
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 28": {
-        "shipName": "BOX 28",
-        "damageDealt": 2098,
-        "hits": 6,
-        "misses": 6,
-        "failedEscapes": 0,
-        "hitDamage": [
-          137,
-          532,
-          91,
-          578,
-          127,
-          633
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 27": {
-        "shipName": "BOX 27",
-        "damageDealt": 2454,
-        "hits": 8,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          65,
-          266,
-          467,
-          525,
-          567,
-          106,
-          328,
-          130
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "BOX 29": {
-        "shipName": "BOX 29",
-        "damageDealt": 3966,
-        "hits": 9,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          384,
-          556,
+          971,
+          246,
+          574,
+          398,
+          517,
+          222,
+          516,
+          492,
+          161,
+          270,
+          518,
+          182,
+          272,
+          217,
+          200,
+          494,
+          187,
+          218,
+          210,
+          562,
+          238,
           413,
-          824,
-          267,
-          511,
-          435,
-          223,
-          353
+          545,
+          534,
+          252,
+          420,
+          221,
+          365,
+          252,
+          461,
+          230,
+          268,
+          213,
+          498,
+          214,
+          465,
+          478,
+          609,
+          434,
+          431,
+          227,
+          462
         ],
         "crits": 0,
-        "heavy": 0
+        "heavy": 1
       }
     }
   },
   "Zarathustra": {
     "name": "Zarathustra",
-    "shipsAmount": 46,
-    "side": "Verteidiger",
+    "shipsAmount": 25,
+    "side": "Angreifer",
     "shipMap": {
-      "Fanboy 22": {
-        "shipName": "Fanboy 22",
-        "damageDealt": 3302,
-        "hits": 5,
+      "Zafira": {
+        "shipName": "Zafira",
+        "damageDealt": 1415,
+        "hits": 3,
+        "misses": 0,
+        "failedEscapes": 0,
+        "hitDamage": [
+          482,
+          547,
+          386
+        ],
+        "crits": 0,
+        "heavy": 0
+      },
+      "EIodie": {
+        "shipName": "EIodie",
+        "damageDealt": 20057,
+        "hits": 11,
         "misses": 1,
         "failedEscapes": 0,
         "hitDamage": [
-          887,
-          302,
-          446,
-          561,
-          1106
+          1996,
+          3643,
+          1564,
+          1996,
+          1661,
+          2223,
+          914,
+          1248,
+          2331,
+          1596,
+          885
         ],
         "crits": 0,
         "heavy": 0
       },
       "Jasmin": {
         "shipName": "Jasmin",
-        "damageDealt": 17377,
-        "hits": 16,
+        "damageDealt": 13556,
+        "hits": 7,
         "misses": 2,
         "failedEscapes": 0,
         "hitDamage": [
-          2716,
-          1320,
-          291,
-          2021,
-          1472,
-          151,
-          2109,
-          1407,
-          639,
-          301,
-          736,
-          1479,
-          430,
-          788,
-          1394,
-          123
+          3488,
+          653,
+          2715,
+          1333,
+          889,
+          3654,
+          824
         ],
         "crits": 0,
-        "heavy": 0
+        "heavy": 1
       },
       "Cassandra": {
         "shipName": "Cassandra",
-        "damageDealt": 16768,
-        "hits": 20,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          435,
-          619,
-          134,
-          473,
-          1802,
-          618,
-          772,
-          2002,
-          429,
-          658,
-          2093,
-          370,
-          365,
-          1655,
-          227,
-          151,
-          506,
-          1993,
-          995,
-          471
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "Fanboy 05": {
-        "shipName": "Fanboy 05",
-        "damageDealt": 1856,
-        "hits": 4,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          716,
-          668,
-          264,
-          208
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Fanboy 06": {
-        "shipName": "Fanboy 06",
-        "damageDealt": 2247,
-        "hits": 3,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          809,
-          307,
-          1131
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Tiara": {
-        "shipName": "Tiara",
-        "damageDealt": 17813,
-        "hits": 14,
-        "misses": 10,
-        "failedEscapes": 0,
-        "hitDamage": [
-          2330,
-          1637,
-          1125,
-          3602,
-          1887,
-          415,
-          655,
-          1998,
-          895,
-          1061,
-          425,
-          735,
-          666,
-          382
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Fanboy 23": {
-        "shipName": "Fanboy 23",
-        "damageDealt": 3636,
-        "hits": 5,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1123,
-          828,
-          247,
-          941,
-          497
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Fanboy 01": {
-        "shipName": "Fanboy 01",
-        "damageDealt": 2700,
-        "hits": 3,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1279,
-          371,
-          1050
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Fanboy 24": {
-        "shipName": "Fanboy 24",
-        "damageDealt": 1307,
-        "hits": 3,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          662,
-          210,
-          435
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Fanboy 02": {
-        "shipName": "Fanboy 02",
-        "damageDealt": 1949,
-        "hits": 4,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          392,
-          252,
-          846,
-          459
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Fanboy 25": {
-        "shipName": "Fanboy 25",
-        "damageDealt": 4118,
-        "hits": 5,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          541,
-          1084,
-          299,
-          1069,
-          1125
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Melina": {
-        "shipName": "Melina",
-        "damageDealt": 14295,
-        "hits": 17,
-        "misses": 7,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1253,
-          1152,
-          202,
-          604,
-          1259,
-          337,
-          630,
-          1036,
-          1983,
-          1407,
-          523,
-          553,
-          1398,
-          149,
-          554,
-          444,
-          811
-        ],
-        "crits": 1,
-        "heavy": 0
-      },
-      "Zahra": {
-        "shipName": "Zahra",
-        "damageDealt": 13813,
-        "hits": 16,
-        "misses": 8,
-        "failedEscapes": 0,
-        "hitDamage": [
-          447,
-          1368,
-          406,
-          194,
-          1331,
-          1211,
-          1437,
-          1105,
-          615,
-          503,
-          374,
-          1073,
-          1518,
-          555,
-          1218,
-          458
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Katharina": {
-        "shipName": "Katharina",
-        "damageDealt": 11673,
-        "hits": 21,
-        "misses": 9,
-        "failedEscapes": 0,
-        "hitDamage": [
-          413,
-          749,
-          400,
-          520,
-          410,
-          1406,
-          1268,
-          656,
-          105,
-          291,
-          761,
-          222,
-          562,
-          675,
-          398,
-          423,
-          232,
-          402,
-          745,
-          625,
-          410
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Amelie": {
-        "shipName": "Amelie",
-        "damageDealt": 15698,
-        "hits": 14,
-        "misses": 7,
-        "failedEscapes": 0,
-        "hitDamage": [
-          729,
-          688,
-          1069,
-          1922,
-          603,
-          1769,
-          475,
-          1088,
-          2302,
-          203,
-          662,
-          2109,
-          458,
-          1621
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Esmeralda": {
-        "shipName": "Esmeralda",
-        "damageDealt": 9668,
-        "hits": 8,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          730,
-          1447,
-          1005,
-          244,
-          1243,
-          990,
-          1572,
-          2437
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Josephine": {
-        "shipName": "Josephine",
-        "damageDealt": 14480,
-        "hits": 12,
-        "misses": 12,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1336,
-          1415,
-          1472,
-          716,
-          1047,
-          1693,
-          2135,
-          152,
-          1246,
-          2934,
-          204,
-          130
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "ChristIna": {
-        "shipName": "ChristIna",
-        "damageDealt": 9307,
+        "damageDealt": 11455,
         "hits": 10,
-        "misses": 26,
+        "misses": 2,
         "failedEscapes": 0,
         "hitDamage": [
-          383,
-          356,
-          510,
-          1448,
-          421,
-          1162,
-          388,
-          1008,
-          1386,
-          2245
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "Fanboy 10": {
-        "shipName": "Fanboy 10",
-        "damageDealt": 4578,
-        "hits": 5,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          2480,
-          850,
-          382,
-          602,
-          264
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "EIodie": {
-        "shipName": "EIodie",
-        "damageDealt": 23464,
-        "hits": 19,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1710,
-          2082,
-          1240,
-          1731,
-          377,
-          361,
-          616,
-          272,
-          792,
-          1909,
-          409,
-          511,
-          2109,
-          2097,
-          1832,
-          507,
-          1876,
-          1430,
-          1603
+          1071,
+          1284,
+          1232,
+          1181,
+          551,
+          907,
+          566,
+          2620,
+          991,
+          1052
         ],
         "crits": 0,
         "heavy": 0
       },
-      "Alisha Zafira": {
-        "shipName": "Alisha Zafira",
-        "damageDealt": 9837,
-        "hits": 13,
-        "misses": 23,
+      "Nova": {
+        "shipName": "Nova",
+        "damageDealt": 7284,
+        "hits": 5,
+        "misses": 1,
         "failedEscapes": 0,
         "hitDamage": [
-          1099,
-          363,
-          399,
-          2576,
-          920,
-          388,
-          799,
-          466,
-          858,
-          991,
-          332,
-          399,
-          247
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "Fanboy 16": {
-        "shipName": "Fanboy 16",
-        "damageDealt": 3774,
-        "hits": 6,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          596,
-          793,
-          891,
-          340,
-          336,
-          818
+          1482,
+          2077,
+          1259,
+          1559,
+          907
         ],
         "crits": 0,
         "heavy": 0
       },
       "Xena": {
         "shipName": "Xena",
-        "damageDealt": 11278,
-        "hits": 13,
-        "misses": 5,
+        "damageDealt": 11495,
+        "hits": 8,
+        "misses": 2,
         "failedEscapes": 0,
         "hitDamage": [
-          752,
-          208,
-          1206,
-          151,
-          1474,
-          1411,
-          1215,
-          1445,
-          595,
-          152,
-          354,
-          1101,
-          1214
+          640,
+          4154,
+          1093,
+          236,
+          1636,
+          2994,
+          679,
+          63
         ],
         "crits": 0,
-        "heavy": 1
+        "heavy": 0
       },
-      "Nova": {
-        "shipName": "Nova",
-        "damageDealt": 9786,
-        "hits": 14,
-        "misses": 10,
+      "Leyla": {
+        "shipName": "Leyla",
+        "damageDealt": 11165,
+        "hits": 7,
+        "misses": 2,
         "failedEscapes": 0,
         "hitDamage": [
-          468,
-          284,
-          547,
-          303,
-          1663,
-          1545,
-          431,
-          445,
-          335,
-          1165,
-          589,
-          762,
-          630,
-          619
+          2092,
+          2468,
+          1156,
+          1620,
+          908,
+          1382,
+          1539
         ],
         "crits": 0,
         "heavy": 0
       },
       "Annabelle": {
         "shipName": "Annabelle",
-        "damageDealt": 11309,
-        "hits": 15,
-        "misses": 16,
+        "damageDealt": 6186,
+        "hits": 29,
+        "misses": 13,
         "failedEscapes": 0,
         "hitDamage": [
-          903,
-          113,
-          303,
-          784,
-          448,
+          810,
+          575,
+          85,
+          108,
+          201,
+          174,
+          220,
+          96,
+          219,
+          235,
+          191,
+          76,
+          226,
+          168,
+          154,
+          189,
+          112,
           293,
-          931,
-          647,
-          165,
-          1105,
-          600,
-          140,
-          1700,
-          284,
-          2893
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "Leyla": {
-        "shipName": "Leyla",
-        "damageDealt": 12762,
-        "hits": 24,
-        "misses": 8,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1119,
-          1042,
-          195,
-          162,
-          285,
-          329,
-          1261,
-          430,
+          202,
+          553,
+          99,
           186,
-          1067,
-          250,
-          216,
-          442,
-          411,
-          43,
-          953,
-          178,
+          61,
+          70,
+          287,
           252,
-          627,
-          799,
-          244,
-          643,
-          1022,
-          606
+          66,
+          73,
+          205
         ],
         "crits": 0,
         "heavy": 0
       },
       "Arielle": {
         "shipName": "Arielle",
-        "damageDealt": 13389,
-        "hits": 18,
-        "misses": 6,
+        "damageDealt": 5969,
+        "hits": 6,
+        "misses": 2,
         "failedEscapes": 0,
         "hitDamage": [
-          519,
-          257,
-          615,
-          598,
-          1128,
-          1242,
-          1622,
-          801,
-          359,
-          864,
-          388,
-          903,
-          400,
-          898,
-          1148,
-          993,
-          272,
-          382
+          1851,
+          798,
+          455,
+          577,
+          1043,
+          1245
         ],
         "crits": 0,
         "heavy": 0
       },
       "Paula": {
         "shipName": "Paula",
-        "damageDealt": 25179,
-        "hits": 62,
-        "misses": 27,
+        "damageDealt": 12644,
+        "hits": 8,
+        "misses": 1,
         "failedEscapes": 0,
         "hitDamage": [
-          1265,
-          3618,
-          423,
-          472,
-          150,
-          367,
-          452,
-          408,
-          423,
-          196,
-          308,
-          524,
-          165,
-          424,
-          337,
-          366,
-          317,
-          3785,
-          2846,
-          348,
-          671,
-          106,
-          198,
-          75,
-          275,
-          463,
-          666,
-          99,
-          239,
-          255,
-          106,
-          83,
-          83,
-          55,
-          110,
-          204,
-          250,
-          96,
-          88,
-          833,
-          51,
-          78,
-          92,
-          253,
-          53,
-          69,
-          255,
-          188,
-          198,
-          91,
-          61,
-          69,
-          97,
-          239,
-          73,
-          88,
-          445,
-          204,
-          68,
-          75,
-          62,
-          221
+          1212,
+          1110,
+          1215,
+          2377,
+          827,
+          1154,
+          1186,
+          3563
         ],
         "crits": 1,
-        "heavy": 2
-      },
-      "Fanboy 13": {
-        "shipName": "Fanboy 13",
-        "damageDealt": 1644,
-        "hits": 3,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          294,
-          991,
-          359
-        ],
-        "crits": 0,
         "heavy": 0
       },
       "Penelope": {
         "shipName": "Penelope",
-        "damageDealt": 12045,
-        "hits": 11,
-        "misses": 7,
+        "damageDealt": 10621,
+        "hits": 7,
+        "misses": 2,
         "failedEscapes": 0,
         "hitDamage": [
-          1153,
-          1320,
-          212,
-          1554,
-          690,
-          270,
-          1940,
-          2006,
-          1056,
-          1324,
-          520
+          1891,
+          404,
+          2313,
+          1028,
+          2203,
+          1864,
+          918
         ],
         "crits": 0,
         "heavy": 0
       },
       "Justina": {
         "shipName": "Justina",
-        "damageDealt": 6951,
-        "hits": 15,
-        "misses": 16,
+        "damageDealt": 9056,
+        "hits": 8,
+        "misses": 0,
         "failedEscapes": 0,
         "hitDamage": [
-          343,
-          124,
-          604,
-          328,
-          247,
-          149,
-          283,
-          1431,
-          1269,
-          131,
-          222,
-          1393,
-          126,
-          123,
-          178
+          1773,
+          1543,
+          308,
+          448,
+          1920,
+          1526,
+          823,
+          715
+        ],
+        "crits": 0,
+        "heavy": 0
+      },
+      "Zahra": {
+        "shipName": "Zahra",
+        "damageDealt": 13241,
+        "hits": 8,
+        "misses": 1,
+        "failedEscapes": 0,
+        "hitDamage": [
+          2389,
+          1150,
+          2079,
+          1436,
+          1147,
+          2677,
+          1533,
+          830
         ],
         "crits": 0,
         "heavy": 0
       },
       "Cecile": {
         "shipName": "Cecile",
-        "damageDealt": 9935,
-        "hits": 20,
-        "misses": 10,
+        "damageDealt": 7270,
+        "hits": 5,
+        "misses": 1,
         "failedEscapes": 0,
         "hitDamage": [
-          655,
-          350,
-          439,
-          590,
-          121,
-          76,
-          1045,
-          1186,
-          639,
-          106,
-          68,
-          1356,
+          2650,
+          969,
+          1211,
+          1816,
+          624
+        ],
+        "crits": 0,
+        "heavy": 0
+      },
+      "Katharina": {
+        "shipName": "Katharina",
+        "damageDealt": 10900,
+        "hits": 8,
+        "misses": 1,
+        "failedEscapes": 0,
+        "hitDamage": [
+          632,
+          1370,
+          1949,
+          2067,
           545,
-          240,
-          239,
-          678,
-          194,
-          763,
-          190,
-          455
+          1515,
+          2268,
+          554
         ],
         "crits": 0,
         "heavy": 0
       },
-      "Fanboy 20 004": {
-        "shipName": "Fanboy 20 004",
-        "damageDealt": 2427,
-        "hits": 4,
-        "misses": 2,
+      "Amelie": {
+        "shipName": "Amelie",
+        "damageDealt": 6290,
+        "hits": 6,
+        "misses": 3,
         "failedEscapes": 0,
         "hitDamage": [
-          746,
-          758,
-          430,
-          493
+          797,
+          541,
+          1021,
+          487,
+          966,
+          2478
         ],
         "crits": 0,
         "heavy": 0
       },
-      "Fanboy 20 003": {
-        "shipName": "Fanboy 20 003",
-        "damageDealt": 4265,
-        "hits": 4,
-        "misses": 2,
+      "Esmeralda": {
+        "shipName": "Esmeralda",
+        "damageDealt": 14184,
+        "hits": 11,
+        "misses": 1,
         "failedEscapes": 0,
         "hitDamage": [
-          1055,
-          1074,
-          986,
-          1150
+          1645,
+          963,
+          993,
+          400,
+          2076,
+          1078,
+          949,
+          260,
+          3850,
+          878,
+          1092
         ],
         "crits": 0,
-        "heavy": 0
+        "heavy": 2
       },
-      "Dina": {
-        "shipName": "Dina",
-        "damageDealt": 10622,
-        "hits": 16,
-        "misses": 8,
+      "Josephine": {
+        "shipName": "Josephine",
+        "damageDealt": 9149,
+        "hits": 6,
+        "misses": 3,
         "failedEscapes": 0,
         "hitDamage": [
-          1253,
-          126,
-          555,
-          1585,
-          1427,
-          674,
-          1208,
-          199,
-          165,
-          109,
-          218,
-          366,
-          1499,
-          683,
-          342,
-          213
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Marguerite": {
-        "shipName": "Marguerite",
-        "damageDealt": 11129,
-        "hits": 15,
-        "misses": 9,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1321,
-          451,
-          615,
-          165,
-          689,
-          1769,
-          224,
-          977,
-          669,
-          228,
-          398,
-          699,
-          492,
-          1827,
-          605
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "Fanboy 20 002": {
-        "shipName": "Fanboy 20 002",
-        "damageDealt": 2772,
-        "hits": 4,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          366,
-          1195,
-          529,
-          682
+          2096,
+          613,
+          1675,
+          1445,
+          1640,
+          1680
         ],
         "crits": 0,
         "heavy": 0
       },
       "Katja": {
         "shipName": "Katja",
-        "damageDealt": 14612,
-        "hits": 25,
-        "misses": 6,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1237,
-          1466,
-          254,
-          425,
-          462,
-          1374,
-          396,
-          118,
-          785,
-          905,
-          736,
-          309,
-          392,
-          557,
-          231,
-          126,
-          839,
-          1339,
-          240,
-          174,
-          437,
-          871,
-          589,
-          191,
-          159
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Fanboy 20 001": {
-        "shipName": "Fanboy 20 001",
-        "damageDealt": 2580,
-        "hits": 5,
+        "damageDealt": 8596,
+        "hits": 14,
         "misses": 1,
         "failedEscapes": 0,
         "hitDamage": [
-          611,
-          251,
-          570,
-          222,
-          926
+          792,
+          576,
+          347,
+          283,
+          1068,
+          1187,
+          456,
+          198,
+          87,
+          1421,
+          974,
+          681,
+          343,
+          183
         ],
         "crits": 0,
         "heavy": 0
       },
       "Lola": {
         "shipName": "Lola",
-        "damageDealt": 17425,
-        "hits": 17,
-        "misses": 7,
+        "damageDealt": 11660,
+        "hits": 10,
+        "misses": 2,
         "failedEscapes": 0,
         "hitDamage": [
-          1148,
-          1243,
-          551,
-          685,
-          766,
-          559,
-          638,
-          3978,
-          1589,
-          428,
-          443,
-          1673,
-          645,
-          1510,
-          527,
-          701,
-          341
+          1520,
+          1830,
+          366,
+          2116,
+          1850,
+          613,
+          763,
+          1586,
+          533,
+          483
         ],
-        "crits": 1,
-        "heavy": 2
+        "crits": 0,
+        "heavy": 0
       },
       "Esmee": {
         "shipName": "Esmee",
-        "damageDealt": 15524,
-        "hits": 18,
-        "misses": 6,
+        "damageDealt": 20219,
+        "hits": 9,
+        "misses": 1,
         "failedEscapes": 0,
         "hitDamage": [
-          1235,
-          447,
-          650,
-          120,
-          530,
-          2250,
-          616,
-          494,
-          1362,
-          986,
-          380,
-          305,
-          2182,
-          542,
-          173,
-          631,
-          2472,
-          149
+          1422,
+          1838,
+          4797,
+          1405,
+          1629,
+          1681,
+          4417,
+          1157,
+          1873
         ],
         "crits": 0,
-        "heavy": 0
+        "heavy": 2
       },
       "Emma": {
         "shipName": "Emma",
-        "damageDealt": 13086,
-        "hits": 11,
-        "misses": 7,
+        "damageDealt": 14385,
+        "hits": 7,
+        "misses": 2,
         "failedEscapes": 0,
         "hitDamage": [
-          2857,
-          332,
-          551,
-          3081,
-          1328,
-          448,
-          753,
-          1378,
-          422,
-          1224,
-          712
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Atalya": {
-        "shipName": "Atalya",
-        "damageDealt": 23715,
-        "hits": 13,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1328,
-          3211,
-          664,
-          1306,
-          2492,
-          581,
-          3976,
-          1190,
-          1149,
-          1133,
-          2358,
-          606,
-          3721
+          4021,
+          1790,
+          1260,
+          1154,
+          2005,
+          3236,
+          919
         ],
         "crits": 0,
         "heavy": 0
       },
       "Sophia": {
         "shipName": "Sophia",
-        "damageDealt": 13154,
-        "hits": 16,
-        "misses": 8,
-        "failedEscapes": 0,
-        "hitDamage": [
-          722,
-          187,
-          1867,
-          1789,
-          579,
-          1268,
-          1209,
-          317,
-          144,
-          740,
-          1130,
-          163,
-          1403,
-          1148,
-          261,
-          227
-        ],
-        "crits": 1,
-        "heavy": 0
-      }
-    }
-  },
-  "Negotiator": {
-    "name": "Negotiator",
-    "shipsAmount": 83,
-    "side": "Angreifer",
-    "shipMap": {
-      "Baresvenge 12": {
-        "shipName": "Baresvenge 12",
-        "damageDealt": 7022,
-        "hits": 6,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          3883,
-          165,
-          1223,
-          703,
-          724,
-          324
-        ],
-        "crits": 1,
-        "heavy": 0
-      },
-      "Baresvenge 11": {
-        "shipName": "Baresvenge 11",
-        "damageDealt": 7839,
-        "hits": 10,
+        "damageDealt": 9449,
+        "hits": 7,
         "misses": 2,
         "failedEscapes": 0,
         "hitDamage": [
-          1480,
-          162,
-          1042,
-          622,
-          431,
-          476,
-          572,
-          158,
-          2506,
-          390
-        ],
-        "crits": 0,
-        "heavy": 2
-      },
-      "Baresvenge 14": {
-        "shipName": "Baresvenge 14",
-        "damageDealt": 1521,
-        "hits": 6,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          383,
-          111,
-          388,
-          117,
-          392,
-          130
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 13": {
-        "shipName": "Baresvenge 13",
-        "damageDealt": 6087,
-        "hits": 8,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1103,
-          299,
-          471,
-          100,
-          141,
-          307,
-          3529,
-          137
-        ],
-        "crits": 1,
-        "heavy": 0
-      },
-      "Baresvenge 52": {
-        "shipName": "Baresvenge 52",
-        "damageDealt": 4364,
-        "hits": 7,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1203,
-          98,
-          570,
-          148,
-          749,
-          1394,
-          202
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "Baresvenge 51": {
-        "shipName": "Baresvenge 51",
-        "damageDealt": 2201,
-        "hits": 5,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          338,
-          332,
-          346,
-          123,
-          1062
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 10": {
-        "shipName": "Baresvenge 10",
-        "damageDealt": 7195,
-        "hits": 8,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1544,
-          958,
-          1308,
-          419,
-          1092,
-          110,
-          1540,
-          224
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 19": {
-        "shipName": "Baresvenge 19",
-        "damageDealt": 6308,
-        "hits": 8,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1600,
-          188,
-          880,
-          327,
-          1595,
-          592,
-          1027,
-          99
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 16": {
-        "shipName": "Baresvenge 16",
-        "damageDealt": 5533,
-        "hits": 10,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1082,
-          122,
-          1556,
-          160,
-          630,
-          329,
-          344,
-          338,
-          590,
-          382
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 15": {
-        "shipName": "Baresvenge 15",
-        "damageDealt": 5390,
-        "hits": 8,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          413,
-          351,
-          1345,
-          371,
-          785,
-          102,
-          1609,
-          414
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 18": {
-        "shipName": "Baresvenge 18",
-        "damageDealt": 444,
-        "hits": 1,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          444
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 17": {
-        "shipName": "Baresvenge 17",
-        "damageDealt": 4643,
-        "hits": 8,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1054,
-          99,
-          1221,
-          183,
-          1237,
-          335,
-          349,
-          165
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Smartemis 020": {
-        "shipName": "Smartemis 020",
-        "damageDealt": 0,
-        "hits": 0,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Nydrazs 04": {
-        "shipName": "Nydrazs 04",
-        "damageDealt": 13547,
-        "hits": 8,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          2316,
-          1578,
-          2179,
-          665,
-          1837,
-          1422,
-          1550,
-          2000
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Nydrazs 01": {
-        "shipName": "Nydrazs 01",
-        "damageDealt": 26839,
-        "hits": 11,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          2612,
-          1306,
-          2918,
-          4452,
-          2415,
-          1863,
-          760,
-          2079,
-          1260,
-          5076,
-          2098
-        ],
-        "crits": 1,
-        "heavy": 1
-      },
-      "Nydrazs 02": {
-        "shipName": "Nydrazs 02",
-        "damageDealt": 18300,
-        "hits": 10,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1641,
-          944,
-          1603,
-          1863,
-          2376,
-          1489,
-          3089,
-          966,
-          2346,
-          1983
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 23": {
-        "shipName": "Baresvenge 23",
-        "damageDealt": 3388,
-        "hits": 8,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1374,
-          177,
-          425,
-          429,
-          260,
-          127,
-          504,
-          92
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 22": {
-        "shipName": "Baresvenge 22",
-        "damageDealt": 2209,
-        "hits": 6,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          131,
-          273,
-          379,
-          510,
-          484,
-          432
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 25": {
-        "shipName": "Baresvenge 25",
-        "damageDealt": 6520,
-        "hits": 7,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1106,
-          129,
-          2363,
-          392,
-          1180,
-          478,
-          872
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "Baresvenge 21": {
-        "shipName": "Baresvenge 21",
-        "damageDealt": 3666,
-        "hits": 7,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1319,
-          284,
-          372,
-          422,
-          233,
-          558,
-          478
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 20": {
-        "shipName": "Baresvenge 20",
-        "damageDealt": 3943,
-        "hits": 6,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1557,
-          139,
-          354,
-          365,
-          1250,
-          278
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Rheral 04": {
-        "shipName": "Rheral 04",
-        "damageDealt": 488,
-        "hits": 1,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          488
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Rheral 05": {
-        "shipName": "Rheral 05",
-        "damageDealt": 479,
-        "hits": 1,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          479
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 27": {
-        "shipName": "Baresvenge 27",
-        "damageDealt": 5842,
-        "hits": 9,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1329,
-          366,
-          1309,
-          727,
-          787,
-          100,
-          986,
-          132,
-          106
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "Baresvenge 26": {
-        "shipName": "Baresvenge 26",
-        "damageDealt": 4286,
-        "hits": 7,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1253,
-          361,
-          460,
-          443,
-          1564,
-          91,
-          114
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 29": {
-        "shipName": "Baresvenge 29",
-        "damageDealt": 1648,
-        "hits": 3,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          341,
-          1105,
-          202
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Rheral 01": {
-        "shipName": "Rheral 01",
-        "damageDealt": 383,
-        "hits": 1,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          383
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 28": {
-        "shipName": "Baresvenge 28",
-        "damageDealt": 6320,
-        "hits": 8,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1353,
-          402,
-          602,
-          1196,
-          1589,
-          357,
-          704,
-          117
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Smartemis 011": {
-        "shipName": "Smartemis 011",
-        "damageDealt": 691,
-        "hits": 1,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          691
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Smartemis 010": {
-        "shipName": "Smartemis 010",
-        "damageDealt": 811,
-        "hits": 1,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          811
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Smartemis 014": {
-        "shipName": "Smartemis 014",
-        "damageDealt": 330,
-        "hits": 1,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          330
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Smartemis 012": {
-        "shipName": "Smartemis 012",
-        "damageDealt": 360,
-        "hits": 1,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          360
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Bareschoiv": {
-        "shipName": "Bareschoiv",
-        "damageDealt": 5727,
-        "hits": 6,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          400,
-          1457,
-          1120,
-          1065,
-          1186,
-          499
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 34": {
-        "shipName": "Baresvenge 34",
-        "damageDealt": 2105,
-        "hits": 4,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          120,
-          1306,
-          355,
-          324
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 33": {
-        "shipName": "Baresvenge 33",
-        "damageDealt": 6923,
-        "hits": 9,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          317,
-          1507,
-          310,
-          1725,
-          176,
-          1438,
-          87,
-          1198,
-          165
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 36": {
-        "shipName": "Baresvenge 36",
-        "damageDealt": 4311,
-        "hits": 7,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          966,
-          135,
-          846,
-          331,
-          228,
-          1475,
-          330
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 35": {
-        "shipName": "Baresvenge 35",
-        "damageDealt": 5069,
-        "hits": 6,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          103,
-          1174,
-          355,
-          1376,
-          175,
-          1886
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 30": {
-        "shipName": "Baresvenge 30",
-        "damageDealt": 2205,
-        "hits": 5,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          178,
-          1557,
-          254,
-          120,
-          96
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 32": {
-        "shipName": "Baresvenge 32",
-        "damageDealt": 3204,
-        "hits": 5,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          518,
-          1565,
-          351,
-          662,
-          108
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 31": {
-        "shipName": "Baresvenge 31",
-        "damageDealt": 4477,
-        "hits": 8,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          522,
-          155,
-          1428,
-          375,
-          534,
-          135,
-          1179,
-          149
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Smartemis 019": {
-        "shipName": "Smartemis 019",
-        "damageDealt": 267,
-        "hits": 1,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          267
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Smartemis 017": {
-        "shipName": "Smartemis 017",
-        "damageDealt": 888,
-        "hits": 1,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          888
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 38": {
-        "shipName": "Baresvenge 38",
-        "damageDealt": 5657,
-        "hits": 6,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1081,
-          542,
-          771,
-          1651,
-          1271,
-          341
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 37": {
-        "shipName": "Baresvenge 37",
-        "damageDealt": 2808,
-        "hits": 8,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          339,
-          95,
-          629,
-          132,
-          626,
-          470,
-          382,
-          135
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 39": {
-        "shipName": "Baresvenge 39",
-        "damageDealt": 4924,
-        "hits": 9,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1327,
-          473,
-          1078,
-          125,
-          445,
-          151,
-          321,
-          112,
-          892
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "Smartemis 004": {
-        "shipName": "Smartemis 004",
-        "damageDealt": 941,
-        "hits": 1,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          941
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Smartemis 003": {
-        "shipName": "Smartemis 003",
-        "damageDealt": 0,
-        "hits": 0,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Smartemis 002": {
-        "shipName": "Smartemis 002",
-        "damageDealt": 0,
-        "hits": 0,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Smartemis 02": {
-        "shipName": "Smartemis 02",
-        "damageDealt": 572,
-        "hits": 1,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          572
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Smartemis 03": {
-        "shipName": "Smartemis 03",
-        "damageDealt": 666,
-        "hits": 1,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          666
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Smartemis 04": {
-        "shipName": "Smartemis 04",
-        "damageDealt": 724,
-        "hits": 1,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          724
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 50": {
-        "shipName": "Baresvenge 50",
-        "damageDealt": 8044,
-        "hits": 12,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1293,
-          392,
-          1467,
-          326,
-          1103,
-          415,
-          665,
-          108,
-          1288,
-          172,
-          689,
-          126
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Smartemis 05": {
-        "shipName": "Smartemis 05",
-        "damageDealt": 714,
-        "hits": 1,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          714
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Smartemis 06": {
-        "shipName": "Smartemis 06",
-        "damageDealt": 717,
-        "hits": 1,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          717
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 45": {
-        "shipName": "Baresvenge 45",
-        "damageDealt": 3659,
-        "hits": 7,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          343,
-          148,
-          1059,
-          108,
-          1378,
-          476,
-          147
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 01": {
-        "shipName": "Baresvenge 01",
-        "damageDealt": 4010,
-        "hits": 7,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          953,
-          75,
-          744,
-          812,
-          315,
-          615,
-          496
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "Baresvenge 44": {
-        "shipName": "Baresvenge 44",
-        "damageDealt": 2525,
-        "hits": 5,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          406,
-          965,
-          100,
-          777,
-          277
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "Baresvenge 03": {
-        "shipName": "Baresvenge 03",
-        "damageDealt": 1268,
-        "hits": 4,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          404,
-          82,
-          494,
-          288
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 47": {
-        "shipName": "Baresvenge 47",
-        "damageDealt": 4028,
-        "hits": 9,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          376,
-          356,
-          203,
-          136,
-          949,
-          389,
-          1325,
-          175,
-          119
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 46": {
-        "shipName": "Baresvenge 46",
-        "damageDealt": 5997,
-        "hits": 9,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          576,
-          490,
-          1037,
-          702,
-          233,
-          1191,
-          327,
-          1254,
-          187
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "Baresvenge 02": {
-        "shipName": "Baresvenge 02",
-        "damageDealt": 4944,
-        "hits": 8,
-        "misses": 4,
-        "failedEscapes": 0,
-        "hitDamage": [
-          104,
-          1300,
-          357,
-          1655,
-          277,
-          425,
-          386,
-          440
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 41": {
-        "shipName": "Baresvenge 41",
-        "damageDealt": 5219,
-        "hits": 7,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1038,
-          86,
-          333,
-          1227,
-          1268,
-          147,
-          1120
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 40": {
-        "shipName": "Baresvenge 40",
-        "damageDealt": 6202,
-        "hits": 9,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          560,
-          160,
-          1748,
-          104,
-          1387,
-          343,
-          1363,
-          353,
-          184
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 43": {
-        "shipName": "Baresvenge 43",
-        "damageDealt": 6622,
-        "hits": 8,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1445,
-          394,
-          1380,
-          256,
-          1261,
-          96,
-          1359,
-          431
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 42": {
-        "shipName": "Baresvenge 42",
-        "damageDealt": 2347,
-        "hits": 5,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          325,
-          364,
-          365,
-          969,
-          324
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Smartemis 008": {
-        "shipName": "Smartemis 008",
-        "damageDealt": 602,
-        "hits": 1,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          602
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 09": {
-        "shipName": "Baresvenge 09",
-        "damageDealt": 5349,
-        "hits": 7,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          971,
-          126,
-          976,
-          685,
-          1011,
-          1227,
-          353
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "Smartemis 007": {
-        "shipName": "Smartemis 007",
-        "damageDealt": 616,
-        "hits": 1,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          616
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 08": {
-        "shipName": "Baresvenge 08",
-        "damageDealt": 3016,
-        "hits": 5,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          458,
-          1462,
-          407,
-          573,
-          116
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Smartemis 006": {
-        "shipName": "Smartemis 006",
-        "damageDealt": 1495,
-        "hits": 1,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1495
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "Baresvenge 05": {
-        "shipName": "Baresvenge 05",
-        "damageDealt": 6811,
-        "hits": 10,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1091,
-          325,
-          1151,
-          355,
-          430,
-          113,
-          1175,
-          363,
-          1463,
-          345
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 49": {
-        "shipName": "Baresvenge 49",
-        "damageDealt": 1992,
-        "hits": 4,
-        "misses": 6,
-        "failedEscapes": 0,
-        "hitDamage": [
-          350,
-          1189,
-          92,
-          361
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 04": {
-        "shipName": "Baresvenge 04",
-        "damageDealt": 4074,
-        "hits": 7,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1158,
-          414,
-          313,
-          1037,
-          386,
-          412,
-          354
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Baresvenge 48": {
-        "shipName": "Baresvenge 48",
-        "damageDealt": 4558,
-        "hits": 5,
-        "misses": 5,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1082,
+          859,
+          2260,
+          1653,
+          441,
+          1841,
           1243,
-          362,
-          261,
-          1610
+          1152
         ],
         "crits": 0,
         "heavy": 0
       },
-      "Baresvenge 07": {
-        "shipName": "Baresvenge 07",
-        "damageDealt": 3835,
-        "hits": 6,
-        "misses": 4,
+      "ChristIna": {
+        "shipName": "ChristIna",
+        "damageDealt": 18937,
+        "hits": 9,
+        "misses": 3,
         "failedEscapes": 0,
         "hitDamage": [
-          1466,
-          123,
-          456,
-          424,
-          991,
-          375
+          1671,
+          8730,
+          2165,
+          1035,
+          962,
+          1300,
+          543,
+          1321,
+          1210
         ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Smartemis 009": {
-        "shipName": "Smartemis 009",
-        "damageDealt": 606,
-        "hits": 1,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          606
-        ],
-        "crits": 0,
+        "crits": 1,
         "heavy": 0
       }
     }
   }
 }
-Total Destroyed Ships: 18
+Total Destroyed Ships: 39

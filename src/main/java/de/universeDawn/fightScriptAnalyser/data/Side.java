@@ -1,5 +1,6 @@
 package de.universeDawn.fightScriptAnalyser.data;
 
 public enum Side {
-    Angreifer,Verteidiger;
+  Angreifer,
+  Verteidiger;
 }
