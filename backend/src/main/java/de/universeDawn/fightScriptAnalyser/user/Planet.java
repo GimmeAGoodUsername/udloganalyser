@@ -14,6 +14,6 @@ public class Planet {
     private int y;
     private int z;
     @ManyToOne
-    @JoinColumn(name="player_id",nullable = false)
-    private Player player;
+    @JoinColumn(name="srUser_id",nullable = true)
+    private SrUser srUser;
 }

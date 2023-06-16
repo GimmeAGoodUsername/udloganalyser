@@ -8,24 +8,11 @@ import org.springframework.security.web.authentication.HttpStatusEntryPoint;
 import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
 
 @SpringBootApplication
-public class FightScriptAnalyserApplication {
+public class FightScriptAnalyserApplication  {
 
-  public static void main(String[] args) {
-    SpringApplication.run(FightScriptAnalyserApplication.class, args);
-  }
+    public static void main(String[] args) {
+        SpringApplication.run(FightScriptAnalyserApplication.class, args);
+    }
 
-  protected void configure(HttpSecurity httpSecurity) throws Exception {
-    httpSecurity
-        .authorizeHttpRequests(
-            (authorizeHttpRequests) ->
-                authorizeHttpRequests
-                    .requestMatchers("/**", "/error", "/webjars/**")
-                    .permitAll()
-                    .anyRequest()
-                    .authenticated())
-        .exceptionHandling(
-            e -> e.authenticationEntryPoint(new HttpStatusEntryPoint((HttpStatus.UNAUTHORIZED))))
-        .csrf(c -> c.csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse()))
-        .oauth2Login();
-  }
+
 }

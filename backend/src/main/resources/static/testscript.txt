@@ -1,387 +1,169 @@
 Herrscher auf Seiten der Angreifer:
-Zarathustra (Schiffe: 25)
-Anzahl Angreifer Schiffe: 25
+Quirun (Schiffe: 67)
+Anzahl Angreifer Schiffe: 67
 
 Herrscher auf Seiten der Verteidiger:
-Tolo (Schiffe: 39)
-Anzahl Verteidiger Schiffe: 39
+Creeps (Schiffe: 7)
+Anzahl Verteidiger Schiffe: 7
 
-Titan Vektorgeschütz (Tolo) feuert auf Arielle (Zarathustra) und trifft. Schaden: 391(25043/25434).
-Titan Vektorgeschütz (Tolo) feuert auf Arielle (Zarathustra) und trifft knapp. Schaden: 209(24834/25434).
-Titan Vektorgeschütz (Tolo) feuert auf Paula (Zarathustra) und trifft knapp. Schaden: 230(24641/24871).
-Esmeralda (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1645(4155/5800).
-Esmeralda (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 963(4837/5800).
-Esmeralda (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 993(3844/5800).
-Esmeralda (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und erzielt einenschweren Treffer. Schaden: 400(5400/5800).
-Zafira (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 482(5318/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Penelope (Zarathustra) und trifft. Schaden: 407(23199/23606).
-Penelope (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1891(3909/5800).
-Penelope (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Penelope (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 404(5396/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Esmeralda (Zarathustra) und trifft. Schaden: 453(24566/25019).
-Titan Vektorgeschütz (Tolo) feuert auf Katharina (Zarathustra) und trifft. Schaden: 494(24940/25434).
-Titan Vektorgeschütz (Tolo) feuert auf ChristIna (Zarathustra) und trifft knapp. Schaden: 168(24874/25042).
-Katharina (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 632(4686/5800).
-Katharina (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1370(4430/5800).
-Katharina (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1949(3447/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Justina (Zarathustra) und trifft knapp. Schaden: 150(25284/25434).
-Titan Vektorgeschütz (Tolo) feuert auf ChristIna (Zarathustra) und verfehlt.
-Titan Vektorgeschütz (Tolo) feuert auf Katja (Zarathustra) und trifft. Schaden: 510(25220/25730).
-Zahra (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2389(3411/5800).
-Zahra (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1150(3005/5800).
-Zahra (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Leyla (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 2092(3708/5800).
-Leyla (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2468(3332/5800).
-Leyla (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1156(4644/5800).
-Amelie (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Amelie (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 797(2614/5800).
-Amelie (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 541(3889/5800).
-Esmee (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1422(4378/5800).
-Esmee (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1838(3962/5800).
-Esmee (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und erzielt einenschweren Treffer. Schaden: 4797(1003/5800).
-Esmee (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1405(4395/5800).
-Titan Vektorgeschütz (Tolo) feuert auf ChristIna (Zarathustra) und trifft. Schaden: 517(24357/25042).
-Nova (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1482(4318/5800).
-Nova (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2077(1812/5800).
-Nova (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1259(2449/5800).
-Justina (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1773(4027/5800).
-Justina (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1543(4257/5800).
-Justina (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 308(5492/5800).
-Justina (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 448(5352/5800).
-Arielle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Arielle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1851(3549/5800).
-Arielle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 798(4694/5800).
-Arielle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 455(5345/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Katharina (Zarathustra) und verfehlt.
-Titan Vektorgeschütz (Tolo) feuert auf Jasmin (Zarathustra) und verfehlt.
-Titan Vektorgeschütz (Tolo) feuert auf Emma (Zarathustra) und verfehlt.
-EIodie (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-EIodie (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1996(453/5800).
-EIodie (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 3643(2157/5800).
-EIodie (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1564(4236/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Cecile (Zarathustra) und trifft knapp. Schaden: 198(24673/24871).
-Titan Vektorgeschütz (Tolo) feuert auf Cassandra (Zarathustra) und verfehlt.
-Titan Vektorgeschütz (Tolo) feuert auf Katja (Zarathustra) und trifft knapp. Schaden: 192(25028/25730).
-Jasmin (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Jasmin (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und erzielt einenschweren Treffer. Schaden: 3488(2312/5800).
-Jasmin (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 653(1159/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Emma (Zarathustra) und trifft. Schaden: 464(18228/18692).
-Titan Vektorgeschütz (Tolo) feuert auf Jasmin (Zarathustra) und verfehlt.
-Xena (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 640(1974/5800).
-Xena (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 4154(1646/5800).
-Xena (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1093(3302/5800).
-Xena (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Xena (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 236(3096/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Leyla (Zarathustra) und trifft knapp. Schaden: 310(18678/18988).
-Titan Vektorgeschütz (Tolo) feuert auf Esmee (Zarathustra) und verfehlt.
-Sophia (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Sophia (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Sophia (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 859(4941/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Esmee (Zarathustra) und erzielt einenschweren Treffer. Schaden: 971(20874/21845).
-Cecile (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2650(3150/5800).
-Cecile (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 969(4831/5800).
-Cecile (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Paula (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1212(4588/5800).
-Paula (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Paula (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1110(536/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Justina (Zarathustra) und verfehlt.
-Titan Vektorgeschütz (Tolo) feuert auf Sophia (Zarathustra) und trifft knapp. Schaden: 246(24625/24871).
-Titan Vektorgeschütz (Tolo) feuert auf Amelie (Zarathustra) und trifft. Schaden: 574(24223/24797).
-Emma (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 4021(810/5800).
-Emma (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Emma (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1790(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Titan Vektorgeschütz (Tolo) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 398(25243/25641).
-Titan Vektorgeschütz (Tolo) feuert auf Jasmin (Zarathustra) und trifft. Schaden: 517(19803/20320).
-Titan Vektorgeschütz (Tolo) feuert auf Annabelle (Zarathustra) und trifft knapp. Schaden: 222(25021/25641).
-Katja (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Katja (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 792(3852/5800).
-Katja (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 576(4110/5800).
-Katja (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 347(106/5800).
-Katja (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 283(4411/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Amelie (Zarathustra) und trifft. Schaden: 516(23707/24797).
-Titan Vektorgeschütz (Tolo) feuert auf Cecile (Zarathustra) und trifft. Schaden: 492(24181/24871).
-Josephine (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2096(1453/5800).
-Josephine (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 613(4732/5800).
-Josephine (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1675(4125/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Zahra (Zarathustra) und trifft knapp. Schaden: 161(24710/24871).
-Titan Vektorgeschütz (Tolo) feuert auf Emma (Zarathustra) und trifft knapp. Schaden: 270(17958/18692).
-Titan Vektorgeschütz (Tolo) feuert auf Katharina (Zarathustra) und verfehlt.
-Titan Vektorgeschütz (Tolo) feuert auf Cecile (Zarathustra) und trifft. Schaden: 518(23663/24871).
-ChristIna (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1671(2647/5800).
-ChristIna (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-ChristIna (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und erzielt einen kritischen Treffer. Schaden: 8730(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-ChristIna (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Titan Vektorgeschütz (Tolo) feuert auf ChristIna (Zarathustra) und trifft knapp. Schaden: 182(24175/25042).
-Titan Vektorgeschütz (Tolo) feuert auf Arielle (Zarathustra) und trifft knapp. Schaden: 272(24562/25434).
-Titan Vektorgeschütz (Tolo) feuert auf Arielle (Zarathustra) und verfehlt.
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 810(1837/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 575(1399/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 85(1752/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 108(2204/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 201(2895/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 174(5178/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 220(5580/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 96(1357/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 219(4038/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 235(3067/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 191(5609/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Esmeralda (Zarathustra) und trifft knapp. Schaden: 217(24349/25019).
-Titan Vektorgeschütz (Tolo) feuert auf Cassandra (Zarathustra) und verfehlt.
-Lola (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1520(2507/5800).
-Lola (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1830(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Lola (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 366(3081/5800).
-Lola (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Cassandra (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1071(2838/5800).
-Cassandra (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1284(1866/5800).
-Cassandra (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1232(2612/5800).
-Cassandra (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Titan Vektorgeschütz (Tolo) feuert auf Arielle (Zarathustra) und trifft knapp. Schaden: 200(24362/25434).
-Titan Vektorgeschütz (Tolo) feuert auf Esmee (Zarathustra) und trifft. Schaden: 494(20380/21845).
-Paula (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1215(4585/5800).
-Paula (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2377(2001/5800).
-Paula (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 827(2254/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Katharina (Zarathustra) und trifft knapp. Schaden: 187(24753/25434).
-Titan Vektorgeschütz (Tolo) feuert auf EIodie (Zarathustra) und verfehlt.
-Esmeralda (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2076(3533/5800).
-Esmeralda (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1078(3654/5800).
-Esmeralda (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 949(803/5800).
-Esmeralda (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 260(3592/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Jasmin (Zarathustra) und trifft knapp. Schaden: 218(19585/20320).
-Titan Vektorgeschütz (Tolo) feuert auf Sophia (Zarathustra) und trifft knapp. Schaden: 210(24415/24871).
-Titan Vektorgeschütz (Tolo) feuert auf EIodie (Zarathustra) und trifft. Schaden: 562(16729/21786).
-Das Schiff Alisha (Zarathustra) ist erfolgreich geflohen
-Titan Vektorgeschütz (Tolo) feuert auf Annabelle (Zarathustra) und verfehlt.
-Titan Vektorgeschütz (Tolo) feuert auf Arielle (Zarathustra) und trifft knapp. Schaden: 238(24124/25434).
-Titan Vektorgeschütz (Tolo) feuert auf Penelope (Zarathustra) und trifft. Schaden: 413(22786/23606).
-Amelie (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1021(1486/5800).
-Amelie (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Amelie (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 487(2518/5800).
-Leyla (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Leyla (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1620(3960/5800).
-Leyla (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 908(1930/5800).
-Zahra (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2079(3721/5800).
-Zahra (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1436(2602/5800).
-Zahra (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1147(719/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 76(1854/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 226(4010/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 168(5632/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 154(649/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 189(3344/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 112(5688/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 293(5339/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 202(4386/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Nova (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Nova (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 1559(1053/5800).
-Nova (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 907(450/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Sophia (Zarathustra) und verfehlt.
-Cecile (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 1211(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Cecile (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1816(3362/5800).
-Cecile (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 624(1533/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Penelope (Zarathustra) und verfehlt.
-Titan Vektorgeschütz (Tolo) feuert auf Justina (Zarathustra) und trifft. Schaden: 545(24739/25434).
-Titan Vektorgeschütz (Tolo) feuert auf Nova (Zarathustra) und trifft. Schaden: 534(24337/24871).
-Lola (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2116(1894/5800).
-Lola (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1850(1494/5800).
-Lola (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 613(3798/5800).
-Lola (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 763(3347/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Cecile (Zarathustra) und trifft knapp. Schaden: 252(23411/24871).
-Titan Vektorgeschütz (Tolo) feuert auf Amelie (Zarathustra) und trifft. Schaden: 420(23287/24797).
-Titan Vektorgeschütz (Tolo) feuert auf Leyla (Zarathustra) und trifft knapp. Schaden: 221(18457/18988).
-Titan Vektorgeschütz (Tolo) feuert auf ChristIna (Zarathustra) und trifft. Schaden: 365(23810/25042).
-EIodie (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1996(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-EIodie (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1661(2137/5800).
-EIodie (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2223(2718/5800).
-EIodie (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 914(2807/5800).
-Josephine (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1445(2680/5800).
-Josephine (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Josephine (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Penelope (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2313(3375/5800).
-Penelope (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Penelope (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1028(1109/5800).
-Katharina (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2067(451/5800).
-Katharina (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 545(5255/5800).
-Katharina (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1515(379/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Annabelle (Zarathustra) und verfehlt.
-Jasmin (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2715(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Jasmin (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1333(1347/5800).
-Jasmin (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 889(270/5800).
-Xena (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1636(3619/5800).
-Xena (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2994(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Xena (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 679(4660/5800).
-Xena (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Xena (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 63(3556/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Sophia (Zarathustra) und verfehlt.
-Titan Vektorgeschütz (Tolo) feuert auf Amelie (Zarathustra) und trifft knapp. Schaden: 252(23035/24797).
-Titan Vektorgeschütz (Tolo) feuert auf Josephine (Zarathustra) und trifft. Schaden: 461(24973/25434).
-Titan Vektorgeschütz (Tolo) feuert auf Cassandra (Zarathustra) und verfehlt.
-Arielle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 577(5223/5800).
-Arielle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1043(958/5800).
-Arielle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1245(609/5800).
-Arielle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Emma (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 1260(3400/5800).
-Emma (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1154(4069/5800).
-Emma (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2005(199/5800).
-Cassandra (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1181(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Cassandra (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 551(2051/5800).
-Cassandra (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 907(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Cassandra (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Esmee (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1629(2757/5800).
-Esmee (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1681(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Esmee (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und erzielt einenschweren Treffer. Schaden: 4417(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Esmee (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1157(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Titan Vektorgeschütz (Tolo) feuert auf Jasmin (Zarathustra) und verfehlt.
-Katja (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1068(279/5800).
-Katja (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1187(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Katja (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 456(3198/5800).
-Katja (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 198(2520/5800).
-Katja (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 87(2433/5800).
-Sophia (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2260(3540/5800).
-Sophia (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1653(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Sophia (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 441(2906/5800).
-Justina (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1920(986/5800).
-Justina (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1526(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Justina (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 823(3762/5800).
-Justina (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 715(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Titan Vektorgeschütz (Tolo) feuert auf Sophia (Zarathustra) und trifft knapp. Schaden: 230(24185/24871).
-Titan Vektorgeschütz (Tolo) feuert auf Esmee (Zarathustra) und trifft knapp. Schaden: 268(20112/21845).
-ChristIna (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2165(1235/5800).
-ChristIna (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1035(2925/5800).
-ChristIna (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-ChristIna (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 962(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Titan Vektorgeschütz (Tolo) feuert auf EIodie (Zarathustra) und trifft knapp. Schaden: 213(16516/21786).
-Titan Vektorgeschütz (Tolo) feuert auf Zahra (Zarathustra) und verfehlt.
-Zafira (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 547(2828/5800).
-Zafira (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 386(1868/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Amelie (Zarathustra) und trifft. Schaden: 498(22537/24797).
-Titan Vektorgeschütz (Tolo) feuert auf EIodie (Zarathustra) und verfehlt.
-Titan Vektorgeschütz (Tolo) feuert auf EIodie (Zarathustra) und verfehlt.
-Titan Vektorgeschütz (Tolo) feuert auf EIodie (Zarathustra) und verfehlt.
-Titan Vektorgeschütz (Tolo) feuert auf Katja (Zarathustra) und trifft knapp. Schaden: 214(24814/25730).
-Cassandra (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 566(2632/5800).
-Cassandra (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2620(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Cassandra (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 991(1442/5800).
-Cassandra (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1052(183/5800).
-Leyla (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 1382(2380/5800).
-Leyla (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1539(1386/5800).
-Leyla (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-EIodie (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1248(2292/5800).
-EIodie (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2331(1738/5800).
-EIodie (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 1596(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-EIodie (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 885(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Titan Vektorgeschütz (Tolo) feuert auf Katharina (Zarathustra) und trifft. Schaden: 465(24288/25434).
-Titan Vektorgeschütz (Tolo) feuert auf Zahra (Zarathustra) und trifft. Schaden: 478(24232/24871).
-Titan Vektorgeschütz (Tolo) feuert auf Paula (Zarathustra) und trifft. Schaden: 609(24032/24871).
-Katja (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1421(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Katja (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 974(894/5800).
-Katja (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 681(705/5800).
-Katja (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 343(3213/5800).
-Katja (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 183(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Jasmin (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 3654(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Jasmin (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Jasmin (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 824(70/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Jasmin (Zarathustra) und trifft. Schaden: 434(19151/20320).
-Titan Vektorgeschütz (Tolo) feuert auf Penelope (Zarathustra) und trifft. Schaden: 431(22355/23606).
-Sophia (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1841(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Sophia (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1243(2349/5800).
-Sophia (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1152(899/5800).
-ChristIna (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1300(1507/5800).
-ChristIna (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 543(2285/5800).
-ChristIna (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1321(1436/5800).
-ChristIna (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1210(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Lola (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Lola (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1586(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Lola (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 533(2099/5800).
-Lola (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 483(1897/5800).
-Josephine (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1640(709/5800).
-Josephine (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Josephine (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1680(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 553(1739/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 99(610/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 186(1250/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 61(3152/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 70(635/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 287(164/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 252(2033/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 66(2033/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 73(1666/5800).
-Annabelle (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 205(430/5800).
-Titan Vektorgeschütz (Tolo) feuert auf Josephine (Zarathustra) und trifft knapp. Schaden: 227(24746/25434).
-Penelope (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2203(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Penelope (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1864(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Penelope (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 918(1115/5800).
-Emma (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 3236(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Emma (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 919(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Emma (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Katharina (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2268(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Katharina (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 554(2513/5800).
-Katharina (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Esmeralda (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und erzielt einenschweren Treffer. Schaden: 3850(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Esmeralda (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 878(1635/5800).
-Esmeralda (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1092(574/5800).
-Esmeralda (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Zahra (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2677(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Zahra (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1533(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Zahra (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 830(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Paula (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1154(481/5800).
-Paula (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft knapp. Schaden: 1186(1966/5800).
-Paula (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und erzielt einen kritischen Treffer. Schaden: 3563(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Titan Vektorgeschütz (Tolo) feuert auf Amelie (Zarathustra) und trifft. Schaden: 462(22075/24797).
-Amelie (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 966(1067/5800).
-Amelie (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 2478(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
-Amelie (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Esmee (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und verfehlt.
-Esmee (Zarathustra) feuert auf Titan Vektorgeschütz (Tolo) und trifft. Schaden: 1873(0/5800).
-Titan Vektorgeschütz (Tolo) wurde zerstört
+LR Fighter (Creeps) feuert auf MINI BOX 01 (Quirun) und trifft. Schaden: 380(66/446).
+Das Schiff MINI BOX 01 (Quirun) ist erfolgreich geflohen
+BOX 04 (Quirun) feuert auf LR Fighter (Creeps) und trifft. Schaden: 912(152/1064).
+BOX 04 (Quirun) feuert auf LR Fighter (Creeps) und verfehlt.
+BOX 28 (Quirun) feuert auf LR Fighter (Creeps) und verfehlt.
+BOX 28 (Quirun) feuert auf LR Fighter (Creeps) und trifft. Schaden: 760(304/1064).
+BOX 55 (Quirun) feuert auf LR Fighter (Creeps) und verfehlt.
+BOX 55 (Quirun) feuert auf LR Fighter (Creeps) und verfehlt.
+BOX 47 EK1T (Quirun) feuert auf LR Fighter (Creeps) und verfehlt.
+BOX 47 EK1T (Quirun) feuert auf LR Fighter (Creeps) und verfehlt.
+BOX 03 ECHO (Quirun) feuert auf LR Fighter (Creeps) und verfehlt.
+BOX 22 (Quirun) feuert auf LR Fighter (Creeps) und trifft. Schaden: 938(0/1064).
+LR Fighter (Creeps) wurde zerstört
+BOX 22 (Quirun) feuert auf LR Fighter (Creeps) und trifft knapp. Schaden: 134(18/1064).
+BOX 43 (Quirun) feuert auf LR Fighter (Creeps) und verfehlt.
+BOX 43 (Quirun) feuert auf LR Fighter (Creeps) und verfehlt.
+BOX 25 (Quirun) feuert auf LR Fighter (Creeps) und trifft knapp. Schaden: 303(761/1064).
+BOX 25 (Quirun) feuert auf LR Fighter (Creeps) und verfehlt.
+Das Schiff BOX 16 (Quirun) ist erfolgreich geflohen
+BOX 61 (Quirun) feuert auf LR Fighter (Creeps) und verfehlt.
+BOX 61 (Quirun) feuert auf LR Fighter (Creeps) und trifft knapp. Schaden: 205(859/1064).
+BOX 44 (Quirun) feuert auf LR Fighter (Creeps) und verfehlt.
+BOX 44 (Quirun) feuert auf LR Fighter (Creeps) und verfehlt.
+BOX 30 (Quirun) feuert auf LR Fighter (Creeps) und verfehlt.
+BOX 30 (Quirun) feuert auf LR Fighter (Creeps) und trifft. Schaden: 425(336/1064).
+BOX 39 (Quirun) feuert auf LR Fighter (Creeps) und verfehlt.
+BOX 39 (Quirun) feuert auf LR Fighter (Creeps) und verfehlt.
+BOX 42 (Quirun) feuert auf LR Fighter (Creeps) und trifft. Schaden: 1157(0/1064).
+LR Fighter (Creeps) wurde zerstört
+BOX 42 (Quirun) feuert auf LR Fighter (Creeps) und trifft knapp. Schaden: 146(713/1064).
+BOX 07 (Quirun) feuert auf LR Fighter (Creeps) und trifft. Schaden: 961(0/1064).
+LR Fighter (Creeps) wurde zerstört
+BOX 07 (Quirun) feuert auf LR Fighter (Creeps) und erzielt einenschweren Treffer. Schaden: 768(0/1064).
+LR Fighter (Creeps) wurde zerstört
+BOX 34 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 34 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 19 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 19 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 12 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 12 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 23 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 23 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 08 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 08 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 38 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft knapp. Schaden: 269(1971/2240).
+BOX 38 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+MINI BOX 03 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 31 EK1T (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 31 EK1T (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 37 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 37 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 26 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 26 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 46 EK1T (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 46 EK1T (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 53 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 53 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+MINI BOX 04 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 41 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 41 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft. Schaden: 214(2026/2240).
+BOX 27 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 27 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 36 T (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 36 T (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 45 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 45 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+GUN BOX 01 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+GUN BOX 01 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+GUN BOX 01 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+GUN BOX 01 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 10 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 10 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft knapp. Schaden: 110(2130/2240).
+BOX 40 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft. Schaden: 481(1649/2240).
+BOX 40 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 01 ECHO (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft knapp. Schaden: 399(1250/2240).
+BOX 59 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 59 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft knapp. Schaden: 84(1887/2240).
+BOX 52 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 52 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+MINI BOX 02 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 14 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 14 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 06 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 06 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft. Schaden: 223(1027/2240).
+BOX 29 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 29 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 05 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 05 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 51 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 51 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 54 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 54 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 17 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 17 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 60 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 60 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 24 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft knapp. Schaden: 232(795/2240).
+BOX 24 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft. Schaden: 222(1804/2240).
+BOX 56 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft. Schaden: 265(1622/2240).
+BOX 56 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 13 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 13 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 58 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 58 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 11 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft. Schaden: 661(1143/2240).
+BOX 11 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 57 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 57 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 21 ECHO (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 18 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft. Schaden: 695(927/2240).
+BOX 18 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 62 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft. Schaden: 435(708/2240).
+BOX 62 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 32 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 32 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 15 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 15 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 02 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 02 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft knapp. Schaden: 142(785/2240).
+BOX 50 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 50 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft. Schaden: 223(485/2240).
+BOX 09 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 09 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 48 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 48 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft. Schaden: 217(568/2240).
+BOX 35 T (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 35 T (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 49 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 49 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 20 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 20 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft knapp. Schaden: 81(714/2240).
+BOX 33 T (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 33 T (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 10 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 10 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 33 T (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 33 T (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+MINI BOX 04 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft. Schaden: 170(544/2240).
+BOX 01 ECHO (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft knapp. Schaden: 531(37/2240).
+BOX 35 T (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 35 T (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 05 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft knapp. Schaden: 262(223/2240).
+BOX 05 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 06 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft. Schaden: 501(0/2240).
+Turtle LS Carrier (Creeps) wurde zerstört
+BOX 06 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft. Schaden: 166(0/2240).
+Turtle LS Carrier (Creeps) wurde zerstört
+MINI BOX 03 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft knapp. Schaden: 77(467/2240).
+BOX 51 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 51 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft. Schaden: 252(215/2240).
+BOX 37 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 37 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 48 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 48 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 45 (Quirun) feuert auf Turtle LS Carrier (Creeps) und verfehlt.
+BOX 45 (Quirun) feuert auf Turtle LS Carrier (Creeps) und trifft. Schaden: 278(0/2240).
+Turtle LS Carrier (Creeps) wurde zerstört
 
 Die Angreifer haben gewonnen
+
+Von den siegenden Flotten aufgesammelte Ressourcen:
