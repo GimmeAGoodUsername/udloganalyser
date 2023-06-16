@@ -6,6 +6,7 @@ import de.universeDawn.fightScriptAnalyser.data.Side;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.StringReader;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
@@ -22,9 +23,8 @@ public class CollectDataService {
   Map<String, Player> playerMap = new HashMap<>();
   private int destroyedShips = 0;
 
-  public Map<String, Player> collectDataFromScript() throws IOException {
-    URL resource = this.getClass().getClassLoader().getResource("static/testscript.txt");
-    BufferedReader br = new BufferedReader(new FileReader(resource.getFile()));
+  public Map<String, Player> collectDataFromScript(String input) throws IOException {
+    BufferedReader br = new BufferedReader(new StringReader(input));
 
     try {
       String line = br.readLine();

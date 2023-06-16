@@ -1,19 +1,30 @@
 package de.universeDawn.fightScriptAnalyser.user;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
+import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
+
+import java.util.List;
 
 @Entity
+@Getter
+@Setter
 public class Planet {
     @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private long id;
-    private String name;
+    @Column(name = "planetName")
+    private String planetName;
+    @Column(name = "x")
     private int x;
+    @Column(name = "y")
     private int y;
+    @Column(name = "z")
     private int z;
     @ManyToOne
     @JoinColumn(name="srUser_id",nullable = true)
     private SrUser srUser;
+
+    @ManyToMany(mappedBy = "target", fetch = FetchType.LAZY,cascade = CascadeType.ALL)
+    private List<SrOrder> orders;
 }
