@@ -1,18 +1,16 @@
-package de.universeDawn.fightScriptAnalyser.writer;
+package de.universeDawn.fightscriptanalyser.writer;
 
-import de.universeDawn.fightScriptAnalyser.data.Player;
-import de.universeDawn.fightScriptAnalyser.data.Ship;
-import org.springframework.stereotype.Service;
+import de.universeDawn.fightscriptanalyser.data.Player;
+import de.universeDawn.fightscriptanalyser.data.Ship;
+import org.springframework.stereotype.Component;
 
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.Map;
 
-@Service
+@Component
 public class CsvWriter {
     private static final String SEP = ";";
 
-    public void writeAsCsv(Map<String, Player> playerMap) {
+    public String writeAsCsv(Map<String, Player> playerMap) {
         StringBuilder sb = new StringBuilder();
         sb.append("Player;").append("Shipname" + SEP).append("Side" + SEP).append("dmg total" + SEP).append("hits" + SEP).append("misses" + SEP).append("failedEscapes" + SEP).append("crits" + SEP).append("heavy" + SEP).append("hits;\n");
         for (Map.Entry<String, Player> player : playerMap.entrySet()) {
@@ -29,14 +27,6 @@ public class CsvWriter {
             }
         }
 
-        FileWriter fileWriter = null;
-        try {
-            fileWriter = new FileWriter("fight.csv");
-            fileWriter.write(sb.toString());
-            fileWriter.flush();
-            fileWriter.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        return sb.toString();
     }
 }

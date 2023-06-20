@@ -1,13 +1,11 @@
-package de.universeDawn.fightScriptAnalyser.reader;
+package de.universeDawn.fightscriptanalyser.reader;
 
-import de.universeDawn.fightScriptAnalyser.data.Player;
-import de.universeDawn.fightScriptAnalyser.data.Ship;
-import de.universeDawn.fightScriptAnalyser.data.Side;
+import de.universeDawn.fightscriptanalyser.data.Player;
+import de.universeDawn.fightscriptanalyser.data.Ship;
+import de.universeDawn.fightscriptanalyser.data.Side;
 import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.StringReader;
-import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 import org.springframework.stereotype.Service;
@@ -98,7 +96,7 @@ public class CollectDataService {
             }
             String damage = battleData[getDamagePos(battleData) + 1];
             String[] split = damage.split("\\(");
-            ship.getHitDamage().add(Integer.parseInt(split[0]));
+            ship.getHitDamage().add(Integer.parseInt(split[0].replace(")","")));
             ship.setHits(ship.getHits() + 1);
             ship.setDamageDealt(ship.getDamageDealt() + Integer.parseInt(split[0]));
           }
@@ -144,8 +142,19 @@ public class CollectDataService {
       Player player = new Player();
       player.setName(values[0]);
       player.setSide(side);
-      player.setShipsAmount(Integer.parseInt(values[2].replace(")", "")));
+      String shipAm = values[getShipPos(values)+1].replace(")","");
+      player.setShipsAmount(Integer.parseInt(shipAm));
       playerMap.putIfAbsent(values[0], player);
     }
+  }
+  private int getShipPos(String[] block) {
+    int i = 0;
+    for (String s : block) {
+      if (s.equals("(Schiffe:")) {
+        return i;
+      }
+      i++;
+    }
+    return 0;
   }
 }

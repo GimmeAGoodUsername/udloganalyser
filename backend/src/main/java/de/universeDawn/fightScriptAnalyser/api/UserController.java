@@ -1,22 +1,16 @@
-package de.universeDawn.fightScriptAnalyser.api;
+package de.universeDawn.fightscriptanalyser.api;
 
-import de.universeDawn.fightScriptAnalyser.services.SrUserService;
-import de.universeDawn.fightScriptAnalyser.user.SrOrder;
-import de.universeDawn.fightScriptAnalyser.user.SrUser;
+import de.universeDawn.fightscriptanalyser.services.SrUserService;
+import de.universeDawn.fightscriptanalyser.user.SrUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.core.annotation.AuthenticationPrincipal;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-import java.util.Collections;
 import java.util.List;
-import java.util.Map;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:3000")
 @RequestMapping(value = "/userApi")
 public class UserController {
 

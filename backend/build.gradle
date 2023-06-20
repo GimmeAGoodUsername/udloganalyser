@@ -2,12 +2,20 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '3.1.0'
 	id 'io.spring.dependency-management' version '1.1.0'
+	id 'com.bmuschko.docker-spring-boot-application' version '6.1.4'
+	id 'com.google.cloud.tools.jib' version '2.7.1'
+
 }
+import com.bmuschko.gradle.docker.tasks.image.*
+import com.bmuschko.gradle.docker.tasks.container.*
+apply plugin: 'application'
+apply plugin: 'io.spring.dependency-management'
 
-group = 'de.universeDawn.fightScriptAnalyser'
-version = '0.0.1-SNAPSHOT'
+group = 'de.universeDawn.fightscriptanalyser'
+version = 'Test'
 sourceCompatibility = '17'
-
+mainClassName = "de.universeDawn.fightscriptanalyser.FightScriptAnalyserApplication"
+jib.to.image= 'happylifesr/test'
 repositories {
 	mavenCentral()
 }
@@ -15,26 +23,71 @@ repositories {
 dependencies {
 	compileOnly 'org.projectlombok:lombok:1.18.28'
 	annotationProcessor 'org.projectlombok:lombok:1.18.28'
-	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-	implementation 'com.h2database:h2'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa:3.1.0'
+	implementation 'com.h2database:h2:2.1.214'
 
 	implementation group: 'com.google.code.gson', name: 'gson', version: '2.7'
 	testCompileOnly 'org.projectlombok:lombok:1.18.28'
 	testAnnotationProcessor 'org.projectlombok:lombok:1.18.28'
-	implementation 'org.springframework.boot:spring-boot-starter-validation'
-	implementation 'org.springframework.boot:spring-boot-starter-web'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.boot:spring-boot-starter-validation:3.1.0'
+	implementation 'org.springframework.boot:spring-boot-starter-web:3.1.0'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test:3.1.0'
+	implementation 'org.springframework.boot:spring-boot-starter-security:3.1.0'
 	implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity6:3.1.1.RELEASE'
-	implementation 'org.springframework.security:spring-security-test'
-	implementation 'org.springframework.boot:spring-boot-starter-security'
-
-	implementation 'org.webjars:jquery:3.6.4'
-	implementation 'org.webjars:bootstrap:5.2.3'
-	implementation 'org.webjars:webjars-locator-core'
+	implementation 'org.springframework.security:spring-security-test:6.0.2'
+	implementation 'org.springframework.boot:spring-boot-starter-security:3.1.0'
+	implementation 'jakarta.xml.bind:jakarta.xml.bind-api:4.0.0'
+	implementation 'net.bytebuddy:byte-buddy:1.14.4'
+	implementation 'org.hibernate:hibernate-core:6.2.2.Final'
+	implementation 'org.hibernate.common:hibernate-commons-annotations:6.0.6.Final'
 
 }
 
 tasks.named('test') {
 	useJUnitPlatform()
+}
+
+jar {
+	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
+	manifest {
+		attributes 'Main-Class': 'de.universeDawn.fightscriptanalyser.FightScriptAnalyserApplication'
+	}
+	from {
+		configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+	}
+}
+task createDockerFile(type: Dockerfile) {
+	from 'amazoncorretto:17'
+	copyFile jar.archiveFileName.get(), '/app/srapp.jar'
+	entryPoint 'java'
+	defaultCommand '-jar', '/app/srapp.jar'
+	exposePort 8080
+}
+task syncJar(type: Copy) {
+	dependsOn assemble
+	from jar.destinationDirectory
+	into "$buildDir/docker"
+}
+task buildImage(type: DockerBuildImage) {
+	dependsOn createDockerFile, syncJar
+	inputDir = createDockerFile.getDestDir()
+	images = ["happylifesr/test:1.0"]
+}
+
+jib {
+	from {
+		image = 'amazoncorretto:17'
+	}
+	to {
+		image = 'happylifesr/test'
+		tags = ['test', project.version]
+	}
+	container {
+		appRoot = '/simpleApp'
+		jvmFlags = ['-Xms360m', '-Xmx360m']
+		ports = ['8080']
+		workingDirectory = '/test'
+	}
+	allowInsecureRegistries = false
 }

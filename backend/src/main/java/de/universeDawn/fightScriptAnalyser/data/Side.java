@@ -1,4 +1,4 @@
-package de.universeDawn.fightScriptAnalyser.data;
+package de.universeDawn.fightscriptanalyser.data;
 
 public enum Side {
   Angreifer,

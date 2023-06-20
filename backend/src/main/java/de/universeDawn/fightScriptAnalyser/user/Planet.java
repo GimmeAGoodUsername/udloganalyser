@@ -1,4 +1,4 @@
-package de.universeDawn.fightScriptAnalyser.user;
+package de.universeDawn.fightscriptanalyser.user;
 
 import jakarta.persistence.*;
 import lombok.Getter;

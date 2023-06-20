@@ -1,11 +1,9 @@
-package de.universeDawn.fightScriptAnalyser;
+package de.universeDawn.fightscriptanalyser;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.http.HttpStatus;
-import org.springframework.security.config.annotation.web.builders.HttpSecurity;
-import org.springframework.security.web.authentication.HttpStatusEntryPoint;
-import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.servlet.handler.HandlerMappingIntrospector;
 
 @SpringBootApplication
 public class FightScriptAnalyserApplication  {
@@ -13,6 +11,5 @@ public class FightScriptAnalyserApplication  {
     public static void main(String[] args) {
         SpringApplication.run(FightScriptAnalyserApplication.class, args);
     }
-
 
 }
