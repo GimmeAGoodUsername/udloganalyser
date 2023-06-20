@@ -9,6 +9,7 @@ import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
+import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -31,13 +32,13 @@ public class BasicAuthWebSecurityConfiguration {
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.authorizeHttpRequests(authorizationManagerRequestMatcherRegistry ->
                         authorizationManagerRequestMatcherRegistry
-                                .requestMatchers(new AntPathRequestMatcher("/h2-console/**")).permitAll()
+                                .requestMatchers("/h2-console/**","/auth/**").permitAll()
                                 .anyRequest().authenticated()
-
-
                 )
-                .csrf(AbstractHttpConfigurer::disable).cors().and()
-                .httpBasic(Customizer.withDefaults());
+                .httpBasic(Customizer.withDefaults())
+                .sessionManagement(sessionManagement -> sessionManagement.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+                .cors(Customizer.withDefaults())
+                .csrf(AbstractHttpConfigurer::disable);
         return http.build();
     }
 
@@ -65,6 +66,7 @@ public class BasicAuthWebSecurityConfiguration {
 
     @Bean
     public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder(8);
+        return new BCryptPasswordEncoder();
     }
+
 }

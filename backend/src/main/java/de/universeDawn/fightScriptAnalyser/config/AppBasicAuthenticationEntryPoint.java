@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@Component
 public class AppBasicAuthenticationEntryPoint extends BasicAuthenticationEntryPoint {
+    /**
     @Override
     public void commence(HttpServletRequest request, HttpServletResponse response, org.springframework.security.core.AuthenticationException authException) throws IOException {
         response.addHeader("WWW-Authenticate", "Basic realm=" + getRealmName() + "");
@@ -23,5 +23,5 @@ public class AppBasicAuthenticationEntryPoint extends BasicAuthenticationEntryPo
     public void afterPropertiesSet() {
         setRealmName("howtodoinjava");
         super.afterPropertiesSet();
-    }
+    }**/
 }

@@ -1,16 +1,26 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
-import { GetUsers } from "./components/GetUsers";
-import axios from 'axios';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import 'semantic-ui-react/semantic.min.css'
+import './index.css';
+import { AuthProvider } from './context/AuthContext';
+import Login from './home/Login';
+import Navbar from './misc/Navbar';
 function App() {
 
-  return (    
-    <div id='root'>
-      <h1>SR APP</h1>
-      <GetUsers></GetUsers>
-      </div>
-  )
+  return (   
+    <AuthProvider>
+    <Router>
+        <Navbar />
+        <Routes>
+        <Route path='/login' element={<Login />} />
+
+
+          </Routes>
+       </Router>
+      </AuthProvider>
+     
+  );
 }
 
 export default App;

@@ -20,9 +20,11 @@ export const GetUsers = () => {
                 {
                     posts.map(post => (
                         <div key={post.id}>
-                            <p>Title: <span>{post.name}</span></p>
-                            <p>Body: <span>{post.race}</span></p>
-                            <p>User: <span>{post.role}</span></p>
+                            <p>User: <span>{post.name}</span></p>
+                            <p>Race: <span>{post.race}</span></p>
+                            <p>Role: <span>{post.role}</span></p>
+                            <p>id: <span>{post.id}</span></p>
+
                         </div>
                     ))
                 }
