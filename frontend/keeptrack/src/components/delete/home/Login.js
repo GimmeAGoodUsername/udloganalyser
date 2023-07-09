@@ -38,7 +38,7 @@ class Login extends Component {
       .then(response => {
         const { id, name, role } = response.data
         const authdata = window.btoa(username + ':' + password)
-        const user = { id, name,  authdata }
+        const user = { id, name,  authdata ,password}
 
         const Auth = this.context
         Auth.userLogin(user)

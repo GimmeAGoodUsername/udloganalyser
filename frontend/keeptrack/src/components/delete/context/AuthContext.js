@@ -1,5 +1,4 @@
 import React, { Component, useContext } from 'react'
-
 const AuthContext = React.createContext()
 
 class AuthProvider extends Component {
@@ -13,7 +12,7 @@ class AuthProvider extends Component {
   }
 
   getUser = () => {
-    return JSON.parse(localStorage.getItem('user'))
+    return localStorage.getItem('user')
   }
 
   userIsAuthenticated = () => {
@@ -22,6 +21,7 @@ class AuthProvider extends Component {
 
   userLogin = user => {
     localStorage.setItem('user', JSON.stringify(user))
+    console.log(user)
     this.setState({ user })
   }
 

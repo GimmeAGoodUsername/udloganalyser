@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { getAllUsers } from '../util/getData';
-import { ResponseAPI } from '../api/client';
+import { getAllUsers } from './util/getData';
+import { ResponseAPI } from './api/client';
 
 export const GetUsers = () => {
 

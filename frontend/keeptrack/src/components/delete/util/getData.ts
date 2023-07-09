@@ -8,8 +8,8 @@ export const getAllUsers = async (): Promise<ResponseAPI[]> => {
         "Accept": "application/json",
         "Content-Type": "application/json"},
         auth:{
-        username: "ad",
-        password: "password"}
+        username: "Happy",
+        password: "133"}
     })
 
     return data
