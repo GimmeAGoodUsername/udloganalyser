@@ -20,6 +20,7 @@ public class AuthController {
     @Autowired
     private SrUserService srUserService;
 
+
     @PostMapping("/authenticate")
     public ResponseEntity<AuthResponse> login(@Valid @RequestBody LoginRequest loginRequest){
 
@@ -29,6 +30,11 @@ public class AuthController {
             return ResponseEntity.ok(new AuthResponse(user.getId(), user.getName()));
         }
         return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
+    }
+
+
+    public ResponseEntity<Void> logout(@Valid @RequestBody LoginRequest loginRequest){
+        return ResponseEntity.ok().build();
     }
 
 

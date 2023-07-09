@@ -4,6 +4,10 @@ import de.universeDawn.fightscriptanalyser.api.auth.LoginRequest;
 import de.universeDawn.fightscriptanalyser.repo.SrUserRepository;
 import de.universeDawn.fightscriptanalyser.user.SrUser;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -15,6 +19,12 @@ public class SrUserService {
     @Autowired
     private SrUserRepository srUserRepository;
 
+    @Autowired
+    private InMemoryUserDetailsManager inMemoryUserDetailsManager;
+
+    @Autowired
+    private PasswordEncoder passwordEncoder;
+
     public List<SrUser> getAllUsers(){
         return srUserRepository.findAll();
     }
@@ -24,9 +34,27 @@ public class SrUserService {
     }
 
     public Optional<SrUser> validUser(LoginRequest loginRequest){
-        return Optional.of(srUserRepository.findByValids(loginRequest.getUsername(),loginRequest.getPassword()));
+        Optional<SrUser> srUser = Optional.of(srUserRepository.findByValids(loginRequest.getUsername(), loginRequest.getPassword()));
+        if(srUser.isPresent()){
+            UserDetails user = User
+                    .withUsername(srUser.get().getName())
+                    .password(passwordEncoder.encode(srUser.get().getPassword()))
+                    .roles("USER_ROLE")
+                    .build();
+            inMemoryUserDetailsManager.createUser(user);
+            UserDetails userDetails = inMemoryUserDetailsManager.loadUserByUsername("Happy");
+
+
+            System.out.println();
+        }
+
+        return srUser;
     }
 
+    public void logout(LoginRequest loginRequest){}
+    public SrUser getUserByName(String name){
+        return srUserRepository.findUserByName(name);
+    }
     public void registerPlanet(){
 
     }

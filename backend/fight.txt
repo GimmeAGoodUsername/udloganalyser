@@ -1,557 +1,1813 @@
-{
-  "Tolo": {
-    "name": "Tolo",
-    "shipsAmount": 39,
-    "side": "Verteidiger",
-    "shipMap": {
-      "Titan Vektorgeschütz": {
-        "shipName": "Titan Vektorgeschütz",
-        "damageDealt": 20350,
-        "hits": 56,
-        "misses": 23,
-        "failedEscapes": 0,
-        "hitDamage": [
-          391,
-          209,
-          230,
-          407,
-          453,
-          494,
-          168,
-          150,
-          510,
-          517,
-          198,
-          192,
-          464,
-          310,
-          971,
-          246,
-          574,
-          398,
-          517,
-          222,
-          516,
-          492,
-          161,
-          270,
-          518,
-          182,
-          272,
-          217,
-          200,
-          494,
-          187,
-          218,
-          210,
-          562,
-          238,
-          413,
-          545,
-          534,
-          252,
-          420,
-          221,
-          365,
-          252,
-          461,
-          230,
-          268,
-          213,
-          498,
-          214,
-          465,
-          478,
-          609,
-          434,
-          431,
-          227,
-          462
-        ],
-        "crits": 0,
-        "heavy": 1
-      }
-    }
-  },
-  "Zarathustra": {
-    "name": "Zarathustra",
-    "shipsAmount": 25,
-    "side": "Angreifer",
-    "shipMap": {
-      "Zafira": {
-        "shipName": "Zafira",
-        "damageDealt": 1415,
-        "hits": 3,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          482,
-          547,
-          386
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "EIodie": {
-        "shipName": "EIodie",
-        "damageDealt": 20057,
-        "hits": 11,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1996,
-          3643,
-          1564,
-          1996,
-          1661,
-          2223,
-          914,
-          1248,
-          2331,
-          1596,
-          885
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Jasmin": {
-        "shipName": "Jasmin",
-        "damageDealt": 13556,
-        "hits": 7,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          3488,
-          653,
-          2715,
-          1333,
-          889,
-          3654,
-          824
-        ],
-        "crits": 0,
-        "heavy": 1
-      },
-      "Cassandra": {
-        "shipName": "Cassandra",
-        "damageDealt": 11455,
-        "hits": 10,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1071,
-          1284,
-          1232,
-          1181,
-          551,
-          907,
-          566,
-          2620,
-          991,
-          1052
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Nova": {
-        "shipName": "Nova",
-        "damageDealt": 7284,
-        "hits": 5,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1482,
-          2077,
-          1259,
-          1559,
-          907
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Xena": {
-        "shipName": "Xena",
-        "damageDealt": 11495,
-        "hits": 8,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          640,
-          4154,
-          1093,
-          236,
-          1636,
-          2994,
-          679,
-          63
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Leyla": {
-        "shipName": "Leyla",
-        "damageDealt": 11165,
-        "hits": 7,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          2092,
-          2468,
-          1156,
-          1620,
-          908,
-          1382,
-          1539
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Annabelle": {
-        "shipName": "Annabelle",
-        "damageDealt": 6186,
-        "hits": 29,
-        "misses": 13,
-        "failedEscapes": 0,
-        "hitDamage": [
-          810,
-          575,
-          85,
-          108,
-          201,
-          174,
-          220,
-          96,
-          219,
-          235,
-          191,
-          76,
-          226,
-          168,
-          154,
-          189,
-          112,
-          293,
-          202,
-          553,
-          99,
-          186,
-          61,
-          70,
-          287,
-          252,
-          66,
-          73,
-          205
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Arielle": {
-        "shipName": "Arielle",
-        "damageDealt": 5969,
-        "hits": 6,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1851,
-          798,
-          455,
-          577,
-          1043,
-          1245
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Paula": {
-        "shipName": "Paula",
-        "damageDealt": 12644,
-        "hits": 8,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1212,
-          1110,
-          1215,
-          2377,
-          827,
-          1154,
-          1186,
-          3563
-        ],
-        "crits": 1,
-        "heavy": 0
-      },
-      "Penelope": {
-        "shipName": "Penelope",
-        "damageDealt": 10621,
-        "hits": 7,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1891,
-          404,
-          2313,
-          1028,
-          2203,
-          1864,
-          918
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Justina": {
-        "shipName": "Justina",
-        "damageDealt": 9056,
-        "hits": 8,
-        "misses": 0,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1773,
-          1543,
-          308,
-          448,
-          1920,
-          1526,
-          823,
-          715
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Zahra": {
-        "shipName": "Zahra",
-        "damageDealt": 13241,
-        "hits": 8,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          2389,
-          1150,
-          2079,
-          1436,
-          1147,
-          2677,
-          1533,
-          830
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Cecile": {
-        "shipName": "Cecile",
-        "damageDealt": 7270,
-        "hits": 5,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          2650,
-          969,
-          1211,
-          1816,
-          624
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Katharina": {
-        "shipName": "Katharina",
-        "damageDealt": 10900,
-        "hits": 8,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          632,
-          1370,
-          1949,
-          2067,
-          545,
-          1515,
-          2268,
-          554
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Amelie": {
-        "shipName": "Amelie",
-        "damageDealt": 6290,
-        "hits": 6,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          797,
-          541,
-          1021,
-          487,
-          966,
-          2478
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Esmeralda": {
-        "shipName": "Esmeralda",
-        "damageDealt": 14184,
-        "hits": 11,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1645,
-          963,
-          993,
-          400,
-          2076,
-          1078,
-          949,
-          260,
-          3850,
-          878,
-          1092
-        ],
-        "crits": 0,
-        "heavy": 2
-      },
-      "Josephine": {
-        "shipName": "Josephine",
-        "damageDealt": 9149,
-        "hits": 6,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          2096,
-          613,
-          1675,
-          1445,
-          1640,
-          1680
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Katja": {
-        "shipName": "Katja",
-        "damageDealt": 8596,
-        "hits": 14,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          792,
-          576,
-          347,
-          283,
-          1068,
-          1187,
-          456,
-          198,
-          87,
-          1421,
-          974,
-          681,
-          343,
-          183
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Lola": {
-        "shipName": "Lola",
-        "damageDealt": 11660,
-        "hits": 10,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1520,
-          1830,
-          366,
-          2116,
-          1850,
-          613,
-          763,
-          1586,
-          533,
-          483
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Esmee": {
-        "shipName": "Esmee",
-        "damageDealt": 20219,
-        "hits": 9,
-        "misses": 1,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1422,
-          1838,
-          4797,
-          1405,
-          1629,
-          1681,
-          4417,
-          1157,
-          1873
-        ],
-        "crits": 0,
-        "heavy": 2
-      },
-      "Emma": {
-        "shipName": "Emma",
-        "damageDealt": 14385,
-        "hits": 7,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          4021,
-          1790,
-          1260,
-          1154,
-          2005,
-          3236,
-          919
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "Sophia": {
-        "shipName": "Sophia",
-        "damageDealt": 9449,
-        "hits": 7,
-        "misses": 2,
-        "failedEscapes": 0,
-        "hitDamage": [
-          859,
-          2260,
-          1653,
-          441,
-          1841,
-          1243,
-          1152
-        ],
-        "crits": 0,
-        "heavy": 0
-      },
-      "ChristIna": {
-        "shipName": "ChristIna",
-        "damageDealt": 18937,
-        "hits": 9,
-        "misses": 3,
-        "failedEscapes": 0,
-        "hitDamage": [
-          1671,
-          8730,
-          2165,
-          1035,
-          962,
-          1300,
-          543,
-          1321,
-          1210
-        ],
-        "crits": 1,
-        "heavy": 0
-      }
-    }
-  }
-}
-Total Destroyed Ships: 39
+Herrscher auf Seiten der Angreifer:
+Zarathustra (Schiffe: 55)
+Anzahl Angreifer Schiffe: 55
+
+Herrscher auf Seiten der Verteidiger:
+Happylife (Schiffe: 275)
+Anzahl Verteidiger Schiffe: 275
+
+Biene 0168 (Happylife) feuert auf Emma (Zarathustra) und trifft. Schaden: 441(19184/19625).
+Biene 0157 (Happylife) feuert auf Annabelle (Zarathustra) und trifft knapp. Schaden: 257(25473/25730).
+Fanboy 03 (Zarathustra) feuert auf Hummel 008 (Happylife) und trifft knapp. Schaden: 325(13091/13416).
+Biene 0154 (Happylife) feuert auf Amelie (Zarathustra) und trifft. Schaden: 630(24167/24797).
+Fanboy 34 (Zarathustra) feuert auf Hummel 002 (Happylife) und verfehlt.
+Drohne 002 (Happylife) feuert auf Esmee (Zarathustra) und trifft knapp. Schaden: 374(22248/22622).
+Drohne 002 (Happylife) feuert auf Melina (Zarathustra) und trifft. Schaden: 139(25443/25582).
+Biene 0117 (Happylife) feuert auf Amelie (Zarathustra) und trifft. Schaden: 547(23620/24797).
+Biene 0029 (Happylife) feuert auf Tiara (Zarathustra) und verfehlt.
+Biene 0216 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 373(21875/22622).
+Biene 0065 (Happylife) feuert auf Katharina (Zarathustra) und trifft. Schaden: 706(25024/25730).
+Biene 0138 (Happylife) feuert auf Alisha (Zarathustra) und trifft. Schaden: 548(20794/21342).
+Biene 0 013 (Happylife) feuert auf Melina (Zarathustra) und trifft knapp. Schaden: 221(25222/25582).
+Biene 063 (Happylife) feuert auf Paula (Zarathustra) und verfehlt.
+Biene 0150 (Happylife) feuert auf Sophia (Zarathustra) und trifft. Schaden: 472(25110/25582).
+Biene 040 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 541(16893/17434).
+45 (Happylife) feuert auf Justina (Zarathustra) und trifft. Schaden: 571(25159/25730).
+Drohne 006 (Happylife) feuert auf Paula (Zarathustra) und verfehlt.
+Drohne 006 (Happylife) feuert auf Zahra (Zarathustra) und trifft. Schaden: 153(25429/25582).
+Dina (Zarathustra) feuert auf Hummel 003 (Happylife) und trifft. Schaden: 2352(11064/13416).
+Dina (Zarathustra) feuert auf 01 (Happylife) und trifft. Schaden: 2472(10944/13416).
+Dina (Zarathustra) feuert auf 03 (Happylife) und trifft. Schaden: 1029(12387/13416).
+Dina (Zarathustra) feuert auf Hummel 010 (Happylife) und trifft. Schaden: 862(12554/13416).
+Biene 0099 (Happylife) feuert auf Cecile (Zarathustra) und trifft. Schaden: 492(25238/25730).
+Biene 0200 (Happylife) feuert auf Alisha (Zarathustra) und trifft. Schaden: 597(20197/21342).
+Biene 0194 (Happylife) feuert auf Justina (Zarathustra) und verfehlt.
+Biene 0 007 (Happylife) feuert auf Melina (Zarathustra) und trifft. Schaden: 497(24725/25582).
+Biene 1 021 (Happylife) feuert auf Nova (Zarathustra) und trifft. Schaden: 501(25081/25582).
+Biene 0075 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 527(16366/17434).
+Biene 0 005 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 602(15764/17434).
+Biene 046 (Happylife) feuert auf Katja (Zarathustra) und trifft. Schaden: 584(25146/25730).
+Biene 048 (Happylife) feuert auf Lola (Zarathustra) und verfehlt.
+Fanboy 39 (Zarathustra) feuert auf Hummel 002 (Happylife) und trifft. Schaden: 789(12512/13416).
+Fanboy 01 (Zarathustra) feuert auf Drohne 008 (Happylife) und trifft knapp. Schaden: 398(13018/13416).
+Biene 1 019 (Happylife) feuert auf Atalya (Zarathustra) und trifft. Schaden: 542(19068/19610).
+Zahra (Zarathustra) feuert auf Hummel 007 (Happylife) und verfehlt.
+Zahra (Zarathustra) feuert auf Hummel 002 (Happylife) und trifft knapp. Schaden: 769(11743/13416).
+Zahra (Zarathustra) feuert auf 02 (Happylife) und trifft. Schaden: 1021(12395/13416).
+Zahra (Zarathustra) feuert auf Hummel 004 (Happylife) und trifft. Schaden: 795(12621/13416).
+Biene 0151 (Happylife) feuert auf Esmeralda (Zarathustra) und verfehlt.
+Hummel 006 (Happylife) feuert auf Alisha Zafira (Zarathustra) und verfehlt.
+Hummel 006 (Happylife) feuert auf Christina (Zarathustra) und verfehlt.
+Fanboy 38 (Zarathustra) feuert auf Drohne 006 (Happylife) und trifft knapp. Schaden: 275(13141/13416).
+Biene 0103 (Happylife) feuert auf Sophia (Zarathustra) und trifft. Schaden: 473(24637/25582).
+Biene 0013 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 401(21474/22622).
+Biene 066 (Happylife) feuert auf Lola (Zarathustra) und trifft knapp. Schaden: 287(25295/25582).
+Biene 0 043 (Happylife) feuert auf Lola (Zarathustra) und trifft. Schaden: 517(24778/25582).
+Biene 1 004 (Happylife) feuert auf Arielle (Zarathustra) und trifft. Schaden: 621(24813/25434).
+Biene 05 (Happylife) feuert auf Dina (Zarathustra) und trifft. Schaden: 553(25029/25582).
+Biene 0144 (Happylife) feuert auf Justina (Zarathustra) und verfehlt.
+Biene 059 (Happylife) feuert auf Alisha Zafira (Zarathustra) und verfehlt.
+Drohne 005 (Happylife) feuert auf Marguerite (Zarathustra) und trifft. Schaden: 824(24536/25360).
+Drohne 005 (Happylife) feuert auf Annabelle (Zarathustra) und verfehlt.
+Leyla (Zarathustra) feuert auf Biene 0106 (Happylife) und trifft knapp. Schaden: 459(0/358).
+Biene 0106 (Happylife) wurde zerstört
+Leyla (Zarathustra) feuert auf Biene 056 (Happylife) und verfehlt.
+Leyla (Zarathustra) feuert auf Biene 0033 (Happylife) und verfehlt.
+Leyla (Zarathustra) feuert auf Biene 0 004 (Happylife) und trifft. Schaden: 1503(0/358).
+Biene 0 004 (Happylife) wurde zerstört
+Leyla (Zarathustra) feuert auf Biene 0207 (Happylife) und trifft. Schaden: 966(0/358).
+Biene 0207 (Happylife) wurde zerstört
+Leyla (Zarathustra) feuert auf Biene 0081 (Happylife) und verfehlt.
+Biene 1 015 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 670(15094/17434).
+Biene 019 (Happylife) feuert auf Paula (Zarathustra) und trifft. Schaden: 510(25131/25641).
+Hummel 010 (Happylife) feuert auf Emma (Zarathustra) und verfehlt.
+Hummel 010 (Happylife) feuert auf Cecile (Zarathustra) und verfehlt.
+Biene 0098 (Happylife) feuert auf Alisha (Zarathustra) und erzielt einen kritischen Treffer. Schaden: 1709(18488/21342).
+Annabelle (Zarathustra) feuert auf Drohne 006 (Happylife) und trifft. Schaden: 2122(11019/13416).
+Annabelle (Zarathustra) feuert auf Hummel 004 (Happylife) und trifft knapp. Schaden: 1065(11556/13416).
+Annabelle (Zarathustra) feuert auf Drohne 01 (Happylife) und trifft knapp. Schaden: 379(12440/12819).
+Annabelle (Zarathustra) feuert auf Königin 01 (Happylife) und trifft knapp. Schaden: 330(7236/7566).
+Annabelle (Zarathustra) feuert auf Biene 012 025 (Happylife) und trifft. Schaden: 475(0/358).
+Biene 012 025 (Happylife) wurde zerstört
+Biene 0021 (Happylife) feuert auf Leyla (Zarathustra) und verfehlt.
+Biene 0164 (Happylife) feuert auf Melina (Zarathustra) und trifft. Schaden: 665(24060/25582).
+Biene 0118 (Happylife) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 391(25082/25730).
+Biene 0191 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 496(20978/22622).
+Biene 0141 (Happylife) feuert auf Cecile (Zarathustra) und trifft. Schaden: 467(24771/25730).
+Biene 012 020 (Happylife) feuert auf Dina (Zarathustra) und trifft. Schaden: 519(24510/25582).
+Biene 012 002 (Happylife) feuert auf Leyla (Zarathustra) und trifft. Schaden: 554(13018/13572).
+Biene 0147 (Happylife) feuert auf Leyla (Zarathustra) und trifft. Schaden: 705(12313/13572).
+Biene 0047 (Happylife) feuert auf Alisha (Zarathustra) und trifft knapp. Schaden: 184(18304/21342).
+Biene 0178 (Happylife) feuert auf Leyla (Zarathustra) und trifft knapp. Schaden: 317(11996/13572).
+Katharina (Zarathustra) feuert auf 01 (Happylife) und verfehlt.
+Katharina (Zarathustra) feuert auf Drohne 008 (Happylife) und trifft. Schaden: 1939(11079/13416).
+Katharina (Zarathustra) feuert auf Drohne 005 (Happylife) und trifft. Schaden: 919(12497/13416).
+Katharina (Zarathustra) feuert auf Drohne 004 (Happylife) und erzielt einenschweren Treffer. Schaden: 1475(11941/13416).
+Katharina (Zarathustra) feuert auf Biene 0013 (Happylife) und trifft. Schaden: 345(13/358).
+Das Schiff Biene 0013 (Happylife) ist erfolgreich geflohen
+Arielle (Zarathustra) feuert auf Hummel 002 (Happylife) und erzielt einenschweren Treffer. Schaden: 2898(8845/13416).
+Arielle (Zarathustra) feuert auf Drohne 006 (Happylife) und trifft knapp. Schaden: 664(10355/13416).
+Arielle (Zarathustra) feuert auf Hummel 002 (Happylife) und trifft knapp. Schaden: 388(8457/13416).
+Arielle (Zarathustra) feuert auf Hummel 001 (Happylife) und trifft knapp. Schaden: 481(12863/13416).
+Biene 031 (Happylife) feuert auf Emma (Zarathustra) und verfehlt.
+Drohne 004 (Happylife) feuert auf Alisha (Zarathustra) und trifft. Schaden: 977(17327/21342).
+Drohne 004 (Happylife) feuert auf Alisha (Zarathustra) und verfehlt.
+Josephine (Zarathustra) feuert auf Drohne 004 (Happylife) und trifft. Schaden: 1630(10311/13416).
+Josephine (Zarathustra) feuert auf Hummel 008 (Happylife) und trifft. Schaden: 2468(10623/13416).
+Josephine (Zarathustra) feuert auf Hummel 009 (Happylife) und trifft. Schaden: 1312(12104/13416).
+Josephine (Zarathustra) feuert auf 01 (Happylife) und verfehlt.
+Biene 0193 (Happylife) feuert auf Lola (Zarathustra) und trifft. Schaden: 540(24238/25582).
+Biene 0014 (Happylife) feuert auf Cecile (Zarathustra) und trifft. Schaden: 476(24295/25730).
+Biene 0184 (Happylife) feuert auf Amelie (Zarathustra) und trifft. Schaden: 524(23096/24797).
+Biene 0196 (Happylife) feuert auf Emma (Zarathustra) und trifft. Schaden: 689(18495/19625).
+Hummel 004 (Happylife) feuert auf Arielle (Zarathustra) und trifft. Schaden: 590(24223/25434).
+Hummel 004 (Happylife) feuert auf Katja (Zarathustra) und trifft knapp. Schaden: 60(25086/25730).
+Biene 0015 (Happylife) feuert auf Nova (Zarathustra) und trifft. Schaden: 449(24632/25582).
+Biene 0172 (Happylife) feuert auf Melina (Zarathustra) und verfehlt.
+Biene 067 (Happylife) feuert auf Xena (Zarathustra) und trifft knapp. Schaden: 247(25557/25804).
+Biene 1 012 (Happylife) feuert auf Josephine (Zarathustra) und verfehlt.
+Biene 1 010 (Happylife) feuert auf Cassandra (Zarathustra) und trifft. Schaden: 455(24683/25138).
+Biene 0165 (Happylife) feuert auf Katharina (Zarathustra) und verfehlt.
+Biene 0104 (Happylife) feuert auf Nova (Zarathustra) und trifft. Schaden: 521(24111/25582).
+Biene 030 (Happylife) feuert auf Jasmin (Zarathustra) und trifft. Schaden: 415(24604/25019).
+Biene 041 (Happylife) feuert auf Amelie (Zarathustra) und trifft. Schaden: 508(22588/24797).
+Sophia (Zarathustra) feuert auf Königin 01 (Happylife) und trifft. Schaden: 2093(5143/7566).
+Versuchte Flucht des Schiffes Königin 01 (Happylife) ist fehlgeschlagen
+Sophia (Zarathustra) feuert auf Königin 01 (Happylife) und trifft knapp. Schaden: 677(4466/7566).
+Das Schiff Königin 01 (Happylife) ist erfolgreich geflohen
+Sophia (Zarathustra) feuert auf Hummel 004 (Happylife) und trifft. Schaden: 1221(10335/13416).
+Sophia (Zarathustra) feuert auf Drohne 005 (Happylife) und trifft. Schaden: 647(11850/13416).
+Biene 0120 (Happylife) feuert auf Esmeralda (Zarathustra) und trifft knapp. Schaden: 251(21542/21793).
+Hummel 008 (Happylife) feuert auf Cassandra (Zarathustra) und verfehlt.
+Hummel 008 (Happylife) feuert auf Marguerite (Zarathustra) und verfehlt.
+Biene 0 034 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 366(20612/22622).
+Biene 0010 (Happylife) feuert auf Leyla (Zarathustra) und trifft. Schaden: 563(11433/13572).
+Biene 012 017 (Happylife) feuert auf Jasmin (Zarathustra) und trifft. Schaden: 714(23890/25019).
+Biene 0077 (Happylife) feuert auf Penelope (Zarathustra) und trifft. Schaden: 482(24130/24612).
+Biene 0058 (Happylife) feuert auf Jasmin (Zarathustra) und trifft. Schaden: 428(23462/25019).
+Biene 032 (Happylife) feuert auf Xena (Zarathustra) und trifft. Schaden: 579(24978/25804).
+Biene 0084 (Happylife) feuert auf Katja (Zarathustra) und trifft. Schaden: 520(24566/25730).
+Biene 0024 (Happylife) feuert auf Melina (Zarathustra) und verfehlt.
+Fanboy 04 (Zarathustra) feuert auf Drohne 01 (Happylife) und trifft. Schaden: 887(11553/12819).
+Marguerite (Zarathustra) feuert auf Hummel 001 (Happylife) und trifft. Schaden: 2185(10678/13416).
+Marguerite (Zarathustra) feuert auf Drohne 03 (Happylife) und verfehlt.
+Marguerite (Zarathustra) feuert auf Hummel 011 (Happylife) und trifft. Schaden: 1155(12261/13416).
+Marguerite (Zarathustra) feuert auf Drohne 004 (Happylife) und verfehlt.
+Biene 03 (Happylife) feuert auf Alisha (Zarathustra) und verfehlt.
+Biene 0072 (Happylife) feuert auf Atalya (Zarathustra) und verfehlt.
+Biene 0122 (Happylife) feuert auf Katharina (Zarathustra) und verfehlt.
+Biene 0 018 (Happylife) feuert auf Melina (Zarathustra) und trifft. Schaden: 441(23619/25582).
+Biene 0211 (Happylife) feuert auf Josephine (Zarathustra) und trifft. Schaden: 643(22208/22851).
+Esmee (Zarathustra) feuert auf Drohne 005 (Happylife) und trifft. Schaden: 1909(9941/13416).
+Esmee (Zarathustra) feuert auf Hummel 002 (Happylife) und trifft knapp. Schaden: 507(7950/13416).
+Esmee (Zarathustra) feuert auf Drohne 008 (Happylife) und trifft. Schaden: 1229(9850/13416).
+Esmee (Zarathustra) feuert auf Drohne 02 (Happylife) und trifft knapp. Schaden: 488(12331/12819).
+Biene 033 (Happylife) feuert auf Justina (Zarathustra) und trifft. Schaden: 459(24700/25730).
+Biene 0 031 (Happylife) feuert auf Amelie (Zarathustra) und trifft. Schaden: 517(22071/24797).
+Biene 0199 (Happylife) feuert auf Paula (Zarathustra) und trifft knapp. Schaden: 269(24862/25641).
+Fanboy 37 (Zarathustra) feuert auf 01 (Happylife) und trifft knapp. Schaden: 336(10608/13416).
+Biene 0158 (Happylife) feuert auf Penelope (Zarathustra) und trifft. Schaden: 497(23633/24612).
+Fanboy 08 (Zarathustra) feuert auf Drohne 008 (Happylife) und trifft knapp. Schaden: 343(9507/13416).
+Biene 0115 (Happylife) feuert auf Katja (Zarathustra) und erzielt einenschweren Treffer. Schaden: 1059(23507/25730).
+Biene 0 026 (Happylife) feuert auf Marguerite (Zarathustra) und trifft. Schaden: 384(24152/25360).
+Drohne 01 (Happylife) feuert auf Ressschlampe (Zarathustra) und erzielt einen kritischen Treffer. Schaden: 6027(352/6379).
+Versuchte Flucht des Schiffes Ressschlampe (Zarathustra) ist fehlgeschlagen
+Biene 012 (Happylife) feuert auf Alisha (Zarathustra) und verfehlt.
+Biene 0130 (Happylife) feuert auf Cassandra (Zarathustra) und verfehlt.
+Biene 036 (Happylife) feuert auf Paula (Zarathustra) und erzielt einenschweren Treffer. Schaden: 1385(23477/25641).
+Biene 010 (Happylife) feuert auf Amelie (Zarathustra) und trifft. Schaden: 477(21594/24797).
+Biene 0056 (Happylife) feuert auf Jasmin (Zarathustra) und trifft. Schaden: 616(22846/25019).
+Biene 0 044 (Happylife) feuert auf Katharina (Zarathustra) und verfehlt.
+02 (Happylife) feuert auf Dina (Zarathustra) und trifft. Schaden: 780(23730/25582).
+02 (Happylife) feuert auf Alisha Zafira (Zarathustra) und trifft. Schaden: 207(25375/25582).
+Biene 0189 (Happylife) feuert auf Christina (Zarathustra) und verfehlt.
+Biene 012 027 (Happylife) feuert auf Christina (Zarathustra) und trifft knapp. Schaden: 245(18803/19048).
+Biene 0064 (Happylife) feuert auf Justina (Zarathustra) und verfehlt.
+Biene 0119 (Happylife) feuert auf Cecile (Zarathustra) und trifft. Schaden: 519(23776/25730).
+Esmeralda (Zarathustra) feuert auf Hummel 003 (Happylife) und verfehlt.
+Esmeralda (Zarathustra) feuert auf Drohne 03 (Happylife) und trifft. Schaden: 2243(10576/12819).
+Cassandra (Zarathustra) feuert auf Drohne 002 (Happylife) und verfehlt.
+Cassandra (Zarathustra) feuert auf Drohne 005 (Happylife) und trifft knapp. Schaden: 794(9147/13416).
+Cassandra (Zarathustra) feuert auf 02 (Happylife) und trifft. Schaden: 823(11572/13416).
+Cassandra (Zarathustra) feuert auf Hummel 001 (Happylife) und trifft. Schaden: 1055(9623/13416).
+Biene 0 038 (Happylife) feuert auf Katja (Zarathustra) und verfehlt.
+Biene 1 009 (Happylife) feuert auf Sophia (Zarathustra) und trifft. Schaden: 406(24231/25582).
+Biene 038 (Happylife) feuert auf Katja (Zarathustra) und trifft knapp. Schaden: 290(23217/25730).
+Biene 0055 (Happylife) feuert auf Nova (Zarathustra) und trifft. Schaden: 674(23437/25582).
+Biene 0031 (Happylife) feuert auf Dina (Zarathustra) und verfehlt.
+Biene 0068 (Happylife) feuert auf Jasmin (Zarathustra) und verfehlt.
+Biene 043 (Happylife) feuert auf Dina (Zarathustra) und trifft knapp. Schaden: 211(23519/25582).
+Biene 0 025 (Happylife) feuert auf Esmeralda (Zarathustra) und trifft. Schaden: 507(21035/21793).
+Biene 0080 (Happylife) feuert auf Penelope (Zarathustra) und trifft. Schaden: 507(23126/24612).
+Biene 012 007 (Happylife) feuert auf Arielle (Zarathustra) und trifft knapp. Schaden: 218(24005/25434).
+Fanboy 11 (Zarathustra) feuert auf Drohne 03 (Happylife) und trifft. Schaden: 710(9866/12819).
+Biene 0113 (Happylife) feuert auf Katja (Zarathustra) und trifft. Schaden: 555(22662/25730).
+Biene 0033 (Happylife) feuert auf Nova (Zarathustra) und verfehlt.
+Biene 0181 (Happylife) feuert auf Lola (Zarathustra) und trifft knapp. Schaden: 272(23966/25582).
+Biene 02 (Happylife) feuert auf Alisha (Zarathustra) und trifft knapp. Schaden: 222(17105/21342).
+Biene 1 024 (Happylife) feuert auf Justina (Zarathustra) und trifft. Schaden: 508(24192/25730).
+Biene 0198 (Happylife) feuert auf Melina (Zarathustra) und trifft knapp. Schaden: 203(23416/25582).
+Biene 1 006 (Happylife) feuert auf Leyla (Zarathustra) und trifft knapp. Schaden: 290(11143/13572).
+Biene 0007 (Happylife) feuert auf Nova (Zarathustra) und verfehlt.
+Alisha (Zarathustra) feuert auf Drohne 008 (Happylife) und trifft knapp. Schaden: 1500(8007/13416).
+Alisha (Zarathustra) feuert auf Hummel 008 (Happylife) und trifft knapp. Schaden: 1223(9400/13416).
+Alisha (Zarathustra) feuert auf Hummel 012 (Happylife) und trifft knapp. Schaden: 1394(12022/13416).
+Alisha (Zarathustra) feuert auf Hummel 001 (Happylife) und verfehlt.
+Biene 028 (Happylife) feuert auf Melina (Zarathustra) und trifft knapp. Schaden: 184(23232/25582).
+Biene 012 022 (Happylife) feuert auf Cassandra (Zarathustra) und trifft knapp. Schaden: 299(24384/25138).
+Biene 0107 (Happylife) feuert auf Dina (Zarathustra) und trifft. Schaden: 490(23029/25582).
+Biene 0091 (Happylife) feuert auf Jasmin (Zarathustra) und trifft knapp. Schaden: 267(22579/25019).
+Fanboy 31 (Zarathustra) feuert auf Hummel 007 (Happylife) und trifft knapp. Schaden: 278(13138/13416).
+Biene 0195 (Happylife) feuert auf Dina (Zarathustra) und trifft knapp. Schaden: 246(22783/25582).
+Biene 0167 (Happylife) feuert auf Emma (Zarathustra) und trifft. Schaden: 492(18003/19625).
+Biene 0188 (Happylife) feuert auf Katharina (Zarathustra) und verfehlt.
+Biene 0179 (Happylife) feuert auf Justina (Zarathustra) und trifft. Schaden: 610(23582/25730).
+Biene 0006 (Happylife) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 503(24579/25730).
+Biene 056 (Happylife) feuert auf Atalya (Zarathustra) und erzielt einenschweren Treffer. Schaden: 1464(17604/19610).
+Biene 0046 (Happylife) feuert auf Nova (Zarathustra) und trifft knapp. Schaden: 235(23202/25582).
+Biene 0177 (Happylife) feuert auf Annabelle (Zarathustra) und trifft knapp. Schaden: 243(24336/25730).
+Biene 0139 (Happylife) feuert auf Katharina (Zarathustra) und trifft. Schaden: 562(24462/25730).
+Biene 0131 (Happylife) feuert auf Katja (Zarathustra) und trifft. Schaden: 639(22023/25730).
+Biene 0089 (Happylife) feuert auf Leyla (Zarathustra) und trifft. Schaden: 472(10671/13572).
+Lola (Zarathustra) feuert auf Hummel 007 (Happylife) und trifft knapp. Schaden: 1085(12053/13416).
+Lola (Zarathustra) feuert auf 03 (Happylife) und trifft. Schaden: 2649(9738/13416).
+Lola (Zarathustra) feuert auf Hummel 010 (Happylife) und trifft. Schaden: 1105(11449/13416).
+Lola (Zarathustra) feuert auf Hummel 009 (Happylife) und trifft. Schaden: 923(11181/13416).
+Biene 1 005 (Happylife) feuert auf Dina (Zarathustra) und trifft. Schaden: 629(22154/25582).
+Biene 018 (Happylife) feuert auf Esmeralda (Zarathustra) und trifft. Schaden: 591(20444/21793).
+Biene 0203 (Happylife) feuert auf Katja (Zarathustra) und trifft. Schaden: 543(21480/25730).
+Biene 0088 (Happylife) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 555(23781/25730).
+Biene 0109 (Happylife) feuert auf Cassandra (Zarathustra) und erzielt einenschweren Treffer. Schaden: 1146(23238/25138).
+Biene 050 (Happylife) feuert auf Amelie (Zarathustra) und trifft. Schaden: 542(21052/24797).
+Fanboy 41 (Zarathustra) feuert auf 01 (Happylife) und trifft knapp. Schaden: 343(10265/13416).
+Biene 0048 (Happylife) feuert auf Dina (Zarathustra) und verfehlt.
+01 (Happylife) feuert auf Dina (Zarathustra) und trifft. Schaden: 633(21521/25582).
+01 (Happylife) feuert auf Leyla (Zarathustra) und trifft. Schaden: 122(10549/13572).
+Hummel 005 (Happylife) feuert auf Paula (Zarathustra) und trifft. Schaden: 878(22599/25641).
+Hummel 005 (Happylife) feuert auf Leyla (Zarathustra) und trifft. Schaden: 184(10365/13572).
+Biene 1 001 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 449(20163/22622).
+Fanboy 12 (Zarathustra) feuert auf Hummel 008 (Happylife) und trifft knapp. Schaden: 318(9082/13416).
+Paula (Zarathustra) feuert auf Biene 0132 (Happylife) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 0132 (Happylife) und trifft. Schaden: 1865(0/358).
+Biene 0132 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0130 (Happylife) und trifft. Schaden: 1427(0/358).
+Biene 0130 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 1 024 (Happylife) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 1 024 (Happylife) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 0032 (Happylife) und trifft. Schaden: 517(0/358).
+Biene 0032 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0044 (Happylife) und trifft. Schaden: 438(0/358).
+Biene 0044 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0 043 (Happylife) und trifft. Schaden: 502(0/358).
+Biene 0 043 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0006 (Happylife) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 0006 (Happylife) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 010 (Happylife) und trifft. Schaden: 499(0/358).
+Biene 010 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0189 (Happylife) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 0189 (Happylife) und trifft. Schaden: 290(68/358).
+Versuchte Flucht des Schiffes Biene 0189 (Happylife) ist fehlgeschlagen
+Paula (Zarathustra) feuert auf Biene 05 (Happylife) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 05 (Happylife) und trifft. Schaden: 406(0/358).
+Biene 05 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0 002 (Happylife) und trifft. Schaden: 347(11/358).
+Das Schiff Biene 0 002 (Happylife) ist erfolgreich geflohen
+Paula (Zarathustra) feuert auf Biene 024 (Happylife) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 024 (Happylife) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 0126 (Happylife) und trifft. Schaden: 542(0/358).
+Biene 0126 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 036 (Happylife) und trifft knapp. Schaden: 236(122/358).
+Das Schiff Biene 036 (Happylife) ist erfolgreich geflohen
+Hummel 012 (Happylife) feuert auf Jasmin (Zarathustra) und trifft. Schaden: 729(21850/25019).
+Hummel 012 (Happylife) feuert auf Christina (Zarathustra) und verfehlt.
+Hummel 003 (Happylife) feuert auf Leyla (Zarathustra) und verfehlt.
+Hummel 003 (Happylife) feuert auf Esmeralda (Zarathustra) und trifft. Schaden: 219(20225/21793).
+Biene 049 (Happylife) feuert auf Cecile (Zarathustra) und verfehlt.
+Biene 0 030 (Happylife) feuert auf Xena (Zarathustra) und trifft. Schaden: 406(24572/25804).
+Fanboy 13 (Zarathustra) feuert auf Drohne 03 (Happylife) und trifft knapp. Schaden: 275(9591/12819).
+Hummel 009 (Happylife) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 741(23040/25730).
+Hummel 009 (Happylife) feuert auf Zahra (Zarathustra) und trifft. Schaden: 190(25239/25582).
+Biene 0174 (Happylife) feuert auf Christina (Zarathustra) und trifft knapp. Schaden: 264(18539/19048).
+Biene 012 015 (Happylife) feuert auf Katja (Zarathustra) und trifft. Schaden: 401(21079/25730).
+Drohne 03 (Happylife) feuert auf Ressschlampe (Zarathustra) und trifft. Schaden: 1334(0/6379).
+Ressschlampe (Zarathustra) wurde zerstört
+Cecile (Zarathustra) feuert auf Hummel 007 (Happylife) und trifft. Schaden: 2505(9548/13416).
+Cecile (Zarathustra) feuert auf Drohne 03 (Happylife) und verfehlt.
+Cecile (Zarathustra) feuert auf Hummel 010 (Happylife) und trifft. Schaden: 955(10494/13416).
+Cecile (Zarathustra) feuert auf Drohne 006 (Happylife) und trifft knapp. Schaden: 440(9915/13416).
+Cecile (Zarathustra) feuert auf Biene 0 037 (Happylife) und trifft. Schaden: 450(0/358).
+Biene 0 037 (Happylife) wurde zerstört
+Justina (Zarathustra) feuert auf Drohne 01 (Happylife) und trifft. Schaden: 2406(9147/12819).
+Justina (Zarathustra) feuert auf Drohne 006 (Happylife) und trifft. Schaden: 1879(8036/13416).
+Justina (Zarathustra) feuert auf Hummel 007 (Happylife) und trifft. Schaden: 1210(8338/13416).
+Justina (Zarathustra) feuert auf Hummel 002 (Happylife) und trifft. Schaden: 1072(6878/13416).
+Justina (Zarathustra) feuert auf Biene 0216 (Happylife) und trifft. Schaden: 416(0/358).
+Biene 0216 (Happylife) wurde zerstört
+Biene 064 (Happylife) feuert auf Atalya (Zarathustra) und verfehlt.
+Biene 0176 (Happylife) feuert auf Katharina (Zarathustra) und trifft. Schaden: 694(23768/25730).
+Fanboy 40 (Zarathustra) feuert auf Hummel 005 (Happylife) und trifft. Schaden: 765(12651/13416).
+Fanboy 33 (Zarathustra) feuert auf 01 (Happylife) und trifft. Schaden: 549(9716/13416).
+Biene 0124 (Happylife) feuert auf Cecile (Zarathustra) und trifft. Schaden: 636(23140/25730).
+Biene 0027 (Happylife) feuert auf Nova (Zarathustra) und trifft. Schaden: 576(22626/25582).
+Biene 0140 (Happylife) feuert auf Katja (Zarathustra) und erzielt einenschweren Treffer. Schaden: 1195(19884/25730).
+Königin 02 (Happylife) feuert auf Atalya (Zarathustra) und trifft. Schaden: 336(17268/19610).
+Königin 02 (Happylife) feuert auf Penelope (Zarathustra) und trifft knapp. Schaden: 314(22812/24612).
+Fanboy 14 (Zarathustra) feuert auf Hummel 007 (Happylife) und verfehlt.
+Biene 0 028 (Happylife) feuert auf Marguerite (Zarathustra) und trifft. Schaden: 643(23509/25360).
+Biene 0180 (Happylife) feuert auf Paula (Zarathustra) und verfehlt.
+Fanboy 36 (Zarathustra) feuert auf Hummel 001 (Happylife) und trifft. Schaden: 656(8967/13416).
+Biene 0169 (Happylife) feuert auf Penelope (Zarathustra) und trifft. Schaden: 604(22208/24612).
+Biene (Happylife) feuert auf Emma (Zarathustra) und trifft. Schaden: 543(17460/19625).
+Fanboy 46 (Zarathustra) feuert auf Drohne 003 (Happylife) und trifft. Schaden: 561(12855/13416).
+Biene 017 (Happylife) feuert auf Alisha (Zarathustra) und trifft. Schaden: 756(16349/21342).
+Fanboy 42 (Zarathustra) feuert auf Hummel 002 (Happylife) und trifft. Schaden: 604(6274/13416).
+Biene 1 014 (Happylife) feuert auf Katja (Zarathustra) und trifft. Schaden: 470(19414/25730).
+Hummel 011 (Happylife) feuert auf Cassandra (Zarathustra) und trifft. Schaden: 974(22264/25138).
+Hummel 011 (Happylife) feuert auf Atalya (Zarathustra) und trifft. Schaden: 183(17085/19610).
+Fanboy 35 (Zarathustra) feuert auf 02 (Happylife) und trifft. Schaden: 897(10675/13416).
+Biene 012 013 (Happylife) feuert auf Arielle (Zarathustra) und verfehlt.
+Biene 0002 (Happylife) feuert auf Esmeralda (Zarathustra) und trifft. Schaden: 476(19749/21793).
+Biene 0163 (Happylife) feuert auf Zahra (Zarathustra) und trifft. Schaden: 587(24652/25582).
+Drohne 001 (Happylife) feuert auf Marguerite (Zarathustra) und trifft. Schaden: 627(22882/25360).
+Drohne 001 (Happylife) feuert auf Penelope (Zarathustra) und trifft knapp. Schaden: 54(22154/24612).
+Biene 0030 (Happylife) feuert auf Alisha (Zarathustra) und verfehlt.
+Biene 0049 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 528(14566/17434).
+Biene 0076 (Happylife) feuert auf Cassandra (Zarathustra) und trifft. Schaden: 611(21653/25138).
+Biene 0012 (Happylife) feuert auf Katharina (Zarathustra) und verfehlt.
+Biene 1 017 (Happylife) feuert auf Annabelle (Zarathustra) und verfehlt.
+Biene 0051 (Happylife) feuert auf Xena (Zarathustra) und verfehlt.
+Christina (Zarathustra) feuert auf Biene 0174 (Happylife) und verfehlt.
+Christina (Zarathustra) feuert auf Biene 0007 (Happylife) und verfehlt.
+Christina (Zarathustra) feuert auf Biene 012 030 (Happylife) und trifft. Schaden: 1450(0/358).
+Biene 012 030 (Happylife) wurde zerstört
+Christina (Zarathustra) feuert auf Biene 0188 (Happylife) und verfehlt.
+Christina (Zarathustra) feuert auf Biene 052 (Happylife) und trifft. Schaden: 1476(0/358).
+Biene 052 (Happylife) wurde zerstört
+Christina (Zarathustra) feuert auf Biene 0080 (Happylife) und verfehlt.
+Biene 0145 (Happylife) feuert auf Jasmin (Zarathustra) und trifft. Schaden: 528(21322/25019).
+Biene 0 042 (Happylife) feuert auf Josephine (Zarathustra) und trifft knapp. Schaden: 257(21951/22851).
+Biene 012 021 (Happylife) feuert auf Alisha Zafira (Zarathustra) und trifft. Schaden: 401(24974/25582).
+Biene 0208 (Happylife) feuert auf Marguerite (Zarathustra) und verfehlt.
+Hummel 001 (Happylife) feuert auf Christina (Zarathustra) und verfehlt.
+Hummel 001 (Happylife) feuert auf Katharina (Zarathustra) und trifft. Schaden: 193(23575/25730).
+Biene 0 045 (Happylife) feuert auf Nova (Zarathustra) und verfehlt.
+Biene 037 (Happylife) feuert auf Annabelle (Zarathustra) und trifft knapp. Schaden: 307(22733/25730).
+Xena (Zarathustra) feuert auf Hummel 011 (Happylife) und verfehlt.
+Xena (Zarathustra) feuert auf Hummel 006 (Happylife) und trifft. Schaden: 2858(10558/13416).
+Xena (Zarathustra) feuert auf 01 (Happylife) und trifft. Schaden: 799(8917/13416).
+Xena (Zarathustra) feuert auf Hummel 006 (Happylife) und verfehlt.
+Biene 0105 (Happylife) feuert auf Katja (Zarathustra) und verfehlt.
+Biene 012 014 (Happylife) feuert auf Leyla (Zarathustra) und trifft. Schaden: 698(9667/13572).
+Biene 039 (Happylife) feuert auf Amelie (Zarathustra) und verfehlt.
+Biene 012 016 (Happylife) feuert auf Marguerite (Zarathustra) und trifft knapp. Schaden: 224(22658/25360).
+Biene 0054 (Happylife) feuert auf Zahra (Zarathustra) und trifft. Schaden: 372(24280/25582).
+Biene 1 020 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 507(14059/17434).
+Biene 0148 (Happylife) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 442(22291/25730).
+Biene 013 (Happylife) feuert auf Alisha Zafira (Zarathustra) und erzielt einenschweren Treffer. Schaden: 991(23983/25582).
+Biene 0070 (Happylife) feuert auf Zahra (Zarathustra) und trifft knapp. Schaden: 184(24096/25582).
+Alisha Zafira (Zarathustra) feuert auf Drohne 01 (Happylife) und verfehlt.
+Alisha Zafira (Zarathustra) feuert auf Drohne 03 (Happylife) und trifft. Schaden: 2556(7035/12819).
+Alisha Zafira (Zarathustra) feuert auf Hummel 009 (Happylife) und trifft knapp. Schaden: 478(10703/13416).
+Alisha Zafira (Zarathustra) feuert auf Drohne 02 (Happylife) und verfehlt.
+Biene 012 029 (Happylife) feuert auf Atalya (Zarathustra) und verfehlt.
+Fanboy 07 (Zarathustra) feuert auf 01 (Happylife) und trifft. Schaden: 850(8067/13416).
+Melina (Zarathustra) feuert auf Hummel 004 (Happylife) und trifft. Schaden: 2614(7721/13416).
+Melina (Zarathustra) feuert auf Drohne 03 (Happylife) und trifft knapp. Schaden: 796(6239/12819).
+Melina (Zarathustra) feuert auf Hummel 011 (Happylife) und trifft. Schaden: 933(11328/13416).
+Melina (Zarathustra) feuert auf Hummel 006 (Happylife) und trifft. Schaden: 1125(9433/13416).
+Biene 0 019 (Happylife) feuert auf Katharina (Zarathustra) und trifft. Schaden: 509(23066/25730).
+Biene 060 (Happylife) feuert auf Cecile (Zarathustra) und trifft knapp. Schaden: 233(22907/25730).
+Biene 0185 (Happylife) feuert auf Alisha (Zarathustra) und trifft. Schaden: 683(15666/21342).
+Biene 0202 (Happylife) feuert auf Justina (Zarathustra) und trifft. Schaden: 626(22956/25730).
+Biene 0041 (Happylife) feuert auf Alisha (Zarathustra) und trifft. Schaden: 426(15240/21342).
+Biene 0028 (Happylife) feuert auf Marguerite (Zarathustra) und trifft. Schaden: 376(22282/25360).
+Hummel 002 (Happylife) feuert auf Justina (Zarathustra) und trifft knapp. Schaden: 508(22448/25730).
+Hummel 002 (Happylife) feuert auf Emma (Zarathustra) und trifft. Schaden: 114(17346/19625).
+Fanboy 45 (Zarathustra) feuert auf Drohne 008 (Happylife) und verfehlt.
+Atalya (Zarathustra) feuert auf Hummel 010 (Happylife) und verfehlt.
+Atalya (Zarathustra) feuert auf Hummel 007 (Happylife) und verfehlt.
+Atalya (Zarathustra) feuert auf Drohne 008 (Happylife) und trifft. Schaden: 918(7089/13416).
+Biene 0096 (Happylife) feuert auf Christina (Zarathustra) und trifft. Schaden: 422(18117/19048).
+Biene 0 017 (Happylife) feuert auf Arielle (Zarathustra) und trifft. Schaden: 506(23499/25434).
+Jasmin (Zarathustra) feuert auf Hummel 009 (Happylife) und verfehlt.
+Jasmin (Zarathustra) feuert auf Drohne 008 (Happylife) und trifft. Schaden: 1352(5737/13416).
+Jasmin (Zarathustra) feuert auf Hummel 011 (Happylife) und verfehlt.
+Biene 024 (Happylife) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 469(21822/25730).
+Biene 0125 (Happylife) feuert auf Esmeralda (Zarathustra) und trifft knapp. Schaden: 297(19452/21793).
+Biene 0094 (Happylife) feuert auf Katharina (Zarathustra) und trifft knapp. Schaden: 271(22795/25730).
+Biene 0210 (Happylife) feuert auf Paula (Zarathustra) und trifft. Schaden: 490(22109/25641).
+Biene 1 007 (Happylife) feuert auf Dina (Zarathustra) und trifft. Schaden: 639(20882/25582).
+Biene 0111 (Happylife) feuert auf Amelie (Zarathustra) und trifft. Schaden: 420(20632/24797).
+Biene 0192 (Happylife) feuert auf Alisha Zafira (Zarathustra) und trifft. Schaden: 590(23393/25582).
+03 (Happylife) feuert auf Christina (Zarathustra) und verfehlt.
+03 (Happylife) feuert auf Zahra (Zarathustra) und trifft. Schaden: 132(23964/25582).
+Biene 012 010 (Happylife) feuert auf Leyla (Zarathustra) und trifft. Schaden: 690(8977/13572).
+Emma (Zarathustra) feuert auf Drohne 001 (Happylife) und verfehlt.
+Emma (Zarathustra) feuert auf Hummel 002 (Happylife) und trifft. Schaden: 2036(4238/13416).
+Emma (Zarathustra) feuert auf 02 (Happylife) und trifft. Schaden: 997(9678/13416).
+Biene 0067 (Happylife) feuert auf Cecile (Zarathustra) und trifft. Schaden: 375(22532/25730).
+Biene 0156 (Happylife) feuert auf Cassandra (Zarathustra) und trifft. Schaden: 452(21201/25138).
+Biene 0170 (Happylife) feuert auf Emma (Zarathustra) und trifft. Schaden: 488(16858/19625).
+Biene 0 010 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 632(13427/17434).
+Penelope (Zarathustra) feuert auf Königin 02 (Happylife) und trifft knapp. Schaden: 757(6809/7566).
+Das Schiff Königin 02 (Happylife) ist erfolgreich geflohen
+Penelope (Zarathustra) feuert auf Drohne 006 (Happylife) und trifft. Schaden: 1823(6213/13416).
+Penelope (Zarathustra) feuert auf Hummel 005 (Happylife) und trifft knapp. Schaden: 551(12100/13416).
+Katja (Zarathustra) feuert auf Hummel 012 (Happylife) und trifft knapp. Schaden: 739(11283/13416).
+Katja (Zarathustra) feuert auf Drohne 006 (Happylife) und trifft. Schaden: 2937(3276/13416).
+Versuchte Flucht des Schiffes Drohne 006 (Happylife) ist fehlgeschlagen
+Katja (Zarathustra) feuert auf Drohne 008 (Happylife) und trifft. Schaden: 987(4750/13416).
+Katja (Zarathustra) feuert auf Hummel 002 (Happylife) und verfehlt.
+Katja (Zarathustra) feuert auf Biene 0 013 (Happylife) und trifft knapp. Schaden: 134(224/358).
+Katja (Zarathustra) feuert auf Biene 0 013 (Happylife) und trifft. Schaden: 330(0/358).
+Biene 0 013 (Happylife) wurde zerstört
+Biene 012 005 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 581(19582/22622).
+Biene 012 018 (Happylife) feuert auf Cassandra (Zarathustra) und trifft. Schaden: 601(20600/25138).
+Biene 0081 (Happylife) feuert auf Amelie (Zarathustra) und trifft. Schaden: 537(20095/24797).
+Biene 042 (Happylife) feuert auf Josephine (Zarathustra) und erzielt einenschweren Treffer. Schaden: 1376(20575/22851).
+Biene 0001 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 461(12966/17434).
+Biene 0003 (Happylife) feuert auf Melina (Zarathustra) und trifft. Schaden: 547(22685/25582).
+Biene 0162 (Happylife) feuert auf Dina (Zarathustra) und trifft. Schaden: 557(20325/25582).
+Biene 012 009 (Happylife) feuert auf Leyla (Zarathustra) und trifft. Schaden: 483(8494/13572).
+Biene 0101 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 457(19125/22622).
+Biene 012 024 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 471(18654/22622).
+Nova (Zarathustra) feuert auf Drohne 02 (Happylife) und verfehlt.
+Nova (Zarathustra) feuert auf Drohne 03 (Happylife) und trifft knapp. Schaden: 1283(4956/12819).
+Nova (Zarathustra) feuert auf Drohne 008 (Happylife) und trifft. Schaden: 937(3813/13416).
+Das Schiff Drohne 008 (Happylife) ist erfolgreich geflohen
+Nova (Zarathustra) feuert auf Hummel 007 (Happylife) und trifft. Schaden: 1181(7157/13416).
+Biene 0092 (Happylife) feuert auf Amelie (Zarathustra) und trifft. Schaden: 550(19545/24797).
+Biene 0062 (Happylife) feuert auf Melina (Zarathustra) und trifft knapp. Schaden: 168(22517/25582).
+Tiara (Zarathustra) feuert auf Hummel 012 (Happylife) und trifft knapp. Schaden: 932(10351/13416).
+Tiara (Zarathustra) feuert auf Drohne 03 (Happylife) und trifft. Schaden: 1362(3594/12819).
+Das Schiff Drohne 03 (Happylife) ist erfolgreich geflohen
+Tiara (Zarathustra) feuert auf Drohne 006 (Happylife) und trifft. Schaden: 1059(2217/13416).
+Das Schiff Drohne 006 (Happylife) ist erfolgreich geflohen
+Tiara (Zarathustra) feuert auf Hummel 004 (Happylife) und verfehlt.
+Hummel 007 (Happylife) feuert auf Jasmin (Zarathustra) und verfehlt.
+Hummel 007 (Happylife) feuert auf Alisha Zafira (Zarathustra) und trifft. Schaden: 148(23245/25582).
+Biene 0 027 (Happylife) feuert auf Katja (Zarathustra) und trifft. Schaden: 558(18856/25730).
+Biene 029 (Happylife) feuert auf Melina (Zarathustra) und trifft. Schaden: 524(21993/25582).
+Biene 055 (Happylife) feuert auf Arielle (Zarathustra) und trifft knapp. Schaden: 219(23280/25434).
+Biene 0 021 (Happylife) feuert auf Katja (Zarathustra) und trifft. Schaden: 686(18170/25730).
+Drohne 02 (Happylife) feuert auf Fanboy 38 (Zarathustra) und verfehlt.
+Biene 1 023 (Happylife) feuert auf Nova (Zarathustra) und trifft. Schaden: 394(22232/25582).
+Biene 0121 (Happylife) feuert auf Atalya (Zarathustra) und trifft knapp. Schaden: 227(16858/19610).
+Biene 0078 (Happylife) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 460(21362/25730).
+Fanboy 47 (Zarathustra) feuert auf Hummel 006 (Happylife) und trifft. Schaden: 809(8624/13416).
+Biene 0 035 (Happylife) feuert auf Dina (Zarathustra) und trifft knapp. Schaden: 187(20138/25582).
+Biene 044 (Happylife) feuert auf Cassandra (Zarathustra) und trifft. Schaden: 503(20097/25138).
+Biene 0137 (Happylife) feuert auf Arielle (Zarathustra) und trifft knapp. Schaden: 323(22957/25434).
+Biene 0093 (Happylife) feuert auf Zahra (Zarathustra) und trifft. Schaden: 448(23516/25582).
+Biene 1 002 (Happylife) feuert auf Josephine (Zarathustra) und trifft. Schaden: 566(20009/22851).
+Fanboy 44 (Zarathustra) feuert auf Hummel 011 (Happylife) und verfehlt.
+Biene 0087 (Happylife) feuert auf Melina (Zarathustra) und trifft. Schaden: 501(21492/25582).
+Biene 012 028 (Happylife) feuert auf Nova (Zarathustra) und trifft knapp. Schaden: 248(21984/25582).
+Biene 0097 (Happylife) feuert auf Emma (Zarathustra) und trifft knapp. Schaden: 234(16624/19625).
+Fanboy 32 (Zarathustra) feuert auf Hummel 004 (Happylife) und trifft. Schaden: 752(6969/13416).
+Biene 0045 (Happylife) feuert auf Alisha Zafira (Zarathustra) und erzielt einenschweren Treffer. Schaden: 987(22258/25582).
+Biene 0040 (Happylife) feuert auf Zahra (Zarathustra) und trifft. Schaden: 657(22859/25582).
+Biene 0057 (Happylife) feuert auf Lola (Zarathustra) und trifft. Schaden: 613(23353/25582).
+Biene 0209 (Happylife) feuert auf Penelope (Zarathustra) und trifft. Schaden: 673(21481/24612).
+Biene 0212 (Happylife) feuert auf Dina (Zarathustra) und trifft. Schaden: 526(19612/25582).
+Biene 0063 (Happylife) feuert auf Cassandra (Zarathustra) und trifft. Schaden: 354(19743/25138).
+Drohne 003 (Happylife) feuert auf Lola (Zarathustra) und trifft. Schaden: 757(22596/25582).
+Drohne 003 (Happylife) feuert auf Melina (Zarathustra) und trifft. Schaden: 137(21355/25582).
+Biene 035 (Happylife) feuert auf Justina (Zarathustra) und trifft. Schaden: 583(21865/25730).
+Biene 062 (Happylife) feuert auf Leyla (Zarathustra) und trifft. Schaden: 564(7930/13572).
+Biene 016 (Happylife) feuert auf Xena (Zarathustra) und verfehlt.
+Biene 0 012 (Happylife) feuert auf Marguerite (Zarathustra) und verfehlt.
+Biene 034 (Happylife) feuert auf Esmeralda (Zarathustra) und trifft knapp. Schaden: 360(19092/21793).
+Biene 0136 (Happylife) feuert auf Cassandra (Zarathustra) und trifft. Schaden: 587(19156/25138).
+Biene 0022 (Happylife) feuert auf Katharina (Zarathustra) und trifft. Schaden: 650(22145/25730).
+Biene 0123 (Happylife) feuert auf Leyla (Zarathustra) und erzielt einen kritischen Treffer. Schaden: 2000(5930/13572).
+Biene 026 (Happylife) feuert auf Christina (Zarathustra) und trifft knapp. Schaden: 285(17832/19048).
+Biene 0082 (Happylife) feuert auf Xena (Zarathustra) und trifft. Schaden: 628(23944/25804).
+Amelie (Zarathustra) feuert auf Drohne 003 (Happylife) und trifft. Schaden: 1710(11145/13416).
+Amelie (Zarathustra) feuert auf 01 (Happylife) und verfehlt.
+Amelie (Zarathustra) feuert auf Drohne 005 (Happylife) und verfehlt.
+Biene 0100 (Happylife) feuert auf Cecile (Zarathustra) und trifft. Schaden: 672(21860/25730).
+Biene 0213 (Happylife) feuert auf Zahra (Zarathustra) und trifft. Schaden: 458(22401/25582).
+Biene 051 (Happylife) feuert auf Katharina (Zarathustra) und verfehlt.
+Biene 0156 (Happylife) feuert auf Melina (Zarathustra) und verfehlt.
+Biene 0123 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 455(12511/17434).
+Biene 1 005 (Happylife) feuert auf Alisha Zafira (Zarathustra) und trifft. Schaden: 627(21631/25582).
+Biene 1 023 (Happylife) feuert auf Katharina (Zarathustra) und verfehlt.
+Biene 0199 (Happylife) feuert auf Xena (Zarathustra) und trifft. Schaden: 455(23489/25804).
+Hummel 003 (Happylife) feuert auf Esmeralda (Zarathustra) und trifft. Schaden: 783(18309/21793).
+Hummel 003 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 201(12310/17434).
+Biene 0198 (Happylife) feuert auf Jasmin (Zarathustra) und trifft. Schaden: 466(20856/25019).
+Fanboy 04 (Zarathustra) feuert auf Hummel 008 (Happylife) und trifft. Schaden: 681(8401/13416).
+01 (Happylife) feuert auf Dina (Zarathustra) und trifft. Schaden: 754(18858/25582).
+01 (Happylife) feuert auf Josephine (Zarathustra) und trifft. Schaden: 118(19891/22851).
+Biene 024 (Happylife) feuert auf Katja (Zarathustra) und verfehlt.
+Fanboy 03 (Zarathustra) feuert auf 03 (Happylife) und trifft. Schaden: 651(9087/13416).
+Fanboy 44 (Zarathustra) feuert auf Drohne 02 (Happylife) und trifft. Schaden: 434(11897/12819).
+Biene 0151 (Happylife) feuert auf Marguerite (Zarathustra) und trifft. Schaden: 501(21781/25360).
+Biene 0010 (Happylife) feuert auf Zahra (Zarathustra) und trifft. Schaden: 530(21871/25582).
+Biene 0131 (Happylife) feuert auf Justina (Zarathustra) und trifft knapp. Schaden: 234(21631/25730).
+Biene 066 (Happylife) feuert auf Alisha Zafira (Zarathustra) und trifft. Schaden: 364(21267/25582).
+Hummel 005 (Happylife) feuert auf Cecile (Zarathustra) und trifft. Schaden: 835(21025/25730).
+Hummel 005 (Happylife) feuert auf Katja (Zarathustra) und trifft knapp. Schaden: 69(18101/25730).
+Christina (Zarathustra) feuert auf Biene 050 (Happylife) und verfehlt.
+Christina (Zarathustra) feuert auf Biene 0012 (Happylife) und trifft. Schaden: 1472(0/358).
+Biene 0012 (Happylife) wurde zerstört
+Christina (Zarathustra) feuert auf Biene 050 (Happylife) und trifft. Schaden: 2238(0/358).
+Biene 050 (Happylife) wurde zerstört
+Christina (Zarathustra) feuert auf Biene 0121 (Happylife) und verfehlt.
+Christina (Zarathustra) feuert auf Biene 0194 (Happylife) und trifft knapp. Schaden: 476(0/358).
+Biene 0194 (Happylife) wurde zerstört
+Christina (Zarathustra) feuert auf Biene 0211 (Happylife) und trifft. Schaden: 1108(0/358).
+Biene 0211 (Happylife) wurde zerstört
+Hummel 008 (Happylife) feuert auf Alisha (Zarathustra) und trifft. Schaden: 1125(14115/21342).
+Hummel 008 (Happylife) feuert auf Xena (Zarathustra) und trifft knapp. Schaden: 75(23414/25804).
+Jasmin (Zarathustra) feuert auf Drohne 002 (Happylife) und verfehlt.
+Jasmin (Zarathustra) feuert auf Hummel 010 (Happylife) und trifft. Schaden: 1581(8913/13416).
+Jasmin (Zarathustra) feuert auf 02 (Happylife) und verfehlt.
+Esmee (Zarathustra) feuert auf Drohne 02 (Happylife) und trifft. Schaden: 2514(9383/12819).
+Esmee (Zarathustra) feuert auf Drohne 005 (Happylife) und trifft. Schaden: 2414(6733/13416).
+Esmee (Zarathustra) feuert auf Hummel 012 (Happylife) und trifft. Schaden: 980(9371/13416).
+Esmee (Zarathustra) feuert auf Hummel 007 (Happylife) und trifft. Schaden: 821(6336/13416).
+Biene 0058 (Happylife) feuert auf Penelope (Zarathustra) und trifft. Schaden: 463(21018/24612).
+Biene 0063 (Happylife) feuert auf Marguerite (Zarathustra) und trifft knapp. Schaden: 219(21562/25360).
+Fanboy 47 (Zarathustra) feuert auf Hummel 010 (Happylife) und trifft. Schaden: 566(8347/13416).
+Atalya (Zarathustra) feuert auf Hummel 008 (Happylife) und verfehlt.
+Atalya (Zarathustra) feuert auf Hummel 011 (Happylife) und trifft knapp. Schaden: 1434(9894/13416).
+Atalya (Zarathustra) feuert auf Drohne 005 (Happylife) und trifft knapp. Schaden: 377(6356/13416).
+Biene 0212 (Happylife) feuert auf Paula (Zarathustra) und verfehlt.
+Biene 039 (Happylife) feuert auf Cecile (Zarathustra) und trifft. Schaden: 393(20632/25730).
+Biene 0 018 (Happylife) feuert auf Emma (Zarathustra) und trifft. Schaden: 484(16140/19625).
+Biene 067 (Happylife) feuert auf Christina (Zarathustra) und trifft. Schaden: 481(17351/19048).
+Biene 1 017 (Happylife) feuert auf Leyla (Zarathustra) und trifft. Schaden: 526(5404/13572).
+Drohne 002 (Happylife) feuert auf Leyla (Zarathustra) und trifft. Schaden: 887(4517/13572).
+Drohne 002 (Happylife) feuert auf Cecile (Zarathustra) und trifft. Schaden: 131(20501/25730).
+Biene 0 017 (Happylife) feuert auf Melina (Zarathustra) und trifft. Schaden: 577(20778/25582).
+Biene 0065 (Happylife) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 455(20907/25730).
+Cassandra (Zarathustra) feuert auf Hummel 011 (Happylife) und trifft. Schaden: 1945(7949/13416).
+Cassandra (Zarathustra) feuert auf Hummel 002 (Happylife) und trifft knapp. Schaden: 711(3527/13416).
+Das Schiff Hummel 002 (Happylife) ist erfolgreich geflohen
+Cassandra (Zarathustra) feuert auf Drohne 01 (Happylife) und trifft knapp. Schaden: 435(8712/12819).
+Cassandra (Zarathustra) feuert auf Hummel 007 (Happylife) und trifft. Schaden: 1026(5310/13416).
+Biene 0047 (Happylife) feuert auf Cassandra (Zarathustra) und trifft. Schaden: 343(18813/25138).
+Josephine (Zarathustra) feuert auf Hummel 004 (Happylife) und trifft knapp. Schaden: 873(6096/13416).
+Josephine (Zarathustra) feuert auf Drohne 001 (Happylife) und trifft. Schaden: 2495(10921/13416).
+Josephine (Zarathustra) feuert auf Hummel 003 (Happylife) und verfehlt.
+Josephine (Zarathustra) feuert auf Drohne 005 (Happylife) und trifft knapp. Schaden: 436(5920/13416).
+Biene 0195 (Happylife) feuert auf Justina (Zarathustra) und trifft. Schaden: 472(21159/25730).
+Justina (Zarathustra) feuert auf Drohne 02 (Happylife) und trifft knapp. Schaden: 747(8636/12819).
+Justina (Zarathustra) feuert auf 03 (Happylife) und verfehlt.
+Justina (Zarathustra) feuert auf Hummel 007 (Happylife) und trifft. Schaden: 946(4364/13416).
+Justina (Zarathustra) feuert auf Drohne 002 (Happylife) und trifft. Schaden: 753(12663/13416).
+Justina (Zarathustra) feuert auf Biene 0 030 (Happylife) und erzielt einenschweren Treffer. Schaden: 1016(0/358).
+Biene 0 030 (Happylife) wurde zerstört
+Biene 1 009 (Happylife) feuert auf Dina (Zarathustra) und trifft. Schaden: 423(18435/25582).
+Biene 030 (Happylife) feuert auf Melina (Zarathustra) und trifft. Schaden: 513(20265/25582).
+Hummel 006 (Happylife) feuert auf Atalya (Zarathustra) und trifft. Schaden: 741(16117/19610).
+Hummel 006 (Happylife) feuert auf Leyla (Zarathustra) und verfehlt.
+Biene 0113 (Happylife) feuert auf Paula (Zarathustra) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 0030 (Happylife) und trifft. Schaden: 2009(0/358).
+Biene 0030 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0196 (Happylife) und trifft. Schaden: 1664(0/358).
+Biene 0196 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0136 (Happylife) und trifft. Schaden: 304(54/358).
+Das Schiff Biene 0136 (Happylife) ist erfolgreich geflohen
+Paula (Zarathustra) feuert auf Biene 0203 (Happylife) und trifft. Schaden: 499(0/358).
+Biene 0203 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0177 (Happylife) und trifft. Schaden: 331(27/358).
+Versuchte Flucht des Schiffes Biene 0177 (Happylife) ist fehlgeschlagen
+Paula (Zarathustra) feuert auf Biene 0177 (Happylife) und trifft. Schaden: 468(0/358).
+Biene 0177 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0068 (Happylife) und trifft. Schaden: 477(0/358).
+Biene 0068 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 1 023 (Happylife) und trifft. Schaden: 378(0/358).
+Biene 1 023 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0185 (Happylife) und trifft. Schaden: 582(0/358).
+Biene 0185 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0057 (Happylife) und trifft. Schaden: 417(0/358).
+Biene 0057 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0 044 (Happylife) und trifft. Schaden: 338(20/358).
+Das Schiff Biene 0 044 (Happylife) ist erfolgreich geflohen
+Paula (Zarathustra) feuert auf Biene 0137 (Happylife) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 0137 (Happylife) und trifft. Schaden: 407(0/358).
+Biene 0137 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 012 014 (Happylife) und trifft. Schaden: 386(0/358).
+Biene 012 014 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0067 (Happylife) und trifft. Schaden: 443(0/358).
+Biene 0067 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0 005 (Happylife) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 0 005 (Happylife) und trifft knapp. Schaden: 150(208/358).
+Biene 0 025 (Happylife) feuert auf Xena (Zarathustra) und verfehlt.
+Biene 0002 (Happylife) feuert auf Cassandra (Zarathustra) und trifft. Schaden: 620(18193/25138).
+Biene 048 (Happylife) feuert auf Emma (Zarathustra) und trifft. Schaden: 616(15524/19625).
+Biene 012 009 (Happylife) feuert auf Lola (Zarathustra) und trifft. Schaden: 585(22011/25582).
+Biene 0 038 (Happylife) feuert auf Penelope (Zarathustra) und trifft. Schaden: 552(20466/24612).
+Biene 0 045 (Happylife) feuert auf Sophia (Zarathustra) und trifft knapp. Schaden: 228(24003/25582).
+Biene 0082 (Happylife) feuert auf Paula (Zarathustra) und trifft knapp. Schaden: 210(21899/25641).
+Biene 0176 (Happylife) feuert auf Marguerite (Zarathustra) und verfehlt.
+Biene 034 (Happylife) feuert auf Cassandra (Zarathustra) und trifft. Schaden: 467(17726/25138).
+Biene 1 024 (Happylife) feuert auf Dina (Zarathustra) und trifft. Schaden: 487(17948/25582).
+Biene 012 027 (Happylife) feuert auf Justina (Zarathustra) und trifft. Schaden: 601(20558/25730).
+Drohne 001 (Happylife) feuert auf Emma (Zarathustra) und trifft. Schaden: 840(14684/19625).
+Drohne 001 (Happylife) feuert auf Justina (Zarathustra) und trifft. Schaden: 127(20431/25730).
+Biene 0031 (Happylife) feuert auf Cecile (Zarathustra) und verfehlt.
+Esmeralda (Zarathustra) feuert auf Drohne 01 (Happylife) und verfehlt.
+Esmeralda (Zarathustra) feuert auf 02 (Happylife) und trifft. Schaden: 2718(6960/13416).
+Biene 1 020 (Happylife) feuert auf Katharina (Zarathustra) und verfehlt.
+Leyla (Zarathustra) feuert auf Biene 0163 (Happylife) und trifft. Schaden: 1456(0/358).
+Biene 0163 (Happylife) wurde zerstört
+Leyla (Zarathustra) feuert auf Biene 012 021 (Happylife) und verfehlt.
+Leyla (Zarathustra) feuert auf Biene 0054 (Happylife) und verfehlt.
+Leyla (Zarathustra) feuert auf Biene 0056 (Happylife) und trifft. Schaden: 1543(0/358).
+Biene 0056 (Happylife) wurde zerstört
+Leyla (Zarathustra) feuert auf Biene 032 (Happylife) und verfehlt.
+Leyla (Zarathustra) feuert auf Biene 0002 (Happylife) und verfehlt.
+Katharina (Zarathustra) feuert auf Drohne 01 (Happylife) und verfehlt.
+Katharina (Zarathustra) feuert auf Drohne 004 (Happylife) und erzielt einenschweren Treffer. Schaden: 4710(5601/13416).
+Katharina (Zarathustra) feuert auf Hummel 008 (Happylife) und verfehlt.
+Katharina (Zarathustra) feuert auf Hummel 006 (Happylife) und trifft. Schaden: 999(7625/13416).
+Katharina (Zarathustra) feuert auf Biene 046 (Happylife) und verfehlt.
+Katharina (Zarathustra) feuert auf Biene 046 (Happylife) und trifft knapp. Schaden: 174(184/358).
+Biene 0 005 (Happylife) feuert auf Esmeralda (Zarathustra) und trifft. Schaden: 686(17623/21793).
+Biene 012 010 (Happylife) feuert auf Katharina (Zarathustra) und trifft. Schaden: 498(21647/25730).
+Biene 0164 (Happylife) feuert auf Alisha Zafira (Zarathustra) und trifft. Schaden: 566(20701/25582).
+Biene 056 (Happylife) feuert auf Xena (Zarathustra) und verfehlt.
+Biene 0 021 (Happylife) feuert auf Justina (Zarathustra) und trifft. Schaden: 393(20038/25730).
+Biene 0179 (Happylife) feuert auf Emma (Zarathustra) und verfehlt.
+Biene 0109 (Happylife) feuert auf Cecile (Zarathustra) und trifft. Schaden: 536(19965/25730).
+Biene 0006 (Happylife) feuert auf Atalya (Zarathustra) und trifft. Schaden: 576(15541/19610).
+Hummel 009 (Happylife) feuert auf Cassandra (Zarathustra) und trifft knapp. Schaden: 341(17385/25138).
+Hummel 009 (Happylife) feuert auf Xena (Zarathustra) und trifft. Schaden: 144(23270/25804).
+Biene 0103 (Happylife) feuert auf Cassandra (Zarathustra) und trifft. Schaden: 486(16899/25138).
+Biene 012 028 (Happylife) feuert auf Sophia (Zarathustra) und verfehlt.
+Biene 0 007 (Happylife) feuert auf Dina (Zarathustra) und trifft. Schaden: 620(17328/25582).
+Biene 0014 (Happylife) feuert auf Atalya (Zarathustra) und trifft knapp. Schaden: 269(15272/19610).
+Melina (Zarathustra) feuert auf Hummel 008 (Happylife) und trifft knapp. Schaden: 936(7465/13416).
+Melina (Zarathustra) feuert auf 02 (Happylife) und verfehlt.
+Melina (Zarathustra) feuert auf Drohne 003 (Happylife) und trifft. Schaden: 797(10348/13416).
+Melina (Zarathustra) feuert auf Drohne 002 (Happylife) und trifft. Schaden: 1087(11576/13416).
+Biene 032 (Happylife) feuert auf Katharina (Zarathustra) und trifft. Schaden: 596(21051/25730).
+Fanboy 37 (Zarathustra) feuert auf 03 (Happylife) und trifft. Schaden: 533(8554/13416).
+Sophia (Zarathustra) feuert auf Hummel 006 (Happylife) und trifft knapp. Schaden: 919(6706/13416).
+Sophia (Zarathustra) feuert auf Hummel 012 (Happylife) und trifft. Schaden: 1908(7463/13416).
+Sophia (Zarathustra) feuert auf Hummel 003 (Happylife) und verfehlt.
+Sophia (Zarathustra) feuert auf Drohne 01 (Happylife) und trifft. Schaden: 782(7930/12819).
+Biene 060 (Happylife) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 540(20367/25730).
+Biene 0 019 (Happylife) feuert auf Josephine (Zarathustra) und verfehlt.
+Biene 0096 (Happylife) feuert auf Josephine (Zarathustra) und trifft knapp. Schaden: 219(19672/22851).
+Biene 0081 (Happylife) feuert auf Josephine (Zarathustra) und erzielt einen kritischen Treffer. Schaden: 2017(17655/22851).
+Biene 0150 (Happylife) feuert auf Katja (Zarathustra) und verfehlt.
+Biene 0172 (Happylife) feuert auf Dina (Zarathustra) und verfehlt.
+Biene 012 018 (Happylife) feuert auf Dina (Zarathustra) und verfehlt.
+Biene 013 (Happylife) feuert auf Penelope (Zarathustra) und trifft. Schaden: 553(19913/24612).
+Biene 0070 (Happylife) feuert auf Lola (Zarathustra) und trifft. Schaden: 367(21644/25582).
+Biene 042 (Happylife) feuert auf Amelie (Zarathustra) und trifft. Schaden: 636(18909/24797).
+Biene 0115 (Happylife) feuert auf Nova (Zarathustra) und trifft knapp. Schaden: 240(21744/25582).
+Biene 012 022 (Happylife) feuert auf Alisha Zafira (Zarathustra) und trifft. Schaden: 524(20177/25582).
+Hummel 012 (Happylife) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 855(19512/25730).
+Hummel 012 (Happylife) feuert auf Jasmin (Zarathustra) und verfehlt.
+Biene 0 035 (Happylife) feuert auf Katja (Zarathustra) und erzielt einenschweren Treffer. Schaden: 1011(17090/25730).
+Biene 0162 (Happylife) feuert auf Christina (Zarathustra) und trifft knapp. Schaden: 287(17064/19048).
+Biene 0180 (Happylife) feuert auf Emma (Zarathustra) und trifft. Schaden: 634(14050/19625).
+Biene 040 (Happylife) feuert auf Esmee (Zarathustra) und trifft knapp. Schaden: 248(18406/22622).
+Biene 012 024 (Happylife) feuert auf Paula (Zarathustra) und trifft. Schaden: 407(21492/25641).
+Biene 0119 (Happylife) feuert auf Alisha Zafira (Zarathustra) und trifft knapp. Schaden: 236(19941/25582).
+Biene 012 007 (Happylife) feuert auf Katharina (Zarathustra) und trifft. Schaden: 536(20515/25730).
+Biene 0118 (Happylife) feuert auf Leyla (Zarathustra) und trifft knapp. Schaden: 260(4257/13572).
+Fanboy 36 (Zarathustra) feuert auf Drohne 004 (Happylife) und trifft knapp. Schaden: 325(5276/13416).
+Biene 0148 (Happylife) feuert auf Katharina (Zarathustra) und trifft. Schaden: 558(19957/25730).
+Arielle (Zarathustra) feuert auf 01 (Happylife) und verfehlt.
+Arielle (Zarathustra) feuert auf Hummel 001 (Happylife) und trifft. Schaden: 1960(7007/13416).
+Arielle (Zarathustra) feuert auf Hummel 012 (Happylife) und trifft. Schaden: 805(6658/13416).
+Arielle (Zarathustra) feuert auf Hummel 008 (Happylife) und trifft. Schaden: 857(6608/13416).
+Biene 0140 (Happylife) feuert auf Esmeralda (Zarathustra) und verfehlt.
+Biene 0091 (Happylife) feuert auf Katharina (Zarathustra) und trifft. Schaden: 534(19423/25730).
+Biene 0055 (Happylife) feuert auf Annabelle (Zarathustra) und verfehlt.
+Biene 0 012 (Happylife) feuert auf Sophia (Zarathustra) und verfehlt.
+Fanboy 11 (Zarathustra) feuert auf Hummel 011 (Happylife) und verfehlt.
+Biene 0088 (Happylife) feuert auf Sophia (Zarathustra) und trifft. Schaden: 495(23508/25582).
+Biene 0107 (Happylife) feuert auf Melina (Zarathustra) und trifft. Schaden: 425(19840/25582).
+Biene 026 (Happylife) feuert auf Esmeralda (Zarathustra) und trifft. Schaden: 632(16991/21793).
+Biene 033 (Happylife) feuert auf Christina (Zarathustra) und verfehlt.
+Biene 0188 (Happylife) feuert auf Justina (Zarathustra) und trifft knapp. Schaden: 246(19792/25730).
+Biene 0077 (Happylife) feuert auf Dina (Zarathustra) und trifft knapp. Schaden: 288(17040/25582).
+Biene 0024 (Happylife) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 471(19041/25730).
+Cecile (Zarathustra) feuert auf Drohne 004 (Happylife) und trifft knapp. Schaden: 1126(4150/13416).
+Cecile (Zarathustra) feuert auf Drohne 01 (Happylife) und trifft. Schaden: 2061(5869/12819).
+Cecile (Zarathustra) feuert auf 01 (Happylife) und trifft. Schaden: 885(7182/13416).
+Cecile (Zarathustra) feuert auf 02 (Happylife) und trifft. Schaden: 841(6119/13416).
+Cecile (Zarathustra) feuert auf Biene 012 020 (Happylife) und trifft. Schaden: 392(0/358).
+Biene 012 020 (Happylife) wurde zerstört
+Biene 1 002 (Happylife) feuert auf Jasmin (Zarathustra) und erzielt einenschweren Treffer. Schaden: 1236(19620/25019).
+Hummel 004 (Happylife) feuert auf Lola (Zarathustra) und trifft. Schaden: 878(20766/25582).
+Hummel 004 (Happylife) feuert auf Jasmin (Zarathustra) und trifft. Schaden: 192(19428/25019).
+Biene 0027 (Happylife) feuert auf Annabelle (Zarathustra) und verfehlt.
+Biene 0157 (Happylife) feuert auf Lola (Zarathustra) und verfehlt.
+Biene 0101 (Happylife) feuert auf Cassandra (Zarathustra) und trifft knapp. Schaden: 202(16697/25138).
+Biene 1 015 (Happylife) feuert auf Lola (Zarathustra) und trifft knapp. Schaden: 184(20582/25582).
+Biene 041 (Happylife) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 533(18508/25730).
+Biene 0100 (Happylife) feuert auf Melina (Zarathustra) und trifft knapp. Schaden: 225(19615/25582).
+Biene 0122 (Happylife) feuert auf Paula (Zarathustra) und trifft knapp. Schaden: 231(21261/25641).
+Biene 0139 (Happylife) feuert auf Marguerite (Zarathustra) und trifft knapp. Schaden: 267(21295/25360).
+Biene 0 026 (Happylife) feuert auf Christina (Zarathustra) und trifft. Schaden: 452(16612/19048).
+Biene 035 (Happylife) feuert auf Alisha Zafira (Zarathustra) und trifft. Schaden: 447(19494/25582).
+Fanboy 07 (Zarathustra) feuert auf 01 (Happylife) und erzielt einenschweren Treffer. Schaden: 1382(5800/13416).
+Biene 0051 (Happylife) feuert auf Justina (Zarathustra) und trifft. Schaden: 561(19231/25730).
+Biene 0075 (Happylife) feuert auf Justina (Zarathustra) und trifft. Schaden: 419(18812/25730).
+Biene 064 (Happylife) feuert auf Katharina (Zarathustra) und verfehlt.
+Biene 028 (Happylife) feuert auf Dina (Zarathustra) und trifft. Schaden: 651(16389/25582).
+02 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 783(11527/17434).
+02 (Happylife) feuert auf Emma (Zarathustra) und erzielt einenschweren Treffer. Schaden: 398(13652/19625).
+Biene 0072 (Happylife) feuert auf Sophia (Zarathustra) und trifft. Schaden: 496(23012/25582).
+Fanboy 38 (Zarathustra) feuert auf Hummel 009 (Happylife) und verfehlt.
+Biene 1 014 (Happylife) feuert auf Marguerite (Zarathustra) und trifft knapp. Schaden: 211(21084/25360).
+Fanboy 46 (Zarathustra) feuert auf Drohne 002 (Happylife) und trifft. Schaden: 605(10971/13416).
+Biene 0084 (Happylife) feuert auf Melina (Zarathustra) und trifft knapp. Schaden: 212(19403/25582).
+Biene 0167 (Happylife) feuert auf Josephine (Zarathustra) und trifft. Schaden: 625(17030/22851).
+Biene 046 (Happylife) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 513(17995/25730).
+Biene 0144 (Happylife) feuert auf Josephine (Zarathustra) und trifft. Schaden: 474(16556/22851).
+Biene 0124 (Happylife) feuert auf Nova (Zarathustra) und verfehlt.
+Fanboy 12 (Zarathustra) feuert auf Drohne 01 (Happylife) und verfehlt.
+Annabelle (Zarathustra) feuert auf Hummel 009 (Happylife) und trifft. Schaden: 1595(9108/13416).
+Annabelle (Zarathustra) feuert auf Hummel 003 (Happylife) und trifft. Schaden: 1960(9104/13416).
+Annabelle (Zarathustra) feuert auf Hummel 003 (Happylife) und verfehlt.
+Annabelle (Zarathustra) feuert auf 02 (Happylife) und trifft. Schaden: 1343(4776/13416).
+Annabelle (Zarathustra) feuert auf Biene 046 (Happylife) und verfehlt.
+Annabelle (Zarathustra) feuert auf Biene 046 (Happylife) und trifft. Schaden: 354(0/358).
+Biene 046 (Happylife) wurde zerstört
+Biene 03 (Happylife) feuert auf Melina (Zarathustra) und trifft. Schaden: 488(18915/25582).
+Biene 059 (Happylife) feuert auf Dina (Zarathustra) und trifft. Schaden: 437(15952/25582).
+Fanboy 45 (Zarathustra) feuert auf Drohne 001 (Happylife) und trifft knapp. Schaden: 299(10622/13416).
+Biene 012 016 (Happylife) feuert auf Leyla (Zarathustra) und verfehlt.
+Fanboy 40 (Zarathustra) feuert auf Drohne 005 (Happylife) und verfehlt.
+Biene 012 021 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 641(10886/17434).
+Fanboy 13 (Zarathustra) feuert auf Hummel 005 (Happylife) und trifft. Schaden: 622(11478/13416).
+Biene 051 (Happylife) feuert auf Paula (Zarathustra) und trifft knapp. Schaden: 203(21058/25641).
+Fanboy 31 (Zarathustra) feuert auf Hummel 010 (Happylife) und verfehlt.
+Fanboy 42 (Zarathustra) feuert auf Drohne 001 (Happylife) und trifft. Schaden: 653(9969/13416).
+Biene 0 042 (Happylife) feuert auf Emma (Zarathustra) und trifft. Schaden: 582(13070/19625).
+Biene 0029 (Happylife) feuert auf Lola (Zarathustra) und verfehlt.
+Biene 1 001 (Happylife) feuert auf Alisha Zafira (Zarathustra) und trifft. Schaden: 377(19117/25582).
+Biene 044 (Happylife) feuert auf Cassandra (Zarathustra) und verfehlt.
+Biene 1 004 (Happylife) feuert auf Zahra (Zarathustra) und trifft. Schaden: 498(21373/25582).
+Biene 012 017 (Happylife) feuert auf Katja (Zarathustra) und trifft. Schaden: 525(16565/25730).
+Biene 0015 (Happylife) feuert auf Cassandra (Zarathustra) und verfehlt.
+Biene 029 (Happylife) feuert auf Katja (Zarathustra) und trifft. Schaden: 594(15971/25730).
+Biene 012 005 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 597(17809/22622).
+Biene 012 013 (Happylife) feuert auf Xena (Zarathustra) und trifft. Schaden: 590(22680/25804).
+Biene 0117 (Happylife) feuert auf Penelope (Zarathustra) und trifft. Schaden: 532(19381/24612).
+Fanboy 39 (Zarathustra) feuert auf Hummel 003 (Happylife) und trifft. Schaden: 647(8457/13416).
+Tiara (Zarathustra) feuert auf Drohne 01 (Happylife) und verfehlt.
+Tiara (Zarathustra) feuert auf Drohne 005 (Happylife) und trifft. Schaden: 1262(4658/13416).
+Tiara (Zarathustra) feuert auf Hummel 007 (Happylife) und verfehlt.
+Tiara (Zarathustra) feuert auf Hummel 001 (Happylife) und trifft knapp. Schaden: 482(6525/13416).
+Fanboy 34 (Zarathustra) feuert auf Hummel 007 (Happylife) und trifft. Schaden: 500(3864/13416).
+Das Schiff Hummel 007 (Happylife) ist erfolgreich geflohen
+Emma (Zarathustra) feuert auf Drohne 002 (Happylife) und trifft. Schaden: 3781(7190/13416).
+Emma (Zarathustra) feuert auf Drohne 004 (Happylife) und verfehlt.
+Emma (Zarathustra) feuert auf Drohne 003 (Happylife) und trifft. Schaden: 985(9363/13416).
+Fanboy 14 (Zarathustra) feuert auf Hummel 011 (Happylife) und verfehlt.
+Biene 0141 (Happylife) feuert auf Xena (Zarathustra) und trifft. Schaden: 670(22010/25804).
+Biene 0001 (Happylife) feuert auf Nova (Zarathustra) und trifft knapp. Schaden: 241(21503/25582).
+Biene 0078 (Happylife) feuert auf Esmeralda (Zarathustra) und trifft. Schaden: 693(16298/21793).
+Biene 012 (Happylife) feuert auf Katharina (Zarathustra) und trifft knapp. Schaden: 269(19154/25730).
+Biene 0111 (Happylife) feuert auf Cassandra (Zarathustra) und trifft knapp. Schaden: 191(16506/25138).
+Biene 1 007 (Happylife) feuert auf Amelie (Zarathustra) und verfehlt.
+Biene 0154 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 537(17272/22622).
+Amelie (Zarathustra) feuert auf Drohne 002 (Happylife) und trifft. Schaden: 1630(5560/13416).
+Amelie (Zarathustra) feuert auf Drohne 005 (Happylife) und trifft. Schaden: 2228(2430/13416).
+Das Schiff Drohne 005 (Happylife) ist erfolgreich geflohen
+Amelie (Zarathustra) feuert auf Drohne 02 (Happylife) und trifft. Schaden: 975(7661/12819).
+Biene 0076 (Happylife) feuert auf Emma (Zarathustra) und trifft. Schaden: 534(12536/19625).
+Biene 0062 (Happylife) feuert auf Cecile (Zarathustra) und trifft. Schaden: 482(19483/25730).
+Biene 0125 (Happylife) feuert auf Dina (Zarathustra) und trifft. Schaden: 676(15276/25582).
+Biene 0158 (Happylife) feuert auf Leyla (Zarathustra) und trifft knapp. Schaden: 302(3955/13572).
+Biene 0120 (Happylife) feuert auf Esmeralda (Zarathustra) und verfehlt.
+Biene 018 (Happylife) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 543(17452/25730).
+Fanboy 41 (Zarathustra) feuert auf 02 (Happylife) und trifft knapp. Schaden: 303(4473/13416).
+Biene 037 (Happylife) feuert auf Amelie (Zarathustra) und trifft. Schaden: 501(18408/24797).
+Fanboy 33 (Zarathustra) feuert auf Hummel 001 (Happylife) und trifft. Schaden: 801(5724/13416).
+Biene 0097 (Happylife) feuert auf Emma (Zarathustra) und trifft. Schaden: 567(11969/19625).
+Biene 0191 (Happylife) feuert auf Marguerite (Zarathustra) und trifft. Schaden: 518(20566/25360).
+Biene 0170 (Happylife) feuert auf Katja (Zarathustra) und trifft knapp. Schaden: 265(15706/25730).
+Biene 0145 (Happylife) feuert auf Katja (Zarathustra) und trifft knapp. Schaden: 254(15452/25730).
+Biene 0003 (Happylife) feuert auf Amelie (Zarathustra) und trifft. Schaden: 556(17852/24797).
+Alisha Zafira (Zarathustra) feuert auf Hummel 011 (Happylife) und trifft knapp. Schaden: 848(7101/13416).
+Alisha Zafira (Zarathustra) feuert auf Hummel 011 (Happylife) und trifft. Schaden: 1880(5221/13416).
+Alisha Zafira (Zarathustra) feuert auf Drohne 001 (Happylife) und trifft. Schaden: 927(9042/13416).
+Alisha Zafira (Zarathustra) feuert auf Hummel 003 (Happylife) und trifft. Schaden: 1111(7346/13416).
+Xena (Zarathustra) feuert auf 02 (Happylife) und verfehlt.
+Xena (Zarathustra) feuert auf Hummel 003 (Happylife) und trifft. Schaden: 2722(4624/13416).
+Xena (Zarathustra) feuert auf Hummel 003 (Happylife) und trifft. Schaden: 845(3779/13416).
+Versuchte Flucht des Schiffes Hummel 003 (Happylife) ist fehlgeschlagen
+Xena (Zarathustra) feuert auf Drohne 01 (Happylife) und trifft knapp. Schaden: 331(5538/12819).
+Biene 0200 (Happylife) feuert auf Cassandra (Zarathustra) und trifft knapp. Schaden: 193(16313/25138).
+Fanboy 32 (Zarathustra) feuert auf Drohne 02 (Happylife) und verfehlt.
+Biene 019 (Happylife) feuert auf Lola (Zarathustra) und trifft. Schaden: 709(19873/25582).
+Biene 012 029 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 614(16658/22622).
+Biene 0168 (Happylife) feuert auf Atalya (Zarathustra) und trifft. Schaden: 439(14833/19610).
+Biene 1 019 (Happylife) feuert auf Xena (Zarathustra) und trifft. Schaden: 416(21594/25804).
+Biene 0 027 (Happylife) feuert auf Dina (Zarathustra) und trifft. Schaden: 479(14797/25582).
+Biene 0202 (Happylife) feuert auf Cassandra (Zarathustra) und trifft. Schaden: 461(15852/25138).
+Lola (Zarathustra) feuert auf Hummel 011 (Happylife) und trifft. Schaden: 2147(3074/13416).
+Das Schiff Hummel 011 (Happylife) ist erfolgreich geflohen
+Lola (Zarathustra) feuert auf Drohne 003 (Happylife) und trifft. Schaden: 2267(7096/13416).
+Lola (Zarathustra) feuert auf 01 (Happylife) und trifft knapp. Schaden: 491(5309/13416).
+Lola (Zarathustra) feuert auf Hummel 001 (Happylife) und verfehlt.
+Biene 0080 (Happylife) feuert auf Dina (Zarathustra) und trifft. Schaden: 440(14357/25582).
+Biene 043 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 503(16155/22622).
+Biene 0105 (Happylife) feuert auf Katharina (Zarathustra) und trifft. Schaden: 403(18751/25730).
+Fanboy 01 (Zarathustra) feuert auf 02 (Happylife) und trifft knapp. Schaden: 269(4204/13416).
+Biene 0092 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 550(15605/22622).
+Biene 017 (Happylife) feuert auf Atalya (Zarathustra) und trifft knapp. Schaden: 283(14550/19610).
+Biene 0045 (Happylife) feuert auf Esmeralda (Zarathustra) und trifft. Schaden: 414(15884/21793).
+Biene 0099 (Happylife) feuert auf Leyla (Zarathustra) und verfehlt.
+Biene 0041 (Happylife) feuert auf Dina (Zarathustra) und trifft. Schaden: 527(13830/25582).
+Biene (Happylife) feuert auf Katja (Zarathustra) und trifft. Schaden: 591(14861/25730).
+Fanboy 35 (Zarathustra) feuert auf Drohne 001 (Happylife) und trifft. Schaden: 518(8524/13416).
+Biene 0193 (Happylife) feuert auf Xena (Zarathustra) und trifft knapp. Schaden: 234(21360/25804).
+Biene 0147 (Happylife) feuert auf Dina (Zarathustra) und verfehlt.
+Biene 055 (Happylife) feuert auf Leyla (Zarathustra) und trifft. Schaden: 604(3351/13572).
+Drohne 004 (Happylife) feuert auf Marguerite (Zarathustra) und trifft. Schaden: 654(19912/25360).
+Drohne 004 (Happylife) feuert auf Katharina (Zarathustra) und verfehlt.
+Nova (Zarathustra) feuert auf Drohne 002 (Happylife) und trifft. Schaden: 1802(3758/13416).
+Das Schiff Drohne 002 (Happylife) ist erfolgreich geflohen
+Nova (Zarathustra) feuert auf Drohne 004 (Happylife) und trifft. Schaden: 2575(1575/13416).
+Das Schiff Drohne 004 (Happylife) ist erfolgreich geflohen
+Nova (Zarathustra) feuert auf Drohne 02 (Happylife) und trifft knapp. Schaden: 327(7334/12819).
+Nova (Zarathustra) feuert auf Hummel 009 (Happylife) und verfehlt.
+Penelope (Zarathustra) feuert auf Hummel 003 (Happylife) und verfehlt.
+Das Schiff Hummel 003 (Happylife) ist erfolgreich geflohen
+Penelope (Zarathustra) feuert auf 03 (Happylife) und trifft. Schaden: 2377(6177/13416).
+Penelope (Zarathustra) feuert auf Hummel 005 (Happylife) und trifft knapp. Schaden: 625(10853/13416).
+Biene 0 010 (Happylife) feuert auf Arielle (Zarathustra) und trifft. Schaden: 472(22485/25434).
+Zahra (Zarathustra) feuert auf Drohne 001 (Happylife) und verfehlt.
+Zahra (Zarathustra) feuert auf Hummel 012 (Happylife) und trifft. Schaden: 2042(4616/13416).
+Zahra (Zarathustra) feuert auf Hummel 001 (Happylife) und trifft knapp. Schaden: 403(5321/13416).
+Zahra (Zarathustra) feuert auf Hummel 008 (Happylife) und trifft. Schaden: 896(5712/13416).
+Biene 0046 (Happylife) feuert auf Penelope (Zarathustra) und trifft. Schaden: 580(18801/24612).
+Biene 0169 (Happylife) feuert auf Emma (Zarathustra) und trifft. Schaden: 679(11290/19625).
+Biene 1 021 (Happylife) feuert auf Alisha (Zarathustra) und verfehlt.
+Biene 0033 (Happylife) feuert auf Cassandra (Zarathustra) und verfehlt.
+Biene 063 (Happylife) feuert auf Katharina (Zarathustra) und trifft. Schaden: 695(18056/25730).
+Biene 0054 (Happylife) feuert auf Amelie (Zarathustra) und verfehlt.
+Biene 1 012 (Happylife) feuert auf Esmeralda (Zarathustra) und trifft. Schaden: 412(15472/21793).
+Biene 012 002 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 641(10245/17434).
+Fanboy 08 (Zarathustra) feuert auf 01 (Happylife) und trifft. Schaden: 909(4400/13416).
+Biene 0181 (Happylife) feuert auf Sophia (Zarathustra) und trifft. Schaden: 509(22503/25582).
+Biene 1 010 (Happylife) feuert auf Josephine (Zarathustra) und trifft knapp. Schaden: 294(16262/22851).
+Biene 1 006 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 563(9682/17434).
+Hummel 001 (Happylife) feuert auf Dina (Zarathustra) und verfehlt.
+Hummel 001 (Happylife) feuert auf Annabelle (Zarathustra) und erzielt einen kritischen Treffer. Schaden: 576(16876/25730).
+Biene 049 (Happylife) feuert auf Justina (Zarathustra) und trifft. Schaden: 438(18374/25730).
+Biene 0098 (Happylife) feuert auf Zahra (Zarathustra) und verfehlt.
+Biene 0022 (Happylife) feuert auf Emma (Zarathustra) und trifft. Schaden: 504(10786/19625).
+Biene 0028 (Happylife) feuert auf Sophia (Zarathustra) und trifft knapp. Schaden: 239(22264/25582).
+03 (Happylife) feuert auf Christina (Zarathustra) und trifft. Schaden: 801(15811/19048).
+03 (Happylife) feuert auf Annabelle (Zarathustra) und trifft knapp. Schaden: 69(16807/25730).
+Biene 0040 (Happylife) feuert auf Annabelle (Zarathustra) und verfehlt.
+Biene 0213 (Happylife) feuert auf Katharina (Zarathustra) und verfehlt.
+Biene 0 031 (Happylife) feuert auf Katharina (Zarathustra) und trifft. Schaden: 546(17510/25730).
+Dina (Zarathustra) feuert auf Hummel 008 (Happylife) und trifft. Schaden: 2177(3535/13416).
+Das Schiff Hummel 008 (Happylife) ist erfolgreich geflohen
+Dina (Zarathustra) feuert auf Drohne 01 (Happylife) und trifft. Schaden: 1688(3850/12819).
+Dina (Zarathustra) feuert auf 03 (Happylife) und verfehlt.
+Dina (Zarathustra) feuert auf Drohne 003 (Happylife) und trifft. Schaden: 1192(5904/13416).
+Biene 0208 (Happylife) feuert auf Penelope (Zarathustra) und verfehlt.
+Biene 0174 (Happylife) feuert auf Alisha (Zarathustra) und trifft knapp. Schaden: 210(13905/21342).
+Biene 0007 (Happylife) feuert auf Nova (Zarathustra) und trifft. Schaden: 561(20942/25582).
+Biene 0093 (Happylife) feuert auf Leyla (Zarathustra) und trifft knapp. Schaden: 251(3100/13572).
+Alisha (Zarathustra) feuert auf 01 (Happylife) und verfehlt.
+Alisha (Zarathustra) feuert auf Hummel 004 (Happylife) und trifft knapp. Schaden: 1014(5082/13416).
+Alisha (Zarathustra) feuert auf Drohne 001 (Happylife) und trifft knapp. Schaden: 1486(7038/13416).
+Alisha (Zarathustra) feuert auf Drohne 01 (Happylife) und trifft knapp. Schaden: 1047(2803/12819).
+Das Schiff Drohne 01 (Happylife) ist erfolgreich geflohen
+Biene 0192 (Happylife) feuert auf Leyla (Zarathustra) und trifft. Schaden: 518(2582/13572).
+Versuchte Flucht des Schiffes Leyla (Zarathustra) ist fehlgeschlagen
+Biene 031 (Happylife) feuert auf Xena (Zarathustra) und verfehlt.
+Biene 0138 (Happylife) feuert auf Emma (Zarathustra) und trifft knapp. Schaden: 269(10517/19625).
+Biene 0049 (Happylife) feuert auf Alisha Zafira (Zarathustra) und trifft knapp. Schaden: 206(18911/25582).
+Biene 0064 (Happylife) feuert auf Marguerite (Zarathustra) und trifft. Schaden: 418(19494/25360).
+Biene 0165 (Happylife) feuert auf Alisha Zafira (Zarathustra) und erzielt einenschweren Treffer. Schaden: 1237(17674/25582).
+Biene 012 015 (Happylife) feuert auf Jasmin (Zarathustra) und verfehlt.
+Biene 0021 (Happylife) feuert auf Atalya (Zarathustra) und verfehlt.
+Biene 0048 (Happylife) feuert auf Xena (Zarathustra) und trifft. Schaden: 687(20673/25804).
+Hummel 010 (Happylife) feuert auf Jasmin (Zarathustra) und trifft. Schaden: 561(18867/25019).
+Hummel 010 (Happylife) feuert auf Leyla (Zarathustra) und trifft. Schaden: 166(2416/13572).
+Das Schiff Leyla (Zarathustra) ist erfolgreich geflohen
+Biene 0121 (Happylife) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 511(16296/25730).
+Drohne 02 (Happylife) feuert auf Fanboy 46 (Zarathustra) und verfehlt.
+Biene 02 (Happylife) feuert auf Alisha (Zarathustra) und trifft knapp. Schaden: 252(13653/21342).
+Biene 016 (Happylife) feuert auf Amelie (Zarathustra) und verfehlt.
+Biene 038 (Happylife) feuert auf Nova (Zarathustra) und trifft knapp. Schaden: 260(20682/25582).
+Biene 062 (Happylife) feuert auf Zahra (Zarathustra) und trifft. Schaden: 476(20897/25582).
+Biene 0094 (Happylife) feuert auf Arielle (Zarathustra) und verfehlt.
+45 (Happylife) feuert auf Alisha (Zarathustra) und trifft. Schaden: 561(13092/21342).
+Biene 0210 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 414(15191/22622).
+Biene 0178 (Happylife) feuert auf Jasmin (Zarathustra) und trifft knapp. Schaden: 238(18629/25019).
+Biene 0209 (Happylife) feuert auf Emma (Zarathustra) und verfehlt.
+Biene 0104 (Happylife) feuert auf Katja (Zarathustra) und trifft knapp. Schaden: 247(14614/25730).
+Biene 0184 (Happylife) feuert auf Lola (Zarathustra) und verfehlt.
+Biene 0089 (Happylife) feuert auf Atalya (Zarathustra) und trifft. Schaden: 574(13976/19610).
+Marguerite (Zarathustra) feuert auf Drohne 001 (Happylife) und trifft. Schaden: 1880(5158/13416).
+Marguerite (Zarathustra) feuert auf Hummel 009 (Happylife) und trifft. Schaden: 1963(7145/13416).
+Marguerite (Zarathustra) feuert auf Hummel 004 (Happylife) und trifft. Schaden: 948(4134/13416).
+Marguerite (Zarathustra) feuert auf Drohne 02 (Happylife) und trifft. Schaden: 742(6592/12819).
+Biene 0 034 (Happylife) feuert auf Alisha (Zarathustra) und trifft knapp. Schaden: 198(12894/21342).
+Katja (Zarathustra) feuert auf Hummel 010 (Happylife) und trifft knapp. Schaden: 1121(7226/13416).
+Katja (Zarathustra) feuert auf Hummel 004 (Happylife) und trifft. Schaden: 1615(2519/13416).
+Versuchte Flucht des Schiffes Hummel 004 (Happylife) ist fehlgeschlagen
+Katja (Zarathustra) feuert auf Hummel 005 (Happylife) und verfehlt.
+Katja (Zarathustra) feuert auf 02 (Happylife) und trifft. Schaden: 986(3218/13416).
+Das Schiff 02 (Happylife) ist erfolgreich geflohen
+Katja (Zarathustra) feuert auf Biene 0210 (Happylife) und trifft. Schaden: 426(0/358).
+Biene 0210 (Happylife) wurde zerstört
+Biene 0087 (Happylife) feuert auf Cassandra (Zarathustra) und trifft. Schaden: 531(15321/25138).
+Biene 0 028 (Happylife) feuert auf Lola (Zarathustra) und trifft. Schaden: 585(19288/25582).
+Drohne 003 (Happylife) feuert auf Nova (Zarathustra) und trifft. Schaden: 604(20078/25582).
+Drohne 003 (Happylife) feuert auf Cecile (Zarathustra) und trifft. Schaden: 142(19341/25730).
+Hummel 012 (Happylife) feuert auf Atalya (Zarathustra) und trifft. Schaden: 952(13024/19610).
+Hummel 012 (Happylife) feuert auf Cassandra (Zarathustra) und trifft. Schaden: 124(15197/25138).
+Biene 1 014 (Happylife) feuert auf Penelope (Zarathustra) und trifft. Schaden: 518(18283/24612).
+Biene 012 002 (Happylife) feuert auf Katja (Zarathustra) und trifft. Schaden: 392(14222/25730).
+Biene 0124 (Happylife) feuert auf Alisha Zafira (Zarathustra) und trifft. Schaden: 528(17146/25582).
+Biene 063 (Happylife) feuert auf Xena (Zarathustra) und trifft. Schaden: 614(20059/25804).
+Biene 0028 (Happylife) feuert auf Xena (Zarathustra) und trifft. Schaden: 530(19529/25804).
+Biene 0021 (Happylife) feuert auf Sophia (Zarathustra) und trifft. Schaden: 514(21750/25582).
+Biene 0125 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 608(9074/17434).
+Fanboy 13 (Zarathustra) feuert auf Hummel 001 (Happylife) und verfehlt.
+Biene 0088 (Happylife) feuert auf Marguerite (Zarathustra) und trifft. Schaden: 662(18832/25360).
+Biene 016 (Happylife) feuert auf Atalya (Zarathustra) und trifft. Schaden: 422(12602/19610).
+Fanboy 04 (Zarathustra) feuert auf Drohne 003 (Happylife) und verfehlt.
+Cecile (Zarathustra) feuert auf Hummel 009 (Happylife) und trifft. Schaden: 2456(4689/13416).
+Cecile (Zarathustra) feuert auf Hummel 001 (Happylife) und trifft. Schaden: 1606(3715/13416).
+Das Schiff Hummel 001 (Happylife) ist erfolgreich geflohen
+Cecile (Zarathustra) feuert auf Drohne 02 (Happylife) und trifft. Schaden: 1295(5297/12819).
+Cecile (Zarathustra) feuert auf Hummel 006 (Happylife) und verfehlt.
+Cecile (Zarathustra) feuert auf Biene 067 (Happylife) und verfehlt.
+Cecile (Zarathustra) feuert auf Biene 067 (Happylife) und trifft. Schaden: 283(75/358).
+Das Schiff Biene 067 (Happylife) ist erfolgreich geflohen
+Biene 0181 (Happylife) feuert auf Melina (Zarathustra) und trifft knapp. Schaden: 217(18698/25582).
+Drohne 003 (Happylife) feuert auf Christina (Zarathustra) und trifft. Schaden: 827(14984/19048).
+Drohne 003 (Happylife) feuert auf Jasmin (Zarathustra) und trifft. Schaden: 170(18459/25019).
+Biene 0029 (Happylife) feuert auf Zahra (Zarathustra) und trifft. Schaden: 440(20457/25582).
+Biene 0094 (Happylife) feuert auf Esmeralda (Zarathustra) und trifft. Schaden: 540(14932/21793).
+Biene 0040 (Happylife) feuert auf Xena (Zarathustra) und trifft knapp. Schaden: 258(19271/25804).
+Zahra (Zarathustra) feuert auf Drohne 02 (Happylife) und trifft knapp. Schaden: 811(4486/12819).
+Zahra (Zarathustra) feuert auf Hummel 004 (Happylife) und trifft. Schaden: 2072(447/13416).
+Das Schiff Hummel 004 (Happylife) ist erfolgreich geflohen
+Zahra (Zarathustra) feuert auf Hummel 010 (Happylife) und trifft. Schaden: 848(6378/13416).
+Zahra (Zarathustra) feuert auf 03 (Happylife) und verfehlt.
+Biene 0022 (Happylife) feuert auf Amelie (Zarathustra) und trifft. Schaden: 632(17220/24797).
+Biene 059 (Happylife) feuert auf Justina (Zarathustra) und trifft. Schaden: 538(17836/25730).
+Fanboy 42 (Zarathustra) feuert auf Hummel 012 (Happylife) und trifft knapp. Schaden: 335(4281/13416).
+Christina (Zarathustra) feuert auf Biene 1 010 (Happylife) und erzielt einenschweren Treffer. Schaden: 3884(0/358).
+Biene 1 010 (Happylife) wurde zerstört
+Christina (Zarathustra) feuert auf Biene 0088 (Happylife) und trifft knapp. Schaden: 514(0/358).
+Biene 0088 (Happylife) wurde zerstört
+Christina (Zarathustra) feuert auf Biene 0125 (Happylife) und trifft. Schaden: 1729(0/358).
+Biene 0125 (Happylife) wurde zerstört
+Christina (Zarathustra) feuert auf Biene 1 012 (Happylife) und trifft. Schaden: 2211(0/358).
+Biene 1 012 (Happylife) wurde zerstört
+Christina (Zarathustra) feuert auf Biene 0209 (Happylife) und trifft knapp. Schaden: 532(0/358).
+Biene 0209 (Happylife) wurde zerstört
+Christina (Zarathustra) feuert auf Biene 0 021 (Happylife) und trifft. Schaden: 1578(0/358).
+Biene 0 021 (Happylife) wurde zerstört
+Biene 02 (Happylife) feuert auf Alisha (Zarathustra) und trifft. Schaden: 670(12224/21342).
+Biene 0176 (Happylife) feuert auf Lola (Zarathustra) und verfehlt.
+Fanboy 37 (Zarathustra) feuert auf Hummel 006 (Happylife) und trifft. Schaden: 734(5972/13416).
+Justina (Zarathustra) feuert auf Drohne 003 (Happylife) und verfehlt.
+Justina (Zarathustra) feuert auf Hummel 012 (Happylife) und verfehlt.
+Justina (Zarathustra) feuert auf Drohne 02 (Happylife) und trifft. Schaden: 792(3694/12819).
+Das Schiff Drohne 02 (Happylife) ist erfolgreich geflohen
+Justina (Zarathustra) feuert auf Hummel 009 (Happylife) und erzielt einenschweren Treffer. Schaden: 1599(3090/13416).
+Das Schiff Hummel 009 (Happylife) ist erfolgreich geflohen
+Justina (Zarathustra) feuert auf Biene 0174 (Happylife) und verfehlt.
+Justina (Zarathustra) feuert auf Biene 0174 (Happylife) und verfehlt.
+Biene 0139 (Happylife) feuert auf Paula (Zarathustra) und trifft knapp. Schaden: 231(20827/25641).
+Biene 013 (Happylife) feuert auf Sophia (Zarathustra) und trifft. Schaden: 507(21243/25582).
+Biene 0054 (Happylife) feuert auf Justina (Zarathustra) und trifft. Schaden: 556(17280/25730).
+Esmee (Zarathustra) feuert auf Hummel 005 (Happylife) und trifft knapp. Schaden: 1084(9769/13416).
+Esmee (Zarathustra) feuert auf Drohne 003 (Happylife) und trifft knapp. Schaden: 654(5250/13416).
+Esmee (Zarathustra) feuert auf 03 (Happylife) und trifft. Schaden: 910(5267/13416).
+Esmee (Zarathustra) feuert auf Hummel 010 (Happylife) und trifft. Schaden: 1190(5188/13416).
+Fanboy 12 (Zarathustra) feuert auf Hummel 012 (Happylife) und trifft. Schaden: 755(3526/13416).
+Das Schiff Hummel 012 (Happylife) ist erfolgreich geflohen
+Esmeralda (Zarathustra) feuert auf Drohne 003 (Happylife) und trifft. Schaden: 3464(1786/13416).
+Versuchte Flucht des Schiffes Drohne 003 (Happylife) ist fehlgeschlagen
+Esmeralda (Zarathustra) feuert auf Drohne 003 (Happylife) und trifft knapp. Schaden: 939(847/13416).
+Das Schiff Drohne 003 (Happylife) ist erfolgreich geflohen
+Fanboy 11 (Zarathustra) feuert auf Hummel 005 (Happylife) und trifft. Schaden: 724(9045/13416).
+Biene 049 (Happylife) feuert auf Xena (Zarathustra) und verfehlt.
+Biene 0167 (Happylife) feuert auf Annabelle (Zarathustra) und trifft knapp. Schaden: 354(15942/25730).
+Biene 0111 (Happylife) feuert auf Esmee (Zarathustra) und trifft knapp. Schaden: 326(14865/22622).
+Biene 012 009 (Happylife) feuert auf Sophia (Zarathustra) und trifft knapp. Schaden: 187(21056/25582).
+Biene 012 027 (Happylife) feuert auf Esmee (Zarathustra) und trifft knapp. Schaden: 298(14567/22622).
+Biene 0046 (Happylife) feuert auf Atalya (Zarathustra) und trifft. Schaden: 426(12176/19610).
+Biene 1 001 (Happylife) feuert auf Katharina (Zarathustra) und trifft knapp. Schaden: 207(17303/25730).
+Biene 0072 (Happylife) feuert auf Cassandra (Zarathustra) und trifft. Schaden: 383(14814/25138).
+Katharina (Zarathustra) feuert auf Hummel 005 (Happylife) und trifft. Schaden: 2702(6343/13416).
+Katharina (Zarathustra) feuert auf 01 (Happylife) und trifft. Schaden: 2075(2325/13416).
+Das Schiff 01 (Happylife) ist erfolgreich geflohen
+Katharina (Zarathustra) feuert auf Drohne 001 (Happylife) und trifft. Schaden: 1025(4133/13416).
+Katharina (Zarathustra) feuert auf Hummel 006 (Happylife) und trifft knapp. Schaden: 533(5439/13416).
+Katharina (Zarathustra) feuert auf Biene 0150 (Happylife) und trifft. Schaden: 410(0/358).
+Biene 0150 (Happylife) wurde zerstört
+Fanboy 36 (Zarathustra) feuert auf 03 (Happylife) und verfehlt.
+Biene 1 004 (Happylife) feuert auf Xena (Zarathustra) und trifft knapp. Schaden: 332(18939/25804).
+Biene 042 (Happylife) feuert auf Cecile (Zarathustra) und verfehlt.
+Xena (Zarathustra) feuert auf Drohne 001 (Happylife) und trifft. Schaden: 1958(2175/13416).
+Versuchte Flucht des Schiffes Drohne 001 (Happylife) ist fehlgeschlagen
+Xena (Zarathustra) feuert auf Hummel 006 (Happylife) und trifft. Schaden: 1928(3511/13416).
+Das Schiff Hummel 006 (Happylife) ist erfolgreich geflohen
+Xena (Zarathustra) feuert auf Drohne 001 (Happylife) und trifft knapp. Schaden: 490(1685/13416).
+Das Schiff Drohne 001 (Happylife) ist erfolgreich geflohen
+Xena (Zarathustra) feuert auf Hummel 005 (Happylife) und trifft. Schaden: 825(5518/13416).
+Biene 0157 (Happylife) feuert auf Penelope (Zarathustra) und trifft. Schaden: 584(17699/24612).
+Biene 012 024 (Happylife) feuert auf Sophia (Zarathustra) und trifft knapp. Schaden: 218(20838/25582).
+Biene 0202 (Happylife) feuert auf Zahra (Zarathustra) und trifft. Schaden: 450(20007/25582).
+Fanboy 45 (Zarathustra) feuert auf Hummel 010 (Happylife) und trifft knapp. Schaden: 315(4873/13416).
+Biene 026 (Happylife) feuert auf Sophia (Zarathustra) und verfehlt.
+Biene 0191 (Happylife) feuert auf Alisha (Zarathustra) und trifft knapp. Schaden: 194(12030/21342).
+Biene 012 (Happylife) feuert auf Cassandra (Zarathustra) und erzielt einenschweren Treffer. Schaden: 1177(13637/25138).
+Biene 0208 (Happylife) feuert auf Esmee (Zarathustra) und erzielt einenschweren Treffer. Schaden: 1269(13298/22622).
+Biene 0 018 (Happylife) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 555(15387/25730).
+45 (Happylife) feuert auf Marguerite (Zarathustra) und trifft. Schaden: 601(18231/25360).
+Fanboy 34 (Zarathustra) feuert auf 03 (Happylife) und verfehlt.
+Biene 0003 (Happylife) feuert auf Esmeralda (Zarathustra) und erzielt einenschweren Treffer. Schaden: 1338(13594/21793).
+Biene 062 (Happylife) feuert auf Cassandra (Zarathustra) und trifft. Schaden: 577(13060/25138).
+Biene 0 034 (Happylife) feuert auf Zahra (Zarathustra) und trifft. Schaden: 496(19511/25582).
+Biene 0 025 (Happylife) feuert auf Katja (Zarathustra) und trifft. Schaden: 517(13705/25730).
+Hummel 010 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 531(12767/22622).
+Hummel 010 (Happylife) feuert auf Amelie (Zarathustra) und trifft. Schaden: 159(17061/24797).
+Biene 0014 (Happylife) feuert auf Justina (Zarathustra) und verfehlt.
+Biene 0144 (Happylife) feuert auf Paula (Zarathustra) und trifft. Schaden: 504(20323/25641).
+Biene 0078 (Happylife) feuert auf Esmeralda (Zarathustra) und trifft. Schaden: 500(13094/21793).
+Biene 0200 (Happylife) feuert auf Katja (Zarathustra) und trifft. Schaden: 409(13296/25730).
+Katja (Zarathustra) feuert auf Hummel 010 (Happylife) und trifft. Schaden: 1435(3438/13416).
+Das Schiff Hummel 010 (Happylife) ist erfolgreich geflohen
+Katja (Zarathustra) feuert auf Hummel 005 (Happylife) und trifft. Schaden: 2609(2909/13416).
+Das Schiff Hummel 005 (Happylife) ist erfolgreich geflohen
+Katja (Zarathustra) feuert auf 03 (Happylife) und verfehlt.
+Katja (Zarathustra) feuert auf 03 (Happylife) und trifft. Schaden: 895(4372/13416).
+Katja (Zarathustra) feuert auf Biene 017 (Happylife) und trifft. Schaden: 367(0/358).
+Biene 017 (Happylife) wurde zerstört
+Biene 0193 (Happylife) feuert auf Josephine (Zarathustra) und trifft. Schaden: 460(15802/22851).
+Fanboy 41 (Zarathustra) feuert auf 03 (Happylife) und trifft. Schaden: 765(3607/13416).
+Versuchte Flucht des Schiffes 03 (Happylife) ist fehlgeschlagen
+Biene 0 005 (Happylife) feuert auf Sophia (Zarathustra) und trifft knapp. Schaden: 245(20593/25582).
+Biene 012 015 (Happylife) feuert auf Marguerite (Zarathustra) und trifft knapp. Schaden: 288(17943/25360).
+Biene 029 (Happylife) feuert auf Marguerite (Zarathustra) und trifft. Schaden: 524(17419/25360).
+Biene 0089 (Happylife) feuert auf Nova (Zarathustra) und trifft. Schaden: 525(19553/25582).
+Marguerite (Zarathustra) feuert auf 03 (Happylife) und trifft knapp. Schaden: 1093(2514/13416).
+Das Schiff 03 (Happylife) ist erfolgreich geflohen
+Marguerite (Zarathustra) feuert auf Biene 0105 (Happylife) und trifft knapp. Schaden: 477(0/358).
+Biene 0105 (Happylife) wurde zerstört
+Marguerite (Zarathustra) feuert auf Biene 012 005 (Happylife) und trifft. Schaden: 844(0/358).
+Biene 012 005 (Happylife) wurde zerstört
+Marguerite (Zarathustra) feuert auf Biene 0131 (Happylife) und trifft. Schaden: 773(0/358).
+Biene 0131 (Happylife) wurde zerstört
+Melina (Zarathustra) feuert auf Biene 0103 (Happylife) und verfehlt.
+Melina (Zarathustra) feuert auf Biene 0120 (Happylife) und trifft knapp. Schaden: 619(0/358).
+Biene 0120 (Happylife) wurde zerstört
+Melina (Zarathustra) feuert auf Biene 012 022 (Happylife) und trifft knapp. Schaden: 428(0/358).
+Biene 012 022 (Happylife) wurde zerstört
+Melina (Zarathustra) feuert auf Biene 0169 (Happylife) und trifft. Schaden: 962(0/358).
+Biene 0169 (Happylife) wurde zerstört
+Biene 0 042 (Happylife) feuert auf Cecile (Zarathustra) und trifft knapp. Schaden: 216(19125/25730).
+Biene 066 (Happylife) feuert auf Dina (Zarathustra) und verfehlt.
+Fanboy 32 (Zarathustra) feuert auf Biene 0176 (Happylife) und verfehlt.
+Biene 0049 (Happylife) feuert auf Justina (Zarathustra) und trifft. Schaden: 606(16674/25730).
+Biene 0055 (Happylife) feuert auf Zahra (Zarathustra) und erzielt einenschweren Treffer. Schaden: 1276(18235/25582).
+Tiara (Zarathustra) feuert auf Biene 0089 (Happylife) und trifft. Schaden: 3114(0/358).
+Biene 0089 (Happylife) wurde zerstört
+Tiara (Zarathustra) feuert auf Biene 0192 (Happylife) und trifft. Schaden: 1375(0/358).
+Biene 0192 (Happylife) wurde zerstört
+Tiara (Zarathustra) feuert auf Biene 1 004 (Happylife) und trifft knapp. Schaden: 342(16/358).
+Das Schiff Biene 1 004 (Happylife) ist erfolgreich geflohen
+Tiara (Zarathustra) feuert auf Biene 0054 (Happylife) und trifft knapp. Schaden: 374(0/358).
+Biene 0054 (Happylife) wurde zerstört
+Biene 0 027 (Happylife) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 573(14814/25730).
+Biene 012 013 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 626(8448/17434).
+Biene 0104 (Happylife) feuert auf Melina (Zarathustra) und trifft. Schaden: 521(18177/25582).
+Nova (Zarathustra) feuert auf Biene 0213 (Happylife) und verfehlt.
+Nova (Zarathustra) feuert auf Biene 1 017 (Happylife) und trifft. Schaden: 1592(0/358).
+Biene 1 017 (Happylife) wurde zerstört
+Nova (Zarathustra) feuert auf Biene 0191 (Happylife) und trifft. Schaden: 919(0/358).
+Biene 0191 (Happylife) wurde zerstört
+Nova (Zarathustra) feuert auf Biene 0049 (Happylife) und verfehlt.
+Biene (Happylife) feuert auf Arielle (Zarathustra) und trifft knapp. Schaden: 211(22274/25434).
+Biene 0075 (Happylife) feuert auf Amelie (Zarathustra) und erzielt einenschweren Treffer. Schaden: 1182(15879/24797).
+Biene 0100 (Happylife) feuert auf Marguerite (Zarathustra) und trifft knapp. Schaden: 224(17195/25360).
+Biene 0087 (Happylife) feuert auf Paula (Zarathustra) und trifft. Schaden: 480(19843/25641).
+Biene 0077 (Happylife) feuert auf Jasmin (Zarathustra) und verfehlt.
+Biene 0162 (Happylife) feuert auf Cassandra (Zarathustra) und trifft. Schaden: 492(12568/25138).
+Biene 0 045 (Happylife) feuert auf Esmeralda (Zarathustra) und trifft. Schaden: 588(12506/21793).
+Biene 0045 (Happylife) feuert auf Alisha Zafira (Zarathustra) und trifft. Schaden: 642(16504/25582).
+Biene 012 010 (Happylife) feuert auf Cassandra (Zarathustra) und verfehlt.
+Biene 0117 (Happylife) feuert auf Dina (Zarathustra) und verfehlt.
+Biene 03 (Happylife) feuert auf Alisha Zafira (Zarathustra) und verfehlt.
+Biene 0156 (Happylife) feuert auf Sophia (Zarathustra) und trifft. Schaden: 509(20084/25582).
+Biene 035 (Happylife) feuert auf Nova (Zarathustra) und trifft. Schaden: 533(19020/25582).
+Fanboy 38 (Zarathustra) feuert auf Biene 0 027 (Happylife) und verfehlt.
+Biene 012 029 (Happylife) feuert auf Katharina (Zarathustra) und verfehlt.
+Biene 0081 (Happylife) feuert auf Christina (Zarathustra) und verfehlt.
+Cassandra (Zarathustra) feuert auf Biene 0031 (Happylife) und trifft knapp. Schaden: 742(0/358).
+Biene 0031 (Happylife) wurde zerstört
+Cassandra (Zarathustra) feuert auf Biene 030 (Happylife) und trifft knapp. Schaden: 737(0/358).
+Biene 030 (Happylife) wurde zerstört
+Cassandra (Zarathustra) feuert auf Biene 0063 (Happylife) und trifft. Schaden: 1018(0/358).
+Biene 0063 (Happylife) wurde zerstört
+Cassandra (Zarathustra) feuert auf Biene 0093 (Happylife) und verfehlt.
+Biene 0148 (Happylife) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 564(14250/25730).
+Emma (Zarathustra) feuert auf Biene 0022 (Happylife) und trifft. Schaden: 3555(0/358).
+Biene 0022 (Happylife) wurde zerstört
+Emma (Zarathustra) feuert auf Biene 0010 (Happylife) und trifft knapp. Schaden: 472(0/358).
+Biene 0010 (Happylife) wurde zerstört
+Emma (Zarathustra) feuert auf Biene 0048 (Happylife) und trifft. Schaden: 876(0/358).
+Biene 0048 (Happylife) wurde zerstört
+Biene 018 (Happylife) feuert auf Tiara (Zarathustra) und trifft knapp. Schaden: 359(8089/17434).
+Biene 0 012 (Happylife) feuert auf Katharina (Zarathustra) und trifft knapp. Schaden: 297(17006/25730).
+Biene 056 (Happylife) feuert auf Esmeralda (Zarathustra) und trifft. Schaden: 604(11902/21793).
+Biene 0096 (Happylife) feuert auf Katharina (Zarathustra) und trifft. Schaden: 591(16415/25730).
+Biene 0168 (Happylife) feuert auf Josephine (Zarathustra) und trifft knapp. Schaden: 250(15552/22851).
+Biene 0082 (Happylife) feuert auf Marguerite (Zarathustra) und trifft. Schaden: 513(16682/25360).
+Biene 0115 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 637(12130/22622).
+Biene 0 010 (Happylife) feuert auf Tiara (Zarathustra) und verfehlt.
+Biene 0121 (Happylife) feuert auf Alisha Zafira (Zarathustra) und trifft knapp. Schaden: 257(16247/25582).
+Biene 0174 (Happylife) feuert auf Paula (Zarathustra) und trifft knapp. Schaden: 217(19626/25641).
+Biene 0103 (Happylife) feuert auf Xena (Zarathustra) und trifft knapp. Schaden: 274(18665/25804).
+Biene 0107 (Happylife) feuert auf Atalya (Zarathustra) und trifft knapp. Schaden: 227(11949/19610).
+Biene 0092 (Happylife) feuert auf Josephine (Zarathustra) und verfehlt.
+Biene 0118 (Happylife) feuert auf Cassandra (Zarathustra) und trifft. Schaden: 548(12020/25138).
+Biene 019 (Happylife) feuert auf Lola (Zarathustra) und trifft knapp. Schaden: 230(19058/25582).
+Biene 012 016 (Happylife) feuert auf Cassandra (Zarathustra) und trifft knapp. Schaden: 270(11750/25138).
+Biene 0158 (Happylife) feuert auf Lola (Zarathustra) und trifft knapp. Schaden: 258(18800/25582).
+Fanboy 44 (Zarathustra) feuert auf Biene 0212 (Happylife) und trifft knapp. Schaden: 171(187/358).
+Biene 0093 (Happylife) feuert auf Lola (Zarathustra) und trifft. Schaden: 389(18411/25582).
+Biene 0 007 (Happylife) feuert auf Tiara (Zarathustra) und verfehlt.
+Biene 0145 (Happylife) feuert auf Katja (Zarathustra) und verfehlt.
+Das Schiff Biene 0189 (Happylife) ist erfolgreich geflohen
+Fanboy 03 (Zarathustra) feuert auf Biene 042 (Happylife) und trifft. Schaden: 356(2/358).
+Das Schiff Biene 042 (Happylife) ist erfolgreich geflohen
+Biene 032 (Happylife) feuert auf Xena (Zarathustra) und trifft. Schaden: 494(18171/25804).
+Biene 0062 (Happylife) feuert auf Cecile (Zarathustra) und trifft knapp. Schaden: 204(18921/25730).
+Biene 034 (Happylife) feuert auf Justina (Zarathustra) und trifft. Schaden: 594(16080/25730).
+Biene 0015 (Happylife) feuert auf Nova (Zarathustra) und trifft. Schaden: 407(18613/25582).
+Biene 0001 (Happylife) feuert auf Marguerite (Zarathustra) und trifft. Schaden: 451(16231/25360).
+Penelope (Zarathustra) feuert auf Biene 0176 (Happylife) und trifft. Schaden: 1501(0/358).
+Biene 0176 (Happylife) wurde zerstört
+Penelope (Zarathustra) feuert auf Biene 0 005 (Happylife) und trifft. Schaden: 1390(0/358).
+Biene 0 005 (Happylife) wurde zerstört
+Penelope (Zarathustra) feuert auf Biene 1 015 (Happylife) und trifft knapp. Schaden: 963(0/358).
+Biene 1 015 (Happylife) wurde zerstört
+Biene 0080 (Happylife) feuert auf Josephine (Zarathustra) und trifft knapp. Schaden: 223(15329/22851).
+Biene 1 020 (Happylife) feuert auf Zahra (Zarathustra) und verfehlt.
+Biene 1 009 (Happylife) feuert auf Sophia (Zarathustra) und trifft. Schaden: 640(19444/25582).
+Biene 0188 (Happylife) feuert auf Jasmin (Zarathustra) und trifft. Schaden: 383(18076/25019).
+Biene 0084 (Happylife) feuert auf Emma (Zarathustra) und trifft knapp. Schaden: 278(10239/19625).
+Lola (Zarathustra) feuert auf Biene 043 (Happylife) und verfehlt.
+Lola (Zarathustra) feuert auf Biene 019 (Happylife) und trifft. Schaden: 1256(0/358).
+Biene 019 (Happylife) wurde zerstört
+Lola (Zarathustra) feuert auf Biene 0081 (Happylife) und trifft knapp. Schaden: 247(111/358).
+Das Schiff Biene 0081 (Happylife) ist erfolgreich geflohen
+Lola (Zarathustra) feuert auf Biene 0045 (Happylife) und verfehlt.
+Biene 0 035 (Happylife) feuert auf Sophia (Zarathustra) und trifft knapp. Schaden: 223(19221/25582).
+Biene 024 (Happylife) feuert auf Esmee (Zarathustra) und trifft knapp. Schaden: 261(11869/22622).
+Biene 0119 (Happylife) feuert auf Zahra (Zarathustra) und verfehlt.
+Biene 0091 (Happylife) feuert auf Sophia (Zarathustra) und trifft. Schaden: 546(18675/25582).
+Biene 064 (Happylife) feuert auf Marguerite (Zarathustra) und trifft. Schaden: 592(15639/25360).
+Biene 1 006 (Happylife) feuert auf Emma (Zarathustra) und verfehlt.
+Biene 0199 (Happylife) feuert auf Jasmin (Zarathustra) und trifft. Schaden: 560(17516/25019).
+Biene 0065 (Happylife) feuert auf Christina (Zarathustra) und verfehlt.
+Fanboy 31 (Zarathustra) feuert auf Biene 0002 (Happylife) und verfehlt.
+Biene 055 (Happylife) feuert auf Josephine (Zarathustra) und trifft. Schaden: 507(14822/22851).
+Biene 0097 (Happylife) feuert auf Cecile (Zarathustra) und verfehlt.
+Biene 1 002 (Happylife) feuert auf Christina (Zarathustra) und verfehlt.
+Biene 048 (Happylife) feuert auf Jasmin (Zarathustra) und trifft. Schaden: 581(16935/25019).
+Fanboy 39 (Zarathustra) feuert auf Biene 033 (Happylife) und trifft. Schaden: 322(36/358).
+Versuchte Flucht des Schiffes Biene 033 (Happylife) ist fehlgeschlagen
+Biene 0070 (Happylife) feuert auf Alisha (Zarathustra) und trifft. Schaden: 472(11558/21342).
+Biene 012 028 (Happylife) feuert auf Christina (Zarathustra) und trifft. Schaden: 680(14304/19048).
+Fanboy 46 (Zarathustra) feuert auf Biene 0007 (Happylife) und trifft. Schaden: 397(0/358).
+Biene 0007 (Happylife) wurde zerstört
+Biene 044 (Happylife) feuert auf Sophia (Zarathustra) und trifft. Schaden: 624(18051/25582).
+Biene 012 021 (Happylife) feuert auf Cassandra (Zarathustra) und verfehlt.
+Biene 039 (Happylife) feuert auf Xena (Zarathustra) und verfehlt.
+Biene 012 018 (Happylife) feuert auf Justina (Zarathustra) und verfehlt.
+Biene 012 007 (Happylife) feuert auf Xena (Zarathustra) und trifft. Schaden: 522(17649/25804).
+Biene 043 (Happylife) feuert auf Alisha (Zarathustra) und verfehlt.
+Biene 1 019 (Happylife) feuert auf Sophia (Zarathustra) und trifft knapp. Schaden: 267(17784/25582).
+Biene 0051 (Happylife) feuert auf Amelie (Zarathustra) und trifft. Schaden: 348(15531/24797).
+Biene 060 (Happylife) feuert auf Katharina (Zarathustra) und trifft. Schaden: 485(15930/25730).
+Biene 0027 (Happylife) feuert auf Paula (Zarathustra) und verfehlt.
+Fanboy 07 (Zarathustra) feuert auf Biene 0124 (Happylife) und trifft knapp. Schaden: 180(178/358).
+Versuchte Flucht des Schiffes Biene 0124 (Happylife) ist fehlgeschlagen
+Biene 0198 (Happylife) feuert auf Esmee (Zarathustra) und trifft knapp. Schaden: 231(11638/22622).
+Biene 0212 (Happylife) feuert auf Christina (Zarathustra) und trifft. Schaden: 571(13733/19048).
+Biene 0076 (Happylife) feuert auf Sophia (Zarathustra) und trifft. Schaden: 517(17267/25582).
+Sophia (Zarathustra) feuert auf Biene 0091 (Happylife) und trifft knapp. Schaden: 807(0/358).
+Biene 0091 (Happylife) wurde zerstört
+Sophia (Zarathustra) feuert auf Biene 060 (Happylife) und trifft knapp. Schaden: 573(0/358).
+Biene 060 (Happylife) wurde zerstört
+Sophia (Zarathustra) feuert auf Biene 1 009 (Happylife) und trifft knapp. Schaden: 228(130/358).
+Versuchte Flucht des Schiffes Biene 1 009 (Happylife) ist fehlgeschlagen
+Sophia (Zarathustra) feuert auf Biene 041 (Happylife) und trifft knapp. Schaden: 248(110/358).
+Das Schiff Biene 041 (Happylife) ist erfolgreich geflohen
+Biene 1 005 (Happylife) feuert auf Lola (Zarathustra) und trifft. Schaden: 621(17790/25582).
+Biene 1 021 (Happylife) feuert auf Marguerite (Zarathustra) und trifft. Schaden: 529(15110/25360).
+Biene 0 026 (Happylife) feuert auf Cecile (Zarathustra) und trifft knapp. Schaden: 233(18688/25730).
+Biene 1 007 (Happylife) feuert auf Katharina (Zarathustra) und verfehlt.
+Biene 0 038 (Happylife) feuert auf Lola (Zarathustra) und trifft knapp. Schaden: 219(17571/25582).
+Biene 0140 (Happylife) feuert auf Sophia (Zarathustra) und trifft knapp. Schaden: 224(17043/25582).
+Biene 038 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 539(11099/22622).
+Biene 0 017 (Happylife) feuert auf Sophia (Zarathustra) und trifft. Schaden: 501(16542/25582).
+Biene 0002 (Happylife) feuert auf Sophia (Zarathustra) und trifft knapp. Schaden: 256(16286/25582).
+Fanboy 47 (Zarathustra) feuert auf Biene 066 (Happylife) und trifft. Schaden: 367(0/358).
+Biene 066 (Happylife) wurde zerstört
+Biene 0041 (Happylife) feuert auf Christina (Zarathustra) und trifft knapp. Schaden: 154(13579/19048).
+Paula (Zarathustra) feuert auf Biene 0180 (Happylife) und trifft. Schaden: 1889(0/358).
+Biene 0180 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0208 (Happylife) und trifft. Schaden: 1224(0/358).
+Biene 0208 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 1 021 (Happylife) und trifft. Schaden: 530(0/358).
+Biene 1 021 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0077 (Happylife) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 0077 (Happylife) und trifft. Schaden: 403(0/358).
+Biene 0077 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0 038 (Happylife) und trifft knapp. Schaden: 204(154/358).
+Das Schiff Biene 0 038 (Happylife) ist erfolgreich geflohen
+Paula (Zarathustra) feuert auf Biene 0076 (Happylife) und trifft. Schaden: 326(32/358).
+Das Schiff Biene 0076 (Happylife) ist erfolgreich geflohen
+Paula (Zarathustra) feuert auf Biene 028 (Happylife) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 028 (Happylife) und trifft. Schaden: 440(0/358).
+Biene 028 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 012 009 (Happylife) und trifft. Schaden: 352(6/358).
+Versuchte Flucht des Schiffes Biene 012 009 (Happylife) ist fehlgeschlagen
+Paula (Zarathustra) feuert auf Biene 012 009 (Happylife) und trifft. Schaden: 445(0/358).
+Biene 012 009 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0156 (Happylife) und trifft. Schaden: 396(0/358).
+Biene 0156 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0002 (Happylife) und trifft knapp. Schaden: 163(195/358).
+Paula (Zarathustra) feuert auf Biene 0002 (Happylife) und trifft. Schaden: 396(0/358).
+Biene 0002 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 012 007 (Happylife) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 012 007 (Happylife) und trifft knapp. Schaden: 192(166/358).
+Das Schiff Biene 012 007 (Happylife) ist erfolgreich geflohen
+Paula (Zarathustra) feuert auf Biene 0104 (Happylife) und trifft knapp. Schaden: 176(182/358).
+Paula (Zarathustra) feuert auf Biene 0104 (Happylife) und trifft. Schaden: 301(0/358).
+Biene 0104 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0109 (Happylife) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 0109 (Happylife) und trifft. Schaden: 407(0/358).
+Biene 0109 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0084 (Happylife) und trifft. Schaden: 316(42/358).
+Versuchte Flucht des Schiffes Biene 0084 (Happylife) ist fehlgeschlagen
+Paula (Zarathustra) feuert auf Biene 0084 (Happylife) und verfehlt.
+Das Schiff Biene 0084 (Happylife) ist erfolgreich geflohen
+Biene 0006 (Happylife) feuert auf Arielle (Zarathustra) und trifft knapp. Schaden: 232(22042/25434).
+Biene 0024 (Happylife) feuert auf Penelope (Zarathustra) und trifft knapp. Schaden: 255(17444/24612).
+Biene 0099 (Happylife) feuert auf Arielle (Zarathustra) und trifft knapp. Schaden: 244(21798/25434).
+Biene 0170 (Happylife) feuert auf Emma (Zarathustra) und verfehlt.
+Dina (Zarathustra) feuert auf Biene 0154 (Happylife) und verfehlt.
+Dina (Zarathustra) feuert auf Biene 1 024 (Happylife) und verfehlt.
+Dina (Zarathustra) feuert auf Biene 0072 (Happylife) und verfehlt.
+Dina (Zarathustra) feuert auf Biene 064 (Happylife) und trifft knapp. Schaden: 330(28/358).
+Versuchte Flucht des Schiffes Biene 064 (Happylife) ist fehlgeschlagen
+Alisha (Zarathustra) feuert auf Biene 012 013 (Happylife) und verfehlt.
+Alisha (Zarathustra) feuert auf Biene 0165 (Happylife) und trifft. Schaden: 2514(0/358).
+Biene 0165 (Happylife) wurde zerstört
+Alisha (Zarathustra) feuert auf Biene 0049 (Happylife) und trifft knapp. Schaden: 777(0/358).
+Biene 0049 (Happylife) wurde zerstört
+Alisha (Zarathustra) feuert auf Biene 012 015 (Happylife) und trifft knapp. Schaden: 810(0/358).
+Biene 012 015 (Happylife) wurde zerstört
+Biene 0164 (Happylife) feuert auf Cassandra (Zarathustra) und verfehlt.
+Biene 0154 (Happylife) feuert auf Lola (Zarathustra) und trifft. Schaden: 649(16922/25582).
+Biene 0195 (Happylife) feuert auf Christina (Zarathustra) und trifft. Schaden: 435(13144/19048).
+Biene 0179 (Happylife) feuert auf Nova (Zarathustra) und trifft. Schaden: 476(18137/25582).
+Biene 0098 (Happylife) feuert auf Marguerite (Zarathustra) und verfehlt.
+Biene 0101 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 473(10626/22622).
+Atalya (Zarathustra) feuert auf Biene 044 (Happylife) und trifft. Schaden: 1556(0/358).
+Biene 044 (Happylife) wurde zerstört
+Atalya (Zarathustra) feuert auf Biene 0111 (Happylife) und verfehlt.
+Atalya (Zarathustra) feuert auf Biene 012 017 (Happylife) und trifft knapp. Schaden: 211(147/358).
+Das Schiff Biene 012 017 (Happylife) ist erfolgreich geflohen
+Fanboy 40 (Zarathustra) feuert auf Biene 0092 (Happylife) und verfehlt.
+Biene 0064 (Happylife) feuert auf Esmeralda (Zarathustra) und trifft. Schaden: 491(11411/21793).
+Biene 0058 (Happylife) feuert auf Arielle (Zarathustra) und trifft. Schaden: 629(21169/25434).
+Biene 0213 (Happylife) feuert auf Sophia (Zarathustra) und verfehlt.
+Biene 0138 (Happylife) feuert auf Emma (Zarathustra) und trifft. Schaden: 537(9702/19625).
+Fanboy 14 (Zarathustra) feuert auf Biene 0092 (Happylife) und trifft. Schaden: 507(0/358).
+Biene 0092 (Happylife) wurde zerstört
+Biene 0172 (Happylife) feuert auf Jasmin (Zarathustra) und verfehlt.
+Biene 0123 (Happylife) feuert auf Justina (Zarathustra) und trifft knapp. Schaden: 258(15822/25730).
+Biene 0122 (Happylife) feuert auf Jasmin (Zarathustra) und trifft. Schaden: 398(16537/25019).
+Biene 0113 (Happylife) feuert auf Zahra (Zarathustra) und trifft knapp. Schaden: 253(17982/25582).
+Biene 0 031 (Happylife) feuert auf Arielle (Zarathustra) und trifft knapp. Schaden: 292(20877/25434).
+Biene 0 019 (Happylife) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 451(13799/25730).
+Fanboy 08 (Zarathustra) feuert auf Biene 0 019 (Happylife) und trifft knapp. Schaden: 186(172/358).
+Versuchte Flucht des Schiffes Biene 0 019 (Happylife) ist fehlgeschlagen
+Biene 1 024 (Happylife) feuert auf Josephine (Zarathustra) und trifft knapp. Schaden: 199(14623/22851).
+Alisha Zafira (Zarathustra) feuert auf Biene 1 006 (Happylife) und verfehlt.
+Alisha Zafira (Zarathustra) feuert auf Biene 0075 (Happylife) und trifft. Schaden: 1501(0/358).
+Biene 0075 (Happylife) wurde zerstört
+Alisha Zafira (Zarathustra) feuert auf Biene 012 024 (Happylife) und verfehlt.
+Alisha Zafira (Zarathustra) feuert auf Biene 0 045 (Happylife) und verfehlt.
+Biene 0141 (Happylife) feuert auf Annabelle (Zarathustra) und verfehlt.
+Fanboy 35 (Zarathustra) feuert auf Biene 0168 (Happylife) und trifft knapp. Schaden: 118(240/358).
+Fanboy 01 (Zarathustra) feuert auf Biene 012 021 (Happylife) und trifft knapp. Schaden: 106(252/358).
+Biene 0 028 (Happylife) feuert auf Cassandra (Zarathustra) und trifft. Schaden: 484(11266/25138).
+Arielle (Zarathustra) feuert auf Biene 035 (Happylife) und verfehlt.
+Arielle (Zarathustra) feuert auf Biene 012 027 (Happylife) und trifft knapp. Schaden: 416(0/358).
+Biene 012 027 (Happylife) wurde zerstört
+Arielle (Zarathustra) feuert auf Biene 0113 (Happylife) und trifft. Schaden: 1266(0/358).
+Biene 0113 (Happylife) wurde zerstört
+Arielle (Zarathustra) feuert auf Biene 012 002 (Happylife) und trifft knapp. Schaden: 483(0/358).
+Biene 012 002 (Happylife) wurde zerstört
+Biene 0047 (Happylife) feuert auf Sophia (Zarathustra) und trifft. Schaden: 427(15859/25582).
+Biene 0178 (Happylife) feuert auf Arielle (Zarathustra) und trifft knapp. Schaden: 202(20675/25434).
+Biene 0033 (Happylife) feuert auf Paula (Zarathustra) und trifft. Schaden: 545(19081/25641).
+Biene 0147 (Happylife) feuert auf Tiara (Zarathustra) und erzielt einen kritischen Treffer. Schaden: 1823(6266/17434).
+Biene 037 (Happylife) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 471(13328/25730).
+Biene 0151 (Happylife) feuert auf Marguerite (Zarathustra) und trifft. Schaden: 586(14524/25360).
+Jasmin (Zarathustra) feuert auf Biene 035 (Happylife) und trifft. Schaden: 2233(0/358).
+Biene 035 (Happylife) wurde zerstört
+Jasmin (Zarathustra) feuert auf Biene 1 019 (Happylife) und trifft knapp. Schaden: 650(0/358).
+Biene 1 019 (Happylife) wurde zerstört
+Jasmin (Zarathustra) feuert auf Biene 0001 (Happylife) und verfehlt.
+Biene 0184 (Happylife) feuert auf Paula (Zarathustra) und trifft. Schaden: 547(18534/25641).
+Biene 031 (Happylife) feuert auf Zahra (Zarathustra) und trifft. Schaden: 570(17412/25582).
+Annabelle (Zarathustra) feuert auf Biene 1 024 (Happylife) und trifft. Schaden: 2046(0/358).
+Biene 1 024 (Happylife) wurde zerstört
+Annabelle (Zarathustra) feuert auf Biene 0181 (Happylife) und trifft. Schaden: 1840(0/358).
+Biene 0181 (Happylife) wurde zerstört
+Annabelle (Zarathustra) feuert auf Biene 034 (Happylife) und trifft knapp. Schaden: 267(91/358).
+Das Schiff Biene 034 (Happylife) ist erfolgreich geflohen
+Annabelle (Zarathustra) feuert auf Biene 012 029 (Happylife) und verfehlt.
+Annabelle (Zarathustra) feuert auf Biene 0006 (Happylife) und trifft. Schaden: 462(0/358).
+Biene 0006 (Happylife) wurde zerstört
+Amelie (Zarathustra) feuert auf Biene 0199 (Happylife) und trifft knapp. Schaden: 716(0/358).
+Biene 0199 (Happylife) wurde zerstört
+Amelie (Zarathustra) feuert auf Biene 033 (Happylife) und trifft. Schaden: 1868(0/358).
+Biene 033 (Happylife) wurde zerstört
+Amelie (Zarathustra) feuert auf Biene 051 (Happylife) und trifft knapp. Schaden: 243(115/358).
+Das Schiff Biene 051 (Happylife) ist erfolgreich geflohen
+Fanboy 33 (Zarathustra) feuert auf Biene 0072 (Happylife) und trifft knapp. Schaden: 129(229/358).
+Biene 040 (Happylife) feuert auf Justina (Zarathustra) und trifft. Schaden: 652(15170/25730).
+Josephine (Zarathustra) feuert auf Biene 012 028 (Happylife) und trifft. Schaden: 2274(0/358).
+Biene 012 028 (Happylife) wurde zerstört
+Josephine (Zarathustra) feuert auf Biene 0170 (Happylife) und trifft. Schaden: 1733(0/358).
+Biene 0170 (Happylife) wurde zerstört
+Josephine (Zarathustra) feuert auf Biene 012 021 (Happylife) und trifft knapp. Schaden: 262(0/358).
+Biene 012 021 (Happylife) wurde zerstört
+Josephine (Zarathustra) feuert auf Biene 0139 (Happylife) und verfehlt.
+Fanboy 13 (Zarathustra) feuert auf Biene 013 (Happylife) und verfehlt.
+Biene 1 005 (Happylife) feuert auf Christina (Zarathustra) und trifft knapp. Schaden: 174(12970/19048).
+Biene 0029 (Happylife) feuert auf Annabelle (Zarathustra) und trifft knapp. Schaden: 235(13093/25730).
+Biene 031 (Happylife) feuert auf Amelie (Zarathustra) und trifft knapp. Schaden: 236(15295/24797).
+Biene 0 028 (Happylife) feuert auf Xena (Zarathustra) und trifft. Schaden: 598(17051/25804).
+Marguerite (Zarathustra) feuert auf Biene 0028 (Happylife) und trifft knapp. Schaden: 604(0/358).
+Biene 0028 (Happylife) wurde zerstört
+Marguerite (Zarathustra) feuert auf Biene 0080 (Happylife) und trifft. Schaden: 1935(0/358).
+Biene 0080 (Happylife) wurde zerstört
+Marguerite (Zarathustra) feuert auf Biene 1 020 (Happylife) und verfehlt.
+Marguerite (Zarathustra) feuert auf Biene 012 (Happylife) und verfehlt.
+Cecile (Zarathustra) feuert auf 45 (Happylife) und trifft. Schaden: 1567(0/358).
+45 (Happylife) wurde zerstört
+Cecile (Zarathustra) feuert auf Biene 0033 (Happylife) und trifft knapp. Schaden: 720(0/358).
+Biene 0033 (Happylife) wurde zerstört
+Cecile (Zarathustra) feuert auf Biene 0193 (Happylife) und trifft knapp. Schaden: 321(37/358).
+Das Schiff Biene 0193 (Happylife) ist erfolgreich geflohen
+Cecile (Zarathustra) feuert auf Biene 0041 (Happylife) und trifft knapp. Schaden: 243(115/358).
+Das Schiff Biene 0041 (Happylife) ist erfolgreich geflohen
+Cecile (Zarathustra) feuert auf Biene (Happylife) und trifft. Schaden: 436(0/358).
+Biene (Happylife) wurde zerstört
+Fanboy 11 (Zarathustra) feuert auf Biene 0119 (Happylife) und verfehlt.
+Biene 0212 (Happylife) feuert auf Atalya (Zarathustra) und trifft. Schaden: 593(11356/19610).
+Biene 0 007 (Happylife) feuert auf Cecile (Zarathustra) und trifft. Schaden: 672(18016/25730).
+Biene 013 (Happylife) feuert auf Justina (Zarathustra) und trifft. Schaden: 646(14524/25730).
+Biene 0078 (Happylife) feuert auf Josephine (Zarathustra) und trifft. Schaden: 648(13975/22851).
+Biene 0 035 (Happylife) feuert auf Paula (Zarathustra) und trifft. Schaden: 549(17985/25641).
+Penelope (Zarathustra) feuert auf Biene 039 (Happylife) und verfehlt.
+Penelope (Zarathustra) feuert auf Biene 0070 (Happylife) und trifft. Schaden: 1622(0/358).
+Biene 0070 (Happylife) wurde zerstört
+Penelope (Zarathustra) feuert auf Biene 0029 (Happylife) und trifft knapp. Schaden: 649(0/358).
+Biene 0029 (Happylife) wurde zerstört
+Biene 0062 (Happylife) feuert auf Zahra (Zarathustra) und trifft. Schaden: 417(16995/25582).
+Biene 0051 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 516(5750/17434).
+Fanboy 14 (Zarathustra) feuert auf Biene 0122 (Happylife) und trifft knapp. Schaden: 147(211/358).
+Fanboy 07 (Zarathustra) feuert auf Biene 0148 (Happylife) und verfehlt.
+Nova (Zarathustra) feuert auf Biene 0100 (Happylife) und verfehlt.
+Nova (Zarathustra) feuert auf Biene 0 025 (Happylife) und verfehlt.
+Nova (Zarathustra) feuert auf Biene 0184 (Happylife) und trifft. Schaden: 549(0/358).
+Biene 0184 (Happylife) wurde zerstört
+Nova (Zarathustra) feuert auf Biene 0072 (Happylife) und verfehlt.
+Biene 1 020 (Happylife) feuert auf Zahra (Zarathustra) und trifft. Schaden: 462(16533/25582).
+Biene 029 (Happylife) feuert auf Sophia (Zarathustra) und trifft. Schaden: 466(15393/25582).
+Biene 0 018 (Happylife) feuert auf Esmee (Zarathustra) und verfehlt.
+Biene 0024 (Happylife) feuert auf Alisha Zafira (Zarathustra) und trifft. Schaden: 541(15706/25582).
+Fanboy 46 (Zarathustra) feuert auf Biene 0138 (Happylife) und verfehlt.
+Das Schiff Biene 1 009 (Happylife) ist erfolgreich geflohen
+Biene 0195 (Happylife) feuert auf Cecile (Zarathustra) und trifft. Schaden: 475(17541/25730).
+Biene 0064 (Happylife) feuert auf Christina (Zarathustra) und trifft. Schaden: 605(12365/19048).
+Biene 0 034 (Happylife) feuert auf Emma (Zarathustra) und trifft. Schaden: 652(9050/19625).
+Justina (Zarathustra) feuert auf Biene 0 007 (Happylife) und trifft knapp. Schaden: 581(0/358).
+Biene 0 007 (Happylife) wurde zerstört
+Justina (Zarathustra) feuert auf Biene 0046 (Happylife) und trifft. Schaden: 1697(0/358).
+Biene 0046 (Happylife) wurde zerstört
+Justina (Zarathustra) feuert auf Biene 1 001 (Happylife) und trifft. Schaden: 698(0/358).
+Biene 1 001 (Happylife) wurde zerstört
+Justina (Zarathustra) feuert auf Biene 0097 (Happylife) und trifft knapp. Schaden: 328(30/358).
+Das Schiff Biene 0097 (Happylife) ist erfolgreich geflohen
+Justina (Zarathustra) feuert auf Biene 0213 (Happylife) und trifft. Schaden: 455(0/358).
+Biene 0213 (Happylife) wurde zerstört
+Biene 0065 (Happylife) feuert auf Alisha Zafira (Zarathustra) und trifft. Schaden: 518(15188/25582).
+Biene 0 042 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 565(5185/17434).
+Biene 0055 (Happylife) feuert auf Marguerite (Zarathustra) und trifft. Schaden: 692(13832/25360).
+Biene 0103 (Happylife) feuert auf Amelie (Zarathustra) und verfehlt.
+Biene 0117 (Happylife) feuert auf Zahra (Zarathustra) und trifft. Schaden: 550(15983/25582).
+Biene 024 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 650(4535/17434).
+Xena (Zarathustra) feuert auf Biene 0167 (Happylife) und verfehlt.
+Xena (Zarathustra) feuert auf Biene 043 (Happylife) und trifft. Schaden: 1799(0/358).
+Biene 043 (Happylife) wurde zerstört
+Xena (Zarathustra) feuert auf Biene 0148 (Happylife) und trifft. Schaden: 594(0/358).
+Biene 0148 (Happylife) wurde zerstört
+Xena (Zarathustra) feuert auf Biene 012 (Happylife) und trifft knapp. Schaden: 404(0/358).
+Biene 012 (Happylife) wurde zerstört
+Cassandra (Zarathustra) feuert auf Biene 0094 (Happylife) und verfehlt.
+Cassandra (Zarathustra) feuert auf Biene 0100 (Happylife) und trifft knapp. Schaden: 357(1/358).
+Das Schiff Biene 0100 (Happylife) ist erfolgreich geflohen
+Cassandra (Zarathustra) feuert auf Biene 0117 (Happylife) und erzielt einen kritischen Treffer. Schaden: 3000(0/358).
+Biene 0117 (Happylife) wurde zerstört
+Cassandra (Zarathustra) feuert auf Biene 0151 (Happylife) und trifft knapp. Schaden: 311(47/358).
+Das Schiff Biene 0151 (Happylife) ist erfolgreich geflohen
+Biene 056 (Happylife) feuert auf Cecile (Zarathustra) und verfehlt.
+Biene 0172 (Happylife) feuert auf Katja (Zarathustra) und trifft. Schaden: 579(12717/25730).
+Biene 0 027 (Happylife) feuert auf Esmeralda (Zarathustra) und trifft. Schaden: 705(10706/21793).
+Paula (Zarathustra) feuert auf Biene 0093 (Happylife) und trifft. Schaden: 1628(0/358).
+Biene 0093 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0099 (Happylife) und trifft knapp. Schaden: 849(0/358).
+Biene 0099 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 012 016 (Happylife) und trifft. Schaden: 451(0/358).
+Biene 012 016 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 063 (Happylife) und trifft. Schaden: 519(0/358).
+Biene 063 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0167 (Happylife) und trifft. Schaden: 503(0/358).
+Biene 0167 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 02 (Happylife) und trifft. Schaden: 452(0/358).
+Biene 02 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0047 (Happylife) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 0047 (Happylife) und trifft. Schaden: 385(0/358).
+Biene 0047 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0027 (Happylife) und trifft. Schaden: 333(25/358).
+Versuchte Flucht des Schiffes Biene 0027 (Happylife) ist fehlgeschlagen
+Paula (Zarathustra) feuert auf Biene 0027 (Happylife) und trifft knapp. Schaden: 189(0/358).
+Biene 0027 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0065 (Happylife) und trifft knapp. Schaden: 224(134/358).
+Das Schiff Biene 0065 (Happylife) ist erfolgreich geflohen
+Paula (Zarathustra) feuert auf Biene 0141 (Happylife) und trifft. Schaden: 376(0/358).
+Biene 0141 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0124 (Happylife) und trifft. Schaden: 418(0/358).
+Biene 0124 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0172 (Happylife) und trifft. Schaden: 410(0/358).
+Biene 0172 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0111 (Happylife) und trifft. Schaden: 491(0/358).
+Biene 0111 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 018 (Happylife) und trifft. Schaden: 424(0/358).
+Biene 018 (Happylife) wurde zerstört
+Biene 032 (Happylife) feuert auf Cecile (Zarathustra) und verfehlt.
+Biene 012 013 (Happylife) feuert auf Dina (Zarathustra) und verfehlt.
+Fanboy 45 (Zarathustra) feuert auf Biene 0024 (Happylife) und trifft knapp. Schaden: 142(216/358).
+Annabelle (Zarathustra) feuert auf Biene 0147 (Happylife) und verfehlt.
+Annabelle (Zarathustra) feuert auf Biene 040 (Happylife) und trifft. Schaden: 1729(0/358).
+Biene 040 (Happylife) wurde zerstört
+Annabelle (Zarathustra) feuert auf Biene 0062 (Happylife) und verfehlt.
+Annabelle (Zarathustra) feuert auf Biene 0001 (Happylife) und trifft knapp. Schaden: 430(0/358).
+Biene 0001 (Happylife) wurde zerstört
+Annabelle (Zarathustra) feuert auf Biene 032 (Happylife) und trifft. Schaden: 497(0/358).
+Biene 032 (Happylife) wurde zerstört
+Biene 0094 (Happylife) feuert auf Atalya (Zarathustra) und trifft. Schaden: 685(10671/19610).
+Lola (Zarathustra) feuert auf Biene 0174 (Happylife) und trifft knapp. Schaden: 812(0/358).
+Biene 0174 (Happylife) wurde zerstört
+Lola (Zarathustra) feuert auf Biene 0014 (Happylife) und trifft knapp. Schaden: 574(0/358).
+Biene 0014 (Happylife) wurde zerstört
+Lola (Zarathustra) feuert auf Biene 056 (Happylife) und verfehlt.
+Lola (Zarathustra) feuert auf Biene 029 (Happylife) und trifft knapp. Schaden: 273(85/358).
+Das Schiff Biene 029 (Happylife) ist erfolgreich geflohen
+Atalya (Zarathustra) feuert auf Biene 0098 (Happylife) und verfehlt.
+Atalya (Zarathustra) feuert auf Biene 0145 (Happylife) und verfehlt.
+Atalya (Zarathustra) feuert auf Biene 0200 (Happylife) und trifft. Schaden: 658(0/358).
+Biene 0200 (Happylife) wurde zerstört
+Biene 012 029 (Happylife) feuert auf Sophia (Zarathustra) und trifft. Schaden: 614(14779/25582).
+Biene 0096 (Happylife) feuert auf Annabelle (Zarathustra) und trifft knapp. Schaden: 233(12860/25730).
+Biene 0202 (Happylife) feuert auf Katja (Zarathustra) und trifft. Schaden: 533(12184/25730).
+Biene 0 031 (Happylife) feuert auf Atalya (Zarathustra) und verfehlt.
+Biene 0107 (Happylife) feuert auf Penelope (Zarathustra) und trifft. Schaden: 516(16928/24612).
+Biene 0138 (Happylife) feuert auf Christina (Zarathustra) und verfehlt.
+Esmeralda (Zarathustra) feuert auf Biene 0021 (Happylife) und trifft. Schaden: 2658(0/358).
+Biene 0021 (Happylife) wurde zerstört
+Esmeralda (Zarathustra) feuert auf Biene 0040 (Happylife) und trifft knapp. Schaden: 620(0/358).
+Biene 0040 (Happylife) wurde zerstört
+Fanboy 31 (Zarathustra) feuert auf Biene 0178 (Happylife) und trifft knapp. Schaden: 134(224/358).
+Biene 0147 (Happylife) feuert auf Esmee (Zarathustra) und verfehlt.
+Biene 0098 (Happylife) feuert auf Cassandra (Zarathustra) und trifft. Schaden: 600(10666/25138).
+Biene 0121 (Happylife) feuert auf Alisha Zafira (Zarathustra) und trifft. Schaden: 506(14682/25582).
+Biene 012 018 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 464(10162/22622).
+Emma (Zarathustra) feuert auf Biene 0162 (Happylife) und trifft. Schaden: 3068(0/358).
+Biene 0162 (Happylife) wurde zerstört
+Emma (Zarathustra) feuert auf Biene 0072 (Happylife) und verfehlt.
+Emma (Zarathustra) feuert auf Biene 012 013 (Happylife) und trifft knapp. Schaden: 280(78/358).
+Das Schiff Biene 012 013 (Happylife) ist erfolgreich geflohen
+Fanboy 42 (Zarathustra) feuert auf Biene 0118 (Happylife) und trifft knapp. Schaden: 147(211/358).
+Biene 03 (Happylife) feuert auf Lola (Zarathustra) und verfehlt.
+Biene 0003 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 628(3907/17434).
+Biene 062 (Happylife) feuert auf Xena (Zarathustra) und trifft. Schaden: 570(16481/25804).
+Fanboy 33 (Zarathustra) feuert auf Biene 0 028 (Happylife) und verfehlt.
+Jasmin (Zarathustra) feuert auf Biene 0195 (Happylife) und verfehlt.
+Jasmin (Zarathustra) feuert auf Biene 0198 (Happylife) und verfehlt.
+Jasmin (Zarathustra) feuert auf Biene 0024 (Happylife) und verfehlt.
+Fanboy 08 (Zarathustra) feuert auf Biene 0195 (Happylife) und trifft knapp. Schaden: 203(155/358).
+Versuchte Flucht des Schiffes Biene 0195 (Happylife) ist fehlgeschlagen
+Fanboy 34 (Zarathustra) feuert auf Biene 0064 (Happylife) und verfehlt.
+Das Schiff Biene 0 019 (Happylife) ist erfolgreich geflohen
+Biene 0087 (Happylife) feuert auf Annabelle (Zarathustra) und trifft knapp. Schaden: 244(12616/25730).
+Biene 0058 (Happylife) feuert auf Katja (Zarathustra) und trifft. Schaden: 490(11694/25730).
+Josephine (Zarathustra) feuert auf Biene 0051 (Happylife) und verfehlt.
+Josephine (Zarathustra) feuert auf Biene 0 026 (Happylife) und verfehlt.
+Josephine (Zarathustra) feuert auf Biene 0003 (Happylife) und verfehlt.
+Josephine (Zarathustra) feuert auf Biene 0123 (Happylife) und trifft. Schaden: 998(0/358).
+Biene 0123 (Happylife) wurde zerstört
+Biene 0 010 (Happylife) feuert auf Amelie (Zarathustra) und trifft. Schaden: 498(14797/24797).
+Fanboy 47 (Zarathustra) feuert auf Biene 012 024 (Happylife) und verfehlt.
+Biene 0 026 (Happylife) feuert auf Cecile (Zarathustra) und erzielt einenschweren Treffer. Schaden: 1078(16463/25730).
+Arielle (Zarathustra) feuert auf Biene 1 007 (Happylife) und verfehlt.
+Arielle (Zarathustra) feuert auf Biene 012 018 (Happylife) und verfehlt.
+Arielle (Zarathustra) feuert auf Biene 1 005 (Happylife) und trifft. Schaden: 986(0/358).
+Biene 1 005 (Happylife) wurde zerstört
+Arielle (Zarathustra) feuert auf Biene 0138 (Happylife) und verfehlt.
+Fanboy 38 (Zarathustra) feuert auf Biene 0122 (Happylife) und trifft. Schaden: 326(0/358).
+Biene 0122 (Happylife) wurde zerstört
+Fanboy 35 (Zarathustra) feuert auf Biene 0168 (Happylife) und trifft knapp. Schaden: 127(113/358).
+Das Schiff Biene 0168 (Happylife) ist erfolgreich geflohen
+Biene 0118 (Happylife) feuert auf Marguerite (Zarathustra) und trifft. Schaden: 461(13371/25360).
+Biene 016 (Happylife) feuert auf Esmeralda (Zarathustra) und trifft knapp. Schaden: 211(10495/21793).
+Biene 026 (Happylife) feuert auf Amelie (Zarathustra) und trifft. Schaden: 404(14393/24797).
+Esmee (Zarathustra) feuert auf Biene 0003 (Happylife) und verfehlt.
+Esmee (Zarathustra) feuert auf Biene 0154 (Happylife) und verfehlt.
+Esmee (Zarathustra) feuert auf Biene 013 (Happylife) und trifft knapp. Schaden: 399(0/358).
+Biene 013 (Happylife) wurde zerstört
+Esmee (Zarathustra) feuert auf Biene 0115 (Happylife) und trifft. Schaden: 774(0/358).
+Biene 0115 (Happylife) wurde zerstört
+Biene 0 025 (Happylife) feuert auf Justina (Zarathustra) und trifft. Schaden: 475(14049/25730).
+Sophia (Zarathustra) feuert auf Biene 0144 (Happylife) und trifft knapp. Schaden: 458(0/358).
+Biene 0144 (Happylife) wurde zerstört
+Sophia (Zarathustra) feuert auf Biene 1 020 (Happylife) und verfehlt.
+Sophia (Zarathustra) feuert auf Biene 1 007 (Happylife) und verfehlt.
+Sophia (Zarathustra) feuert auf Biene 0157 (Happylife) und trifft. Schaden: 775(0/358).
+Biene 0157 (Happylife) wurde zerstört
+Fanboy 04 (Zarathustra) feuert auf Biene 0103 (Happylife) und verfehlt.
+Biene 0072 (Happylife) feuert auf Marguerite (Zarathustra) und verfehlt.
+Katharina (Zarathustra) feuert auf Biene 0 025 (Happylife) und trifft. Schaden: 1757(0/358).
+Biene 0 025 (Happylife) wurde zerstört
+Katharina (Zarathustra) feuert auf Biene 0 017 (Happylife) und trifft knapp. Schaden: 493(0/358).
+Biene 0 017 (Happylife) wurde zerstört
+Katharina (Zarathustra) feuert auf Biene 0055 (Happylife) und trifft knapp. Schaden: 291(67/358).
+Versuchte Flucht des Schiffes Biene 0055 (Happylife) ist fehlgeschlagen
+Katharina (Zarathustra) feuert auf Biene 0154 (Happylife) und verfehlt.
+Katharina (Zarathustra) feuert auf Biene 0051 (Happylife) und trifft. Schaden: 447(0/358).
+Biene 0051 (Happylife) wurde zerstört
+Biene 0178 (Happylife) feuert auf Katharina (Zarathustra) und trifft. Schaden: 389(15541/25730).
+Christina (Zarathustra) feuert auf Biene 0179 (Happylife) und verfehlt.
+Christina (Zarathustra) feuert auf Biene 1 014 (Happylife) und trifft. Schaden: 1722(0/358).
+Biene 1 014 (Happylife) wurde zerstört
+Christina (Zarathustra) feuert auf Biene 0 012 (Happylife) und verfehlt.
+Christina (Zarathustra) feuert auf Biene 0154 (Happylife) und trifft knapp. Schaden: 656(0/358).
+Biene 0154 (Happylife) wurde zerstört
+Christina (Zarathustra) feuert auf Biene 0179 (Happylife) und trifft. Schaden: 1422(0/358).
+Biene 0179 (Happylife) wurde zerstört
+Christina (Zarathustra) feuert auf Biene 03 (Happylife) und trifft. Schaden: 1533(0/358).
+Biene 03 (Happylife) wurde zerstört
+Biene 0101 (Happylife) feuert auf Penelope (Zarathustra) und trifft. Schaden: 564(16364/24612).
+Fanboy 41 (Zarathustra) feuert auf Biene 062 (Happylife) und trifft knapp. Schaden: 198(160/358).
+Versuchte Flucht des Schiffes Biene 062 (Happylife) ist fehlgeschlagen
+Biene 1 007 (Happylife) feuert auf Justina (Zarathustra) und trifft. Schaden: 476(13573/25730).
+Biene 0139 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 402(3505/17434).
+Biene 0164 (Happylife) feuert auf Katja (Zarathustra) und trifft. Schaden: 577(11117/25730).
+Biene 0158 (Happylife) feuert auf Jasmin (Zarathustra) und trifft. Schaden: 463(16074/25019).
+Biene 1 002 (Happylife) feuert auf Paula (Zarathustra) und trifft. Schaden: 532(17453/25641).
+Melina (Zarathustra) feuert auf Biene 0094 (Happylife) und trifft. Schaden: 1130(0/358).
+Biene 0094 (Happylife) wurde zerstört
+Melina (Zarathustra) feuert auf Biene 016 (Happylife) und verfehlt.
+Melina (Zarathustra) feuert auf Biene 0078 (Happylife) und verfehlt.
+Melina (Zarathustra) feuert auf Biene 038 (Happylife) und trifft knapp. Schaden: 222(136/358).
+Das Schiff Biene 038 (Happylife) ist erfolgreich geflohen
+Dina (Zarathustra) feuert auf Biene 056 (Happylife) und trifft. Schaden: 1644(0/358).
+Biene 056 (Happylife) wurde zerstört
+Dina (Zarathustra) feuert auf Biene 059 (Happylife) und trifft knapp. Schaden: 741(0/358).
+Biene 059 (Happylife) wurde zerstört
+Dina (Zarathustra) feuert auf Biene 049 (Happylife) und verfehlt.
+Dina (Zarathustra) feuert auf Biene 064 (Happylife) und verfehlt.
+Das Schiff Biene 064 (Happylife) ist erfolgreich geflohen
+Amelie (Zarathustra) feuert auf Biene 0072 (Happylife) und trifft. Schaden: 1182(0/358).
+Biene 0072 (Happylife) wurde zerstört
+Amelie (Zarathustra) feuert auf Biene 0 034 (Happylife) und trifft knapp. Schaden: 656(0/358).
+Biene 0 034 (Happylife) wurde zerstört
+Amelie (Zarathustra) feuert auf Biene 1 020 (Happylife) und verfehlt.
+Biene 1 006 (Happylife) feuert auf Penelope (Zarathustra) und trifft. Schaden: 606(15758/24612).
+Zahra (Zarathustra) feuert auf Biene 0096 (Happylife) und verfehlt.
+Zahra (Zarathustra) feuert auf Biene 0087 (Happylife) und trifft. Schaden: 1170(0/358).
+Biene 0087 (Happylife) wurde zerstört
+Zahra (Zarathustra) feuert auf Biene 0119 (Happylife) und trifft knapp. Schaden: 289(69/358).
+Das Schiff Biene 0119 (Happylife) ist erfolgreich geflohen
+Zahra (Zarathustra) feuert auf Biene 0212 (Happylife) und verfehlt.
+Biene 0188 (Happylife) feuert auf Cecile (Zarathustra) und trifft. Schaden: 491(15972/25730).
+Tiara (Zarathustra) feuert auf Biene 0 031 (Happylife) und verfehlt.
+Tiara (Zarathustra) feuert auf Biene 1 006 (Happylife) und verfehlt.
+Tiara (Zarathustra) feuert auf Biene 0 012 (Happylife) und trifft. Schaden: 1069(0/358).
+Biene 0 012 (Happylife) wurde zerstört
+Tiara (Zarathustra) feuert auf Biene 0003 (Happylife) und verfehlt.
+Biene 055 (Happylife) feuert auf Melina (Zarathustra) und trifft knapp. Schaden: 274(17903/25582).
+Biene 0198 (Happylife) feuert auf Nova (Zarathustra) und trifft. Schaden: 522(17615/25582).
+Fanboy 12 (Zarathustra) feuert auf Biene 0062 (Happylife) und verfehlt.
+Biene 037 (Happylife) feuert auf Tiara (Zarathustra) und trifft. Schaden: 561(2944/17434).
+Versuchte Flucht des Schiffes Tiara (Zarathustra) ist fehlgeschlagen
+Fanboy 44 (Zarathustra) feuert auf Biene 0107 (Happylife) und trifft knapp. Schaden: 197(161/358).
+Das Schiff Biene 0107 (Happylife) ist erfolgreich geflohen
+Katja (Zarathustra) feuert auf Biene 0055 (Happylife) und trifft. Schaden: 1829(0/358).
+Biene 0055 (Happylife) wurde zerstört
+Katja (Zarathustra) feuert auf Biene 031 (Happylife) und verfehlt.
+Katja (Zarathustra) feuert auf Biene 0101 (Happylife) und trifft. Schaden: 520(0/358).
+Biene 0101 (Happylife) wurde zerstört
+Katja (Zarathustra) feuert auf Biene 0145 (Happylife) und verfehlt.
+Katja (Zarathustra) feuert auf Biene 049 (Happylife) und verfehlt.
+Katja (Zarathustra) feuert auf Biene 049 (Happylife) und trifft. Schaden: 284(74/358).
+Versuchte Flucht des Schiffes Biene 049 (Happylife) ist fehlgeschlagen
+Alisha (Zarathustra) feuert auf Biene 0062 (Happylife) und verfehlt.
+Alisha (Zarathustra) feuert auf Biene 0147 (Happylife) und verfehlt.
+Alisha (Zarathustra) feuert auf Biene 0096 (Happylife) und trifft knapp. Schaden: 1078(0/358).
+Biene 0096 (Happylife) wurde zerstört
+Alisha (Zarathustra) feuert auf Biene 039 (Happylife) und trifft. Schaden: 2217(0/358).
+Biene 039 (Happylife) wurde zerstört
+Biene 048 (Happylife) feuert auf Melina (Zarathustra) und trifft. Schaden: 388(17515/25582).
+Alisha Zafira (Zarathustra) feuert auf Biene 0045 (Happylife) und trifft. Schaden: 2395(0/358).
+Biene 0045 (Happylife) wurde zerstört
+Alisha Zafira (Zarathustra) feuert auf Biene 1 002 (Happylife) und trifft. Schaden: 1416(0/358).
+Biene 1 002 (Happylife) wurde zerstört
+Alisha Zafira (Zarathustra) feuert auf Biene 0178 (Happylife) und trifft. Schaden: 908(0/358).
+Biene 0178 (Happylife) wurde zerstört
+Alisha Zafira (Zarathustra) feuert auf Biene 0 027 (Happylife) und trifft knapp. Schaden: 209(149/358).
+Das Schiff Biene 0 027 (Happylife) ist erfolgreich geflohen
+Biene 012 010 (Happylife) feuert auf Sophia (Zarathustra) und erzielt einenschweren Treffer. Schaden: 1182(13597/25582).
+Biene 0082 (Happylife) feuert auf Atalya (Zarathustra) und trifft. Schaden: 478(10193/19610).
+Fanboy 37 (Zarathustra) feuert auf Biene 0058 (Happylife) und trifft knapp. Schaden: 184(174/358).
+Das Schiff Biene 0058 (Happylife) ist erfolgreich geflohen
+Fanboy 32 (Zarathustra) feuert auf Biene 0158 (Happylife) und verfehlt.
+Fanboy 40 (Zarathustra) feuert auf Biene 0103 (Happylife) und trifft knapp. Schaden: 137(221/358).
+Biene 0 045 (Happylife) feuert auf Nova (Zarathustra) und verfehlt.
+Fanboy 03 (Zarathustra) feuert auf Biene 0082 (Happylife) und verfehlt.
+Biene 0145 (Happylife) feuert auf Annabelle (Zarathustra) und trifft. Schaden: 525(12091/25730).
+Fanboy 01 (Zarathustra) feuert auf Biene 0118 (Happylife) und verfehlt.
+Biene 0140 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 385(9777/22622).
+Fanboy 39 (Zarathustra) feuert auf Biene 0078 (Happylife) und trifft knapp. Schaden: 192(166/358).
+Das Schiff Biene 0078 (Happylife) ist erfolgreich geflohen
+Biene 0015 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 656(9121/22622).
+Biene 012 024 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 582(8539/22622).
+Fanboy 36 (Zarathustra) feuert auf Biene 0 028 (Happylife) und verfehlt.
+Arielle (Zarathustra) feuert auf Biene 1 006 (Happylife) und verfehlt.
+Arielle (Zarathustra) feuert auf Biene 0003 (Happylife) und trifft knapp. Schaden: 703(0/358).
+Biene 0003 (Happylife) wurde zerstört
+Arielle (Zarathustra) feuert auf Biene 0062 (Happylife) und verfehlt.
+Arielle (Zarathustra) feuert auf Biene 0188 (Happylife) und verfehlt.
+Biene 012 010 (Happylife) feuert auf Zahra (Zarathustra) und verfehlt.
+Biene 055 (Happylife) feuert auf Amelie (Zarathustra) und trifft. Schaden: 499(13894/24797).
+Fanboy 37 (Zarathustra) feuert auf Biene 012 018 (Happylife) und trifft knapp. Schaden: 109(249/358).
+Biene 024 (Happylife) feuert auf Arielle (Zarathustra) und trifft. Schaden: 561(20114/25434).
+Biene 048 (Happylife) feuert auf Zahra (Zarathustra) und verfehlt.
+Biene 0138 (Happylife) feuert auf Josephine (Zarathustra) und trifft knapp. Schaden: 274(13701/22851).
+Biene 0158 (Happylife) feuert auf Jasmin (Zarathustra) und trifft. Schaden: 500(15574/25019).
+Cecile (Zarathustra) feuert auf Biene 012 024 (Happylife) und trifft. Schaden: 1681(0/358).
+Biene 012 024 (Happylife) wurde zerstört
+Cecile (Zarathustra) feuert auf Biene 0098 (Happylife) und verfehlt.
+Cecile (Zarathustra) feuert auf Biene 0212 (Happylife) und trifft knapp. Schaden: 251(0/358).
+Biene 0212 (Happylife) wurde zerstört
+Cecile (Zarathustra) feuert auf Biene 0 018 (Happylife) und verfehlt.
+Cecile (Zarathustra) feuert auf Biene 055 (Happylife) und trifft. Schaden: 400(0/358).
+Biene 055 (Happylife) wurde zerstört
+Fanboy 11 (Zarathustra) feuert auf Biene 0062 (Happylife) und trifft. Schaden: 478(0/358).
+Biene 0062 (Happylife) wurde zerstört
+Biene 0024 (Happylife) feuert auf Lola (Zarathustra) und trifft. Schaden: 600(16322/25582).
+Biene 0 042 (Happylife) feuert auf Esmee (Zarathustra) und trifft. Schaden: 617(7922/22622).
+Josephine (Zarathustra) feuert auf Biene 0145 (Happylife) und verfehlt.
+Josephine (Zarathustra) feuert auf Biene 0138 (Happylife) und verfehlt.
+Josephine (Zarathustra) feuert auf Biene 012 018 (Happylife) und trifft. Schaden: 623(0/358).
+Biene 012 018 (Happylife) wurde zerstört
+Josephine (Zarathustra) feuert auf Biene 0202 (Happylife) und verfehlt.
+Esmee (Zarathustra) feuert auf Biene 0188 (Happylife) und verfehlt.
+Esmee (Zarathustra) feuert auf Biene 031 (Happylife) und verfehlt.
+Esmee (Zarathustra) feuert auf Biene 026 (Happylife) und trifft. Schaden: 586(0/358).
+Biene 026 (Happylife) wurde zerstört
+Esmee (Zarathustra) feuert auf Biene 0164 (Happylife) und verfehlt.
+Katharina (Zarathustra) feuert auf Biene 0 045 (Happylife) und trifft. Schaden: 1701(0/358).
+Biene 0 045 (Happylife) wurde zerstört
+Katharina (Zarathustra) feuert auf Biene 012 010 (Happylife) und trifft. Schaden: 1441(0/358).
+Biene 012 010 (Happylife) wurde zerstört
+Katharina (Zarathustra) feuert auf Biene 0 028 (Happylife) und trifft. Schaden: 1135(0/358).
+Biene 0 028 (Happylife) wurde zerstört
+Katharina (Zarathustra) feuert auf Biene 0118 (Happylife) und trifft knapp. Schaden: 369(0/358).
+Biene 0118 (Happylife) wurde zerstört
+Katharina (Zarathustra) feuert auf Biene 0 042 (Happylife) und trifft. Schaden: 344(14/358).
+Das Schiff Biene 0 042 (Happylife) ist erfolgreich geflohen
+Fanboy 39 (Zarathustra) feuert auf Biene 0 010 (Happylife) und trifft knapp. Schaden: 83(275/358).
+Fanboy 44 (Zarathustra) feuert auf Biene 049 (Happylife) und trifft knapp. Schaden: 168(0/358).
+Biene 049 (Happylife) wurde zerstört
+Biene 0147 (Happylife) feuert auf Atalya (Zarathustra) und verfehlt.
+Sophia (Zarathustra) feuert auf Biene 0103 (Happylife) und verfehlt.
+Sophia (Zarathustra) feuert auf Biene 1 007 (Happylife) und verfehlt.
+Sophia (Zarathustra) feuert auf Biene 0138 (Happylife) und trifft. Schaden: 757(0/358).
+Biene 0138 (Happylife) wurde zerstört
+Sophia (Zarathustra) feuert auf Biene 037 (Happylife) und verfehlt.
+Esmeralda (Zarathustra) feuert auf Biene 0164 (Happylife) und trifft knapp. Schaden: 1227(0/358).
+Biene 0164 (Happylife) wurde zerstört
+Esmeralda (Zarathustra) feuert auf Biene 0082 (Happylife) und trifft. Schaden: 2091(0/358).
+Biene 0082 (Happylife) wurde zerstört
+Biene 1 006 (Happylife) feuert auf Christina (Zarathustra) und verfehlt.
+Biene 012 029 (Happylife) feuert auf Katharina (Zarathustra) und trifft. Schaden: 702(14839/25730).
+Atalya (Zarathustra) feuert auf Biene 016 (Happylife) und trifft. Schaden: 1534(0/358).
+Biene 016 (Happylife) wurde zerstört
+Atalya (Zarathustra) feuert auf Biene 037 (Happylife) und verfehlt.
+Atalya (Zarathustra) feuert auf Biene 0195 (Happylife) und verfehlt.
+Das Schiff Biene 0195 (Happylife) ist erfolgreich geflohen
+Fanboy 01 (Zarathustra) feuert auf Biene 0 035 (Happylife) und trifft. Schaden: 387(0/358).
+Biene 0 035 (Happylife) wurde zerstört
+Amelie (Zarathustra) feuert auf Biene 0103 (Happylife) und trifft knapp. Schaden: 716(0/358).
+Biene 0103 (Happylife) wurde zerstört
+Amelie (Zarathustra) feuert auf Biene 0015 (Happylife) und verfehlt.
+Amelie (Zarathustra) feuert auf Biene 0121 (Happylife) und verfehlt.
+Alisha (Zarathustra) feuert auf Biene 0 031 (Happylife) und trifft. Schaden: 2666(0/358).
+Biene 0 031 (Happylife) wurde zerstört
+Alisha (Zarathustra) feuert auf Biene 0 026 (Happylife) und verfehlt.
+Alisha (Zarathustra) feuert auf Biene 062 (Happylife) und verfehlt.
+Versuchte Flucht des Schiffes Biene 062 (Happylife) ist fehlgeschlagen
+Alisha (Zarathustra) feuert auf Biene 0121 (Happylife) und trifft knapp. Schaden: 609(0/358).
+Biene 0121 (Happylife) wurde zerstört
+Dina (Zarathustra) feuert auf Biene 0140 (Happylife) und verfehlt.
+Dina (Zarathustra) feuert auf Biene 037 (Happylife) und trifft. Schaden: 1761(0/358).
+Biene 037 (Happylife) wurde zerstört
+Dina (Zarathustra) feuert auf Biene 024 (Happylife) und trifft. Schaden: 570(0/358).
+Biene 024 (Happylife) wurde zerstört
+Dina (Zarathustra) feuert auf Biene 0 026 (Happylife) und trifft. Schaden: 1047(0/358).
+Biene 0 026 (Happylife) wurde zerstört
+Fanboy 36 (Zarathustra) feuert auf Biene 0015 (Happylife) und trifft. Schaden: 334(24/358).
+Versuchte Flucht des Schiffes Biene 0015 (Happylife) ist fehlgeschlagen
+Paula (Zarathustra) feuert auf Biene 0098 (Happylife) und trifft. Schaden: 1468(0/358).
+Biene 0098 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0015 (Happylife) und trifft. Schaden: 1341(0/358).
+Biene 0015 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0147 (Happylife) und trifft. Schaden: 367(0/358).
+Biene 0147 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0024 (Happylife) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 0024 (Happylife) und trifft knapp. Schaden: 182(34/358).
+Das Schiff Biene 0024 (Happylife) ist erfolgreich geflohen
+Paula (Zarathustra) feuert auf Biene 0188 (Happylife) und trifft knapp. Schaden: 210(148/358).
+Das Schiff Biene 0188 (Happylife) ist erfolgreich geflohen
+Paula (Zarathustra) feuert auf Biene 0158 (Happylife) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 0158 (Happylife) und trifft. Schaden: 419(0/358).
+Biene 0158 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0202 (Happylife) und trifft knapp. Schaden: 195(163/358).
+Das Schiff Biene 0202 (Happylife) ist erfolgreich geflohen
+Paula (Zarathustra) feuert auf Biene 0064 (Happylife) und trifft. Schaden: 474(0/358).
+Biene 0064 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 012 029 (Happylife) und trifft. Schaden: 420(0/358).
+Biene 012 029 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 0140 (Happylife) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 0140 (Happylife) und trifft. Schaden: 481(0/358).
+Biene 0140 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 031 (Happylife) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 031 (Happylife) und verfehlt.
+Paula (Zarathustra) feuert auf Biene 0 018 (Happylife) und trifft. Schaden: 301(57/358).
+Das Schiff Biene 0 018 (Happylife) ist erfolgreich geflohen
+Paula (Zarathustra) feuert auf Biene 062 (Happylife) und trifft knapp. Schaden: 255(0/358).
+Biene 062 (Happylife) wurde zerstört
+Paula (Zarathustra) feuert auf Biene 031 (Happylife) und trifft. Schaden: 424(0/358).
+Biene 031 (Happylife) wurde zerstört
+Fanboy 08 (Zarathustra) feuert auf Biene 1 006 (Happylife) und trifft knapp. Schaden: 140(218/358).
+Emma (Zarathustra) feuert auf Biene 0139 (Happylife) und verfehlt.
+Emma (Zarathustra) feuert auf Biene 1 007 (Happylife) und verfehlt.
+Emma (Zarathustra) feuert auf Biene 1 006 (Happylife) und trifft knapp. Schaden: 208(10/358).
+Das Schiff Biene 1 006 (Happylife) ist erfolgreich geflohen
+Biene 1 020 (Happylife) feuert auf Tiara (Zarathustra) und verfehlt.
+Das Schiff Tiara (Zarathustra) ist erfolgreich geflohen
+Fanboy 32 (Zarathustra) feuert auf Biene 048 (Happylife) und trifft knapp. Schaden: 193(165/358).
+Versuchte Flucht des Schiffes Biene 048 (Happylife) ist fehlgeschlagen
+Fanboy 40 (Zarathustra) feuert auf Biene 048 (Happylife) und trifft knapp. Schaden: 110(55/358).
+Das Schiff Biene 048 (Happylife) ist erfolgreich geflohen
+Biene 1 007 (Happylife) feuert auf Jasmin (Zarathustra) und trifft. Schaden: 642(14932/25019).
+Fanboy 47 (Zarathustra) feuert auf Biene 1 007 (Happylife) und trifft knapp. Schaden: 129(229/358).
+Fanboy 42 (Zarathustra) feuert auf Biene 1 020 (Happylife) und verfehlt.
+Fanboy 12 (Zarathustra) feuert auf Biene 0 010 (Happylife) und trifft knapp. Schaden: 133(142/358).
+Versuchte Flucht des Schiffes Biene 0 010 (Happylife) ist fehlgeschlagen
+Biene 0145 (Happylife) feuert auf Penelope (Zarathustra) und trifft. Schaden: 552(15206/24612).
+Biene 0139 (Happylife) feuert auf Marguerite (Zarathustra) und trifft. Schaden: 642(12729/25360).
+Justina (Zarathustra) feuert auf Biene 1 007 (Happylife) und trifft. Schaden: 1941(0/358).
+Biene 1 007 (Happylife) wurde zerstört
+Justina (Zarathustra) feuert auf Biene 0 010 (Happylife) und trifft. Schaden: 1900(0/358).
+Biene 0 010 (Happylife) wurde zerstört
+Justina (Zarathustra) feuert auf Biene 0145 (Happylife) und trifft. Schaden: 711(0/358).
+Biene 0145 (Happylife) wurde zerstört
+Justina (Zarathustra) feuert auf Biene 1 020 (Happylife) und trifft knapp. Schaden: 307(51/358).
+Das Schiff Biene 1 020 (Happylife) ist erfolgreich geflohen
+Justina (Zarathustra) feuert auf Biene 0198 (Happylife) und trifft. Schaden: 387(0/358).
+Biene 0198 (Happylife) wurde zerstört
+Fanboy 35 (Zarathustra) feuert auf Biene 0139 (Happylife) und trifft knapp. Schaden: 178(180/358).
+Fanboy 33 (Zarathustra) feuert auf Biene 0139 (Happylife) und trifft knapp. Schaden: 200(0/358).
+Biene 0139 (Happylife) wurde zerstört
+
+Die Angreifer haben gewonnen
