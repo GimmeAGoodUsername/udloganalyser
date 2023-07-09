@@ -4,7 +4,7 @@ import IUser from './types/user.type';
 import * as AuthService from "./services/auth.service";
 
 import { Routes, Route, Link } from "react-router-dom";
-import './index.css';
+import './App.css';
 
 import Login from "./components/Login";
 import Home from "./components/Home";
