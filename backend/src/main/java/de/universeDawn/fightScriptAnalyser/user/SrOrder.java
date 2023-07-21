@@ -48,5 +48,7 @@ public class SrOrder {
     @ManyToOne
     @JoinColumn(name="srUserTarget_id",nullable = true)
     private SrUser deliveryBoy;
+    @Column(name = "status")
+    private boolean status = false;
 
 }

@@ -31,4 +31,8 @@ public class OrderService {
 
         return orderRepository.save(orderRequest.srOrder());
     }
+
+    public SrOrder createOrder(SrOrder order){
+        return orderRepository.save(order);
+    }
 }

@@ -1,5 +1,6 @@
 package de.universeDawn.fightscriptanalyser.api;
 
+import de.universeDawn.fightscriptanalyser.api.order.OrderCreateRequest;
 import de.universeDawn.fightscriptanalyser.api.order.OrderRequest;
 import de.universeDawn.fightscriptanalyser.services.OrderService;
 import de.universeDawn.fightscriptanalyser.user.SrOrder;
@@ -30,11 +31,11 @@ public class OrderController {
         return new ResponseEntity<>(orderService.assignOrder(orderRequest), HttpStatus.OK);
     }
 
-    @PutMapping(value = "/create", produces = "application/json")
-    ResponseEntity<SrOrder> createOrder(@RequestBody OrderRequest orderRequest) {
-        if (orderRequest.srOrder() == null || orderRequest.name() == null) {
+    @PutMapping(value = "/create", produces = "application/json", consumes = "application/json")
+    ResponseEntity<SrOrder> createOrder(@RequestBody OrderCreateRequest orderRequest) {
+        if (orderRequest == null) {
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
-        return new ResponseEntity<>(orderService.assignOrder(orderRequest), HttpStatus.OK);
+        return new ResponseEntity<>(orderService.createOrder(orderRequest.srOrder()), HttpStatus.OK);
     }
 }

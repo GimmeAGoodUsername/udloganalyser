@@ -32,6 +32,7 @@ public class TestService {
         srUser.setPassword("133");
         srUser.setRole(Role.freelancer);
         srUser.setRace(Race.ozoid);
+        srUser.setUser(true);
         Planet p = new Planet();
         p.setPlanetName("Utopia");
         p.setX(342);
@@ -54,7 +55,7 @@ public class TestService {
         Random r = new Random();
         int min = 0;
         int max = 1000000;
-        for(int i = 0; i < 100; i++){
+        for(int i = 0; i < 4; i++){
             SrOrder order = new SrOrder();
             order.setAlu(r.nextInt(max-min) + min);
             order.setBaux(r.nextInt(max-min) + min);

@@ -31,5 +31,8 @@ public class SrUser {
     @OneToMany(mappedBy = "deliveryBoy", fetch = FetchType.LAZY,cascade = CascadeType.ALL)
     @JsonIgnore
     private List<SrOrder> delivery;
+    @Column(name = "isUser")
+    private boolean isUser = false;
+
 
 }
