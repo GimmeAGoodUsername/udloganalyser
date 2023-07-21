@@ -18,6 +18,8 @@ import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AppBar } from "@mui/material";
 import PlanetPicker from "./PlanetPicker";
 import IPlanet from "../types/planet.type";
+import SrOrder from "../types/order.type";
+import { createOrder } from "../services/order.service";
 
 const Transition = React.forwardRef(function Transition(
   props: TransitionProps & {
@@ -102,10 +104,40 @@ const NewOrder: React.FC = () => {
   };
 
   const handleOrder = (formValue: { titan: number; silicon: number; helium: number; food: number; water: number; alu: number; baux: number; uran: number; pluto: number; hydro: number; credits: number; deliveryDate: Date }) => {
-    const { titan, silicon, helium, food, water, alu, baux, uran, pluto, hydro, credits, deliveryDate } = formValue
-    console.log(date)
+    let { titan, silicon, helium, food, water, alu, baux, uran, pluto, hydro, credits } = formValue
     debugger
-    setOpen(false);
+    const newOrder: SrOrder = {
+      titan: titan,
+      silicon: silicon,
+      helium: helium,
+      food: food,
+      water: water,
+      alu: alu,
+      baux: baux,
+      uran: uran,
+      pluto: pluto,
+      hydro: hydro,
+      credits: credits,
+      deliveryDate: date?.toDate(),
+      orderedBy: user,
+      status: false,
+      target: planet
+    } as SrOrder;
+    
+    createOrder(newOrder).then(
+      (response) => {
+        setOpen(false);
+      },
+      (error) => {
+        const _content =
+          (error.response &&
+            error.response.data &&
+            error.response.data.message) ||
+          error.message ||
+          error.toString();
+
+      }
+    );
   };
 
   return (

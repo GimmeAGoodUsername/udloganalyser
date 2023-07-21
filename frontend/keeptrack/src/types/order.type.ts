@@ -17,5 +17,6 @@ export default interface SrOrder{
     deliveryDate: Date,
     target: IPlanet,
     orderedBy: ISrUser,
-    deliveryBoy?: ISrUser
+    deliveryBoy?: ISrUser,
+    status: boolean
 }

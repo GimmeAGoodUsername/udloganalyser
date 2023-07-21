@@ -8,7 +8,8 @@ export default interface ISrUser{
     role: Role,
     planets?: IPlanet[],
     order?: SrOrder[],
-    delivery?: SrOrder[]
+    delivery?: SrOrder[],
+    isUser: boolean
 }
 
 enum Race{

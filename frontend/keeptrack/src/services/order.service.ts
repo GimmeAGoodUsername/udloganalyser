@@ -14,3 +14,9 @@ export const assignOrder = (srOrder: SrOrder, name: string) => {
     { headers: authHeader() })
 };
 
+export const createOrder = (srOrder: SrOrder) => {
+  return axios.put<SrOrder>(API_URL+"create",
+  {srOrder},
+  { headers: authHeader() })
+};
+
