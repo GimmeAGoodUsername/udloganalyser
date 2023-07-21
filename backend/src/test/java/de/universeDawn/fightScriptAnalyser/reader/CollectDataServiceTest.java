@@ -21,7 +21,7 @@ class CollectDataServiceTest {
         String line = br.readLine();
         while (line!=null){
             builder.append(line);
-            builder.append("\n");
+            builder.append(System.getProperty("line.separator"));
             line = br.readLine();
         }
         System.out.println(builder.toString());

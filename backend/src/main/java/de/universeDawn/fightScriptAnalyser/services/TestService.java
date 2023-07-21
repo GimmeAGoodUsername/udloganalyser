@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Random;
 
 @Service
 public class TestService {
@@ -50,13 +51,27 @@ public class TestService {
         planetRepository.saveAndFlush(p2);
         srUser.setPlanets(List.of(p,p2));
         srUserRepository.saveAndFlush(srUser);
+        Random r = new Random();
+        int min = 0;
+        int max = 1000000;
+        for(int i = 0; i < 100; i++){
+            SrOrder order = new SrOrder();
+            order.setAlu(r.nextInt(max-min) + min);
+            order.setBaux(r.nextInt(max-min) + min);
+            order.setFood(r.nextInt(max-min) + min);
+            order.setHelium(r.nextInt(max-min) + min);
+            order.setHydro(r.nextInt(max-min) + min);
+            order.setCredits(r.nextInt(max-min) + min);
+            order.setTitan(r.nextInt(max-min) + min);
+            order.setSilicon(r.nextInt(max-min) + min);
+            order.setPluto(r.nextInt(max-min) + min);
+            order.setWater(r.nextInt(max-min) + min);
+            order.setOrderedBy(srUser);
+            order.setTarget(p);
+            order.setDeliveryDate(new Date());
 
-        SrOrder order = new SrOrder();
-        order.setAlu(100);
-        order.setBaux(100);
-        order.setOrderedBy(srUser);
-        order.setDeliveryDate(new Date());
+            orderRepository.saveAndFlush(order);
+        }
 
-        orderRepository.saveAndFlush(order);
     }
 }

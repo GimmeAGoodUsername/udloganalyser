@@ -28,5 +28,6 @@ public class Planet {
     private SrUser srUser;
 
     @ManyToMany(mappedBy = "target", fetch = FetchType.LAZY,cascade = CascadeType.ALL)
+    @JsonIgnore
     private List<SrOrder> orders;
 }

@@ -25,17 +25,21 @@ public class SrUserService {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
-    public List<SrUser> getAllUsers(){
+    public List<SrUser> getAllUsers() {
         return srUserRepository.findAll();
     }
 
-    public SrUser updateUser(SrUser user){
+    public SrUser updateUser(SrUser user) {
         return srUserRepository.saveAndFlush(user);
     }
 
-    public Optional<SrUser> validUser(LoginRequest loginRequest){
+    public Optional<SrUser> validUser(LoginRequest loginRequest) {
         Optional<SrUser> srUser = Optional.of(srUserRepository.findByValids(loginRequest.getUsername(), loginRequest.getPassword()));
-        if(srUser.isPresent()){
+
+        if (srUser.isPresent()) {
+            if (inMemoryUserDetailsManager.userExists(srUser.get().getName())) {
+                return srUser;
+            }
             UserDetails user = User
                     .withUsername(srUser.get().getName())
                     .password(passwordEncoder.encode(srUser.get().getPassword()))
@@ -43,19 +47,19 @@ public class SrUserService {
                     .build();
             inMemoryUserDetailsManager.createUser(user);
             UserDetails userDetails = inMemoryUserDetailsManager.loadUserByUsername("Happy");
-
-
-            System.out.println();
         }
 
         return srUser;
     }
 
-    public void logout(LoginRequest loginRequest){}
-    public SrUser getUserByName(String name){
+    public void logout(LoginRequest loginRequest) {
+    }
+
+    public SrUser getUserByName(String name) {
         return srUserRepository.findUserByName(name);
     }
-    public void registerPlanet(){
+
+    public void registerPlanet() {
 
     }
 }
