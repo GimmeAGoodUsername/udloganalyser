@@ -1,14 +1,15 @@
 import axios from "axios";
 import authHeader from "./auth-header";
+import ISrUser from "../types/sruser.type";
 
-const API_URL = "http://localhost:8080/api/test/";
+const API_URL = "http://localhost:8080/userApi/";
 
 export const getPublicContent = () => {
   return axios.get(API_URL + "all");
 };
 
-export const getUserBoard = () => {
-  return axios.get(API_URL + "user", { headers: authHeader() });
+export const getUserByName = (username:string) => {
+  return axios.get<ISrUser>(API_URL + "getUser/"+username, { headers: authHeader() });
 };
 
 export const getModeratorBoard = () => {

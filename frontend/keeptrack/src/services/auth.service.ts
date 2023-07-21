@@ -9,6 +9,7 @@ export const login = (username: string, password: string) => {
       password,
     })
     .then((response) => {
+      
       if (response.data.accessToken) {
         localStorage.setItem("user", JSON.stringify(response.data));
       }

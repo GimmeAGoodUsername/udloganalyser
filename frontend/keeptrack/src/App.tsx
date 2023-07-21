@@ -4,19 +4,21 @@ import IUser from './types/user.type';
 import * as AuthService from "./services/auth.service";
 
 import { Routes, Route, Link } from "react-router-dom";
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 import Login from "./components/Login";
 import Home from "./components/Home";
 import BoardUser from "./components/BoardUser";
+import Order from './components/Orders';
 
 import EventBus from "./common/EventBus";
+import ISrUser from './types/sruser.type';
 
 const App: React.FC = () => {
-  const [currentUser, setCurrentUser] = useState<IUser | undefined>(undefined);
+  const [currentUser, setCurrentUser] = useState<ISrUser | undefined>(undefined);
   useEffect(() => {
     const user = AuthService.getCurrentUser();
-
     if (user) {
       setCurrentUser(user);
     }
@@ -38,25 +40,18 @@ const App: React.FC = () => {
     <div>
       <nav className="navbar navbar-expand navbar-dark bg-dark">
         <Link to={"/"} className="navbar-brand">
-          bezKoder
+          SR Tool
         </Link>
+
         <div className="navbar-nav mr-auto">
-          <li className="nav-item">
-            <Link to={"/home"} className="nav-link">
-              Home
-            </Link>
-          </li>
-
-       
-
-          
 
           {currentUser && (
             <li className="nav-item">
               <Link to={"/user"} className="nav-link">
-                User
+                {currentUser.name}
               </Link>
             </li>
+
           )}
         </div>
 
@@ -64,7 +59,12 @@ const App: React.FC = () => {
           <div className="navbar-nav ml-auto">
             <li className="nav-item">
               <Link to={"/profile"} className="nav-link">
-                {currentUser.username}
+                {currentUser.name}
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to={"/orders"} className="nav-link">
+                Bestellungen
               </Link>
             </li>
             <li className="nav-item">
@@ -81,19 +81,15 @@ const App: React.FC = () => {
               </Link>
             </li>
 
-            <li className="nav-item">
-              <Link to={"/register"} className="nav-link">
-                Sign Up
-              </Link>
-            </li>
+
           </div>
         )}
       </nav>
 
-      <div className="container mt-3">
+      <div className="container mt-2">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/orders" element={<Order />} />
           <Route path="/login" element={<Login />} />
           <Route path="/user" element={<BoardUser />} />
         </Routes>
