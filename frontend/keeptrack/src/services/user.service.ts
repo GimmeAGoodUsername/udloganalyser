@@ -8,8 +8,16 @@ export const getPublicContent = () => {
   return axios.get(API_URL + "all");
 };
 
-export const getUserByName = (username:string) => {
-  return axios.get<ISrUser>(API_URL + "getUser/"+username, { headers: authHeader() });
+export const getUserByName = (username: string) => {
+  return axios.get<ISrUser>(API_URL + "getUser/" + username, { headers: authHeader() });
+};
+
+export const updateUser = (user: ISrUser) => {
+  user.planets = (user.planets || []).map(p => {
+    delete p.srUser
+    return p
+  })
+  return axios.post<ISrUser>(API_URL + "updateUser/", { headers: authHeader(), user });
 };
 
 export const getModeratorBoard = () => {

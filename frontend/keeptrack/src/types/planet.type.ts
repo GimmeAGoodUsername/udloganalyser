@@ -7,6 +7,6 @@ export default interface IPlanet{
     x?: number,
     y?: number,
     z?: number,
-    srUser: ISrUser,
+    srUser?: ISrUser,
     orders?: SrOrder[]
 }

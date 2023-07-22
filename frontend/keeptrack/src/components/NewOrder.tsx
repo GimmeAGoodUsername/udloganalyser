@@ -105,7 +105,6 @@ const NewOrder: React.FC = () => {
 
   const handleOrder = (formValue: { titan: number; silicon: number; helium: number; food: number; water: number; alu: number; baux: number; uran: number; pluto: number; hydro: number; credits: number; deliveryDate: Date }) => {
     let { titan, silicon, helium, food, water, alu, baux, uran, pluto, hydro, credits } = formValue
-    debugger
     const newOrder: SrOrder = {
       titan: titan,
       silicon: silicon,
