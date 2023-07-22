@@ -26,6 +26,7 @@ public class UserController {
 
     @PostMapping(value = "/updateUser" , produces = "application/json")
     ResponseEntity<SrUser> updateUser(@RequestBody UserUpdateRequest srUser) {
+
         return new ResponseEntity<>(srUserService.updateUser(srUser.srUser()),HttpStatus.OK);
     }
 

@@ -35,12 +35,7 @@ public class SrUserService {
     }
 
     public SrUser updateUser(SrUser user) {
-        user.getPlanets().forEach((planet -> {
-            planet.setSrUser(user);
-        }));
-        List<Planet> planets = planetRepository.saveAll(user.getPlanets());
-
-        user.setPlanets(planets);
+        planetRepository.saveAllAndFlush(user.getPlanets());
         return srUserRepository.saveAndFlush(user);
     }
 

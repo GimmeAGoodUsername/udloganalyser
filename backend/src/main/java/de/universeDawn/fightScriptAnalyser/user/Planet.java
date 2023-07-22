@@ -1,6 +1,8 @@
 package de.universeDawn.fightscriptanalyser.user;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -24,7 +26,7 @@ public class Planet {
     private int z;
     @ManyToOne
     @JoinColumn(name="srUser_id",nullable = true)
-    @JsonIgnore
+    @JsonBackReference
     private SrUser srUser;
 
     @ManyToMany(mappedBy = "target", fetch = FetchType.LAZY,cascade = CascadeType.ALL)

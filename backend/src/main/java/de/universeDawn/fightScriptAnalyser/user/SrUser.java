@@ -1,6 +1,7 @@
 package de.universeDawn.fightscriptanalyser.user;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -24,6 +25,7 @@ public class SrUser {
     @Column(name = "role")
     private Role role;
     @OneToMany(mappedBy = "srUser")
+    @JsonManagedReference
     private List<Planet> planets;
     @OneToMany(mappedBy = "orderedBy", fetch = FetchType.LAZY,cascade = CascadeType.ALL)
     @JsonIgnore
