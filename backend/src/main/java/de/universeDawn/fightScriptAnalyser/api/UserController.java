@@ -1,5 +1,6 @@
 package de.universeDawn.fightscriptanalyser.api;
 
+import de.universeDawn.fightscriptanalyser.api.user.UserUpdateRequest;
 import de.universeDawn.fightscriptanalyser.services.SrUserService;
 import de.universeDawn.fightscriptanalyser.user.SrUser;
 import jakarta.validation.Valid;
@@ -25,8 +26,8 @@ public class UserController {
     }
 
     @PostMapping(value = "/updateUser" , produces = "application/json")
-    ResponseEntity<SrUser> updateUser(SrUser user) {
-        return new ResponseEntity<>(srUserService.updateUser(user),HttpStatus.OK);
+    ResponseEntity<SrUser> updateUser(UserUpdateRequest user) {
+        return new ResponseEntity<>(srUserService.updateUser(user.srUser()),HttpStatus.OK);
     }
 
     @GetMapping(value="/getUser/{username}",produces = "application/json")

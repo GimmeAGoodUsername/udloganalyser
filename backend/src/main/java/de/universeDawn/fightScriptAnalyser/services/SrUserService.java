@@ -1,7 +1,9 @@
 package de.universeDawn.fightscriptanalyser.services;
 
 import de.universeDawn.fightscriptanalyser.api.auth.LoginRequest;
+import de.universeDawn.fightscriptanalyser.repo.PlanetRepository;
 import de.universeDawn.fightscriptanalyser.repo.SrUserRepository;
+import de.universeDawn.fightscriptanalyser.user.Planet;
 import de.universeDawn.fightscriptanalyser.user.SrUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
@@ -25,11 +27,16 @@ public class SrUserService {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
+    @Autowired
+    private PlanetRepository planetRepository;
+
     public List<SrUser> getAllUsers() {
         return srUserRepository.findAll();
     }
 
     public SrUser updateUser(SrUser user) {
+        List<Planet> planets = planetRepository.saveAll(user.getPlanets());
+        user.setPlanets(planets);
         return srUserRepository.saveAndFlush(user);
     }
 
