@@ -12,10 +12,20 @@ export default interface ISrUser{
     isUser: boolean
 }
 
-enum Race{
-    mensch,mosoraner,morricaner,ozoid,zuup,wegoner,plentrop,jamazoid,magumer
+export enum Race{
+    mensch ="mensch",
+    mosoraner="mosoraner",
+    morricaner="morricaner",
+    ozoid="ozoid",
+    zuup="zuup",
+    wegoner="wegoner",
+    plentrop="plentrop",
+    jamazoid="jamazoid",
+    magumer="magumer"
 }
 
-enum Role{
-    trader,warlord,freelancer
+export enum Role{
+    trader="trader",
+    warlord="warlord",
+    freelancer="freelancer"
 }

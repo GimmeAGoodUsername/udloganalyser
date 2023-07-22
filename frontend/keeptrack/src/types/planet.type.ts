@@ -8,5 +8,5 @@ export default interface IPlanet{
     y?: number,
     z?: number,
     srUser: ISrUser,
-    orders: SrOrder[]
+    orders?: SrOrder[]
 }

@@ -14,6 +14,7 @@ import Order from './components/Orders';
 
 import EventBus from "./common/EventBus";
 import ISrUser from './types/sruser.type';
+import Profile from './components/Profile';
 
 const App: React.FC = () => {
   const [currentUser, setCurrentUser] = useState<ISrUser | undefined>(undefined);
@@ -45,14 +46,7 @@ const App: React.FC = () => {
 
         <div className="navbar-nav mr-auto">
 
-          {currentUser && (
-            <li className="nav-item">
-              <Link to={"/user"} className="nav-link">
-                {currentUser.name}
-              </Link>
-            </li>
-
-          )}
+          
         </div>
 
         {currentUser ? (
@@ -89,6 +83,7 @@ const App: React.FC = () => {
       <div className="container mt-2">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path='/profile' element={<Profile />} />
           <Route path="/orders" element={<Order />} />
           <Route path="/login" element={<Login />} />
           <Route path="/user" element={<BoardUser />} />
