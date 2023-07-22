@@ -1,6 +1,6 @@
 package de.universeDawn.fightscriptanalyser.api;
 
-import de.universeDawn.fightscriptanalyser.data.Player;
+import de.universeDawn.fightscriptanalyser.data.FightScriptPlayer;
 import de.universeDawn.fightscriptanalyser.reader.CollectDataService;
 import de.universeDawn.fightscriptanalyser.writer.CsvWriter;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,18 +26,18 @@ public class FightScriptAPI {
   private CsvWriter csvWriter;
 
   @PostMapping(value = "/mapFightResult",produces = "application/json")
-  ResponseEntity<Map<String, Player>> mapFightResult(@RequestBody String userInput) {
-    Map<String, Player> playerMap = new HashMap<>();
+  ResponseEntity<Map<String, FightScriptPlayer>> mapFightResult(@RequestBody String userInput) {
+    Map<String, FightScriptPlayer> playerMap = new HashMap<>();
     try {
       playerMap = collectDataService.collectDataFromScript(userInput);
-      return new ResponseEntity<Map<String, Player>>(playerMap, HttpStatus.OK);
+      return new ResponseEntity<Map<String, FightScriptPlayer>>(playerMap, HttpStatus.OK);
     } catch (IOException e) {
-      return new ResponseEntity<Map<String, Player>>(playerMap, HttpStatus.INTERNAL_SERVER_ERROR);
+      return new ResponseEntity<Map<String, FightScriptPlayer>>(playerMap, HttpStatus.INTERNAL_SERVER_ERROR);
     }
   }
   @PostMapping(value = "/mapFightResultCsv",produces = "application/json")
   ResponseEntity<String> mapFightResultCsv(@RequestBody String userInput) {
-    Map<String, Player> playerMap = new HashMap<>();
+    Map<String, FightScriptPlayer> playerMap = new HashMap<>();
     try {
       playerMap = collectDataService.collectDataFromScript(userInput);
       return new ResponseEntity<String>(csvWriter.writeAsCsv(playerMap), HttpStatus.OK);

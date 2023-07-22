@@ -1,6 +1,6 @@
 package de.universeDawn.fightscriptanalyser.reader;
 
-import de.universeDawn.fightscriptanalyser.data.Player;
+import de.universeDawn.fightscriptanalyser.data.FightScriptPlayer;
 import de.universeDawn.fightscriptanalyser.data.Ship;
 import de.universeDawn.fightscriptanalyser.data.Side;
 import java.io.BufferedReader;
@@ -18,10 +18,10 @@ public class CollectDataService {
   private static final String ANGREIFER = "Angreifer";
   private static final String VERTEIDIGER = "Verteidiger";
   private static final String ANZAHL = "Anzahl";
-  Map<String, Player> playerMap = new HashMap<>();
+  Map<String, FightScriptPlayer> playerMap = new HashMap<>();
   private int destroyedShips = 0;
 
-  public Map<String, Player> collectDataFromScript(String input) throws IOException {
+  public Map<String, FightScriptPlayer> collectDataFromScript(String input) throws IOException {
     BufferedReader br = new BufferedReader(new StringReader(input));
 
     try {
@@ -66,7 +66,7 @@ public class CollectDataService {
           String[] battleData = line.split(" ");
           int playerLoc = getPlayerLoc(battleData);
           String playerName = battleData[playerLoc].replace(")", "").replace("(", "");
-          Player player = playerMap.get(playerName);
+          FightScriptPlayer player = playerMap.get(playerName);
           if (player == null) {
             int t = playerLoc + 1;
             System.out.println(line);
@@ -139,7 +139,7 @@ public class CollectDataService {
         return;
       }
       String[] values = line.split(" ");
-      Player player = new Player();
+      FightScriptPlayer player = new FightScriptPlayer();
       player.setName(values[0]);
       player.setSide(side);
       String shipAm = values[getShipPos(values)+1].replace(")","");

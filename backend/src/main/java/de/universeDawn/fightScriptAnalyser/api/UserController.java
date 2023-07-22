@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000**")
 @RequestMapping(value = "/userApi")
 public class UserController {
 
@@ -26,8 +25,8 @@ public class UserController {
     }
 
     @PostMapping(value = "/updateUser" , produces = "application/json")
-    ResponseEntity<SrUser> updateUser(UserUpdateRequest user) {
-        return new ResponseEntity<>(srUserService.updateUser(user.srUser()),HttpStatus.OK);
+    ResponseEntity<SrUser> updateUser(@RequestBody UserUpdateRequest srUser) {
+        return new ResponseEntity<>(srUserService.updateUser(srUser.srUser()),HttpStatus.OK);
     }
 
     @GetMapping(value="/getUser/{username}",produces = "application/json")
