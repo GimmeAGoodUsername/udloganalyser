@@ -1,5 +1,6 @@
 package de.universeDawn.fightscriptanalyser.api;
 
+import de.universeDawn.fightscriptanalyser.api.user.PlanetDeleteRequest;
 import de.universeDawn.fightscriptanalyser.api.user.UserUpdateRequest;
 import de.universeDawn.fightscriptanalyser.services.SrUserService;
 import de.universeDawn.fightscriptanalyser.user.SrUser;
@@ -37,4 +38,8 @@ public class UserController {
         return new ResponseEntity<>(userByName,HttpStatus.OK);
     }
 
+    @DeleteMapping(value = "/deletePlanet" , produces = "application/json")
+    void deletePlanet(@RequestBody PlanetDeleteRequest planet) {
+        srUserService.deletePlanet(planet.planet());
+    }
 }

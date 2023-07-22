@@ -65,7 +65,7 @@ public class SrUserService {
         return srUserRepository.findUserByName(name);
     }
 
-    public void registerPlanet() {
-
+    public void deletePlanet(Planet planet) {
+        planetRepository.delete(planet);
     }
 }
