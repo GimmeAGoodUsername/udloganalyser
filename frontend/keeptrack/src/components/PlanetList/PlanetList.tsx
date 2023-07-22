@@ -16,6 +16,7 @@ export default function PlanetList({ user, onUpdatePlanets }: PlanetsProps) {
   const onSavePlanet = (i: number, planet: Planet) => {
     planets[i] = {
       ...planets[i],
+      id: undefined,
       planetName: planet.planetName,
       x: planet.x,
       y: planet.y,
