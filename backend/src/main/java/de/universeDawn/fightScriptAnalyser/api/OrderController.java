@@ -2,6 +2,7 @@ package de.universeDawn.fightscriptanalyser.api;
 
 import de.universeDawn.fightscriptanalyser.api.order.OrderCreateRequest;
 import de.universeDawn.fightscriptanalyser.api.order.OrderRequest;
+import de.universeDawn.fightscriptanalyser.api.order.OrderUserRequest;
 import de.universeDawn.fightscriptanalyser.services.OrderService;
 import de.universeDawn.fightscriptanalyser.user.SrOrder;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +22,11 @@ public class OrderController {
     @GetMapping(value = "/openOrders", produces = "application/json")
     ResponseEntity<List<SrOrder>> getOpenOrders() {
         return new ResponseEntity<List<SrOrder>>(orderService.getOpenOrders(), HttpStatus.OK);
+    }
+
+    @PostMapping(value = "/userOrders", produces = "application/json")
+    ResponseEntity<List<SrOrder>> getOrdersForUser(@RequestBody OrderUserRequest orderUserRequest) {
+        return new ResponseEntity<List<SrOrder>>(orderService.getOpenOrdersFromUser(orderUserRequest), HttpStatus.OK);
     }
 
     @PostMapping(value = "/assign", produces = "application/json")

@@ -1,8 +1,5 @@
 package de.universeDawn.fightscriptanalyser.config;
 
-import de.universeDawn.fightscriptanalyser.services.SrUserService;
-import de.universeDawn.fightscriptanalyser.user.SrUser;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -12,8 +9,6 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
 import org.springframework.security.config.http.SessionCreationPolicy;
-import org.springframework.security.core.userdetails.User;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
@@ -34,7 +29,7 @@ public class BasicAuthWebSecurityConfiguration {
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.authorizeHttpRequests(authorizationManagerRequestMatcherRegistry ->
                         authorizationManagerRequestMatcherRegistry
-                                .requestMatchers("/h2-console/**", "/auth/**","/v3/**","/swagger-ui/**").permitAll()
+                                .requestMatchers("/h2-console/**", "/auth/**", "/v3/**", "/swagger-ui/**").permitAll()
                                 .anyRequest().authenticated()
                 )
                 .httpBasic().and()

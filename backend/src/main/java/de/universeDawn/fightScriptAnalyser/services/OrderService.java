@@ -1,6 +1,7 @@
 package de.universeDawn.fightscriptanalyser.services;
 
 import de.universeDawn.fightscriptanalyser.api.order.OrderRequest;
+import de.universeDawn.fightscriptanalyser.api.order.OrderUserRequest;
 import de.universeDawn.fightscriptanalyser.repo.OrderRepository;
 import de.universeDawn.fightscriptanalyser.user.SrOrder;
 import de.universeDawn.fightscriptanalyser.user.SrUser;
@@ -23,6 +24,11 @@ public class OrderService {
 
     public List<SrOrder> getOpenOrders(){
         return orderRepository.getAllOpenOrders();
+    }
+
+    public List<SrOrder> getOpenOrdersFromUser(OrderUserRequest orderUserRequest){
+        return orderRepository.getOpenOrdersFromUser(orderUserRequest.srUser());
+
     }
 
     public SrOrder assignOrder(OrderRequest orderRequest){
