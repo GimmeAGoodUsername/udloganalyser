@@ -19,6 +19,11 @@ public class OrderController {
     @Autowired
     private OrderService orderService;
 
+    @GetMapping(value = "/all", produces = "application/json")
+    ResponseEntity<List<SrOrder>> getAllOrders() {
+        return new ResponseEntity<List<SrOrder>>(orderService.getAll(), HttpStatus.OK);
+    }
+
     @GetMapping(value = "/openOrders", produces = "application/json")
     ResponseEntity<List<SrOrder>> getOpenOrders() {
         return new ResponseEntity<List<SrOrder>>(orderService.getOpenOrders(), HttpStatus.OK);

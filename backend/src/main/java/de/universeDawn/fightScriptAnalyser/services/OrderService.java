@@ -22,6 +22,10 @@ public class OrderService {
     @Autowired
     private SrUserService srUserService;
 
+    public List<SrOrder> getAll(){
+        return orderRepository.findAll();
+    }
+
     public List<SrOrder> getOpenOrders(){
         return orderRepository.getAllOpenOrders();
     }
