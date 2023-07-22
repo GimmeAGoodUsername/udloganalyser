@@ -4,11 +4,9 @@ import MenuItem from '@mui/material/MenuItem';
 import * as AuthService from "../services/auth.service";
 import ISrUser, { Race, Role } from "../types/sruser.type";
 import { getUserByName, updateUser } from "../services/user.service";
-import { FormControl, Select, SelectChangeEvent } from "@mui/material";
-import IPlanet from "../types/planet.type";
+import { FormControl, Select } from "@mui/material";
 import PlanetList from "./PlanetList/PlanetList";
 
-type Props = {}
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
 const MenuProps = {
@@ -19,10 +17,10 @@ const MenuProps = {
     },
   },
 };
-const Profile: React.FC<Props> = () => {
+
+const Profile: React.FC<{}> = () => {
   const [ currentUser, setCurrentUser ] = useState<ISrUser>();
-  const [ constRace, selectRace ] = React.useState<Race>();
-  const [ role, selectRole ] = React.useState<Role>();
+
   useEffect(() => {
     const user = AuthService.getCurrentUser();
     if (user) {
@@ -42,29 +40,21 @@ const Profile: React.FC<Props> = () => {
         }
       );
     }
-
   }, []);
-  const onUpdatePlanets = (planets: IPlanet[]): void => {
+
+  const onUserChange = (name: keyof ISrUser, value: any) => {
     if (!currentUser) {
       return;
     }
 
-    const newCurrentUser = { ...currentUser, planets: planets }
+    const newCurrentUser = { ...currentUser, [name]: value }
 
     updateUser(newCurrentUser).then(
       (response) => {
         console.info('updated user', response)
       }
     );
-
     setCurrentUser(newCurrentUser)
-  }
-
-  const handleRaceChange = (event: SelectChangeEvent) => {
-    const {
-      target: { value },
-    } = event;
-    selectRace(Race[value as keyof typeof Race]);
   };
 
   return (
@@ -77,8 +67,8 @@ const Profile: React.FC<Props> = () => {
             <Select
               id="raceSelect"
               defaultValue={Race[`${currentUser.race}`]}
-              value={constRace}
-              onChange={handleRaceChange}
+              value={currentUser.race}
+              onChange={(e) => onUserChange('race', e.target.value)}
               MenuProps={MenuProps}>
               {
                 Object.values(Race).map((key) => (
@@ -93,8 +83,8 @@ const Profile: React.FC<Props> = () => {
             <Select
               id="roleSelect"
               defaultValue={Role[`${currentUser.role}`]}
-              value={role}
-              onChange={handleRaceChange}
+              value={currentUser.role}
+              onChange={(e) => onUserChange('role', e.target.value)}
               MenuProps={MenuProps}>
               {
                 Object.values(Role).map((key) => (
@@ -106,11 +96,10 @@ const Profile: React.FC<Props> = () => {
                 ))}
             </Select>
             <label>Planets</label>
-            <PlanetList user={currentUser} onUpdatePlanets={onUpdatePlanets}/>
+            <PlanetList user={currentUser} onUpdatePlanets={(planets => onUserChange("planets", planets))}/>
           </FormControl>
         </>
-      )
-      }
+      )}
     </div>
   )
 };

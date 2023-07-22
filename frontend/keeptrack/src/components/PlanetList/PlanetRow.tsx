@@ -48,7 +48,7 @@ export default function PlanetRow(props: PlanetRowProps) {
     { isEditing ?
       <>
         <td>
-          <TextField value={planet.planetName} label="Planet" name="planetName" onChange={handleChange}/>
+          <TextField value={planet.planetName} label="Planet" name="planetName" onChange={handleChange} />
         </td>
         <td>
           <TextField value={planet.x} label="X" name="x" style={{ width: 60 }} onChange={handleChange} />
