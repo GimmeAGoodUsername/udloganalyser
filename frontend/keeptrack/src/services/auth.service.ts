@@ -1,4 +1,5 @@
 import axios from "axios";
+import authHeader from "./auth-header";
 
 const API_URL = "http://localhost:8080/auth/";
 
@@ -9,7 +10,7 @@ export const login = (username: string, password: string) => {
       password,
     })
     .then((response) => {
-      
+
       if (response.data.accessToken) {
         localStorage.setItem("user", JSON.stringify(response.data));
       }
@@ -19,8 +20,8 @@ export const login = (username: string, password: string) => {
 };
 
 export const logout = () => {
+  axios.post("http://localhost:8080/" + "logout", { headers: authHeader() })
   localStorage.removeItem("user");
-  return axios.post(API_URL+"logout",getCurrentUser)
 };
 
 export const getCurrentUser = () => {

@@ -37,6 +37,7 @@ const Order: React.FC = () => {
                 setContent(response.data)
             },
             (error) => {
+                AuthService.logout();
                 const _content =
                     (error.response &&
                         error.response.data &&

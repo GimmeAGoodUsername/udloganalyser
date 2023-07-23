@@ -128,6 +128,7 @@ const NewOrder: React.FC = () => {
         setOpen(false);
       },
       (error) => {
+        AuthService.logout();
         const _content =
           (error.response &&
             error.response.data &&
