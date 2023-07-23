@@ -1,6 +1,7 @@
 import axios from "axios";
 import authHeader from "./auth-header";
 import ISrUser from "../types/sruser.type";
+import IPlanet from "../types/planet.type";
 
 const API_URL = "http://localhost:8080/userApi/";
 
@@ -17,7 +18,11 @@ export const updateUser = (srUser: ISrUser) => {
     delete p.srUser
     return p
   })
-  return axios.post<ISrUser>(API_URL + "updateUser",  {srUser} ,{ headers: authHeader() });
+  return axios.post<ISrUser>(API_URL + "updateUser", { srUser } ,{ headers: authHeader() });
+};
+
+export const deletePlanet = (planetId: IPlanet['id']) => {
+  return axios.delete<void>(API_URL + "deletePlanet/" + planetId,  { headers: authHeader() });
 };
 
 export const getModeratorBoard = () => {

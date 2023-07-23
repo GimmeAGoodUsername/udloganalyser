@@ -2,6 +2,9 @@ import SrOrder from "./order.type";
 import IPlanet from "./planet.type";
 
 export default interface ISrUser{
+    authorities: {
+        authority: Authority
+    },
     id?:any | null,
     name?: string,
     race: Race,
@@ -28,4 +31,10 @@ export enum Role{
     trader="trader",
     warlord="warlord",
     freelancer="freelancer"
+}
+
+export enum Authority{
+    NONE="NONE",
+    USER="USER",
+    ADMIN="ADMIN"
 }
