@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState, useEffect } from "react";
-import IUser from './types/user.type';
 import * as AuthService from "./services/auth.service";
 
 import { Routes, Route, Link } from "react-router-dom";
@@ -15,6 +14,10 @@ import Order from './components/Orders';
 import EventBus from "./common/EventBus";
 import ISrUser from './types/sruser.type';
 import Profile from './components/Profile';
+import dayjs from "dayjs";
+
+import de from 'dayjs/locale/de';
+dayjs.locale(de)
 
 const App: React.FC = () => {
   const [currentUser, setCurrentUser] = useState<ISrUser | undefined>(undefined);
