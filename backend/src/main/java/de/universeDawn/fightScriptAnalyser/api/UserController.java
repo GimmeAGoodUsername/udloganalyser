@@ -39,7 +39,7 @@ public class UserController {
     }
 
     @DeleteMapping(value = "/deletePlanet" , produces = "application/json")
-    void deletePlanet(@RequestBody PlanetDeleteRequest planet) {
-        srUserService.deletePlanet(planet.planet());
+    void deletePlanet(@PathVariable("id") long planetId) {
+        srUserService.deletePlanet(planetId);
     }
 }
