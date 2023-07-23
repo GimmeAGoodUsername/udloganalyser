@@ -31,7 +31,11 @@ const Transition = React.forwardRef(function Transition(
   return <Slide direction="down" ref={ref} {...props} />;
 });
 
-const NewOrder: React.FC = () => {
+interface NewOrderProps {
+  onOrderAdded: () => void;
+}
+
+export default function NewOrder({ onOrderAdded }: NewOrderProps) {
   const [ open, setOpen ] = React.useState(false);
   const [ user, setUser ] = useState<ISrUser>();
   const [ date, setDate ] = React.useState<Dayjs | null>(dayjs());
@@ -135,6 +139,7 @@ const NewOrder: React.FC = () => {
     createOrder(newOrder).then(
       () => {
         setOpen(false);
+        onOrderAdded();
       },
       (error) => {
         AuthService.logout();
@@ -383,4 +388,3 @@ const NewOrder: React.FC = () => {
     </div>
   );
 }
-export default NewOrder;
