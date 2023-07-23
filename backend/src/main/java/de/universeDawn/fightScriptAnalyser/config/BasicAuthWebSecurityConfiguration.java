@@ -35,7 +35,10 @@ public class BasicAuthWebSecurityConfiguration {
                 .httpBasic().and()
                 .sessionManagement(sessionManagement -> sessionManagement.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .cors(Customizer.withDefaults())
-                .csrf(AbstractHttpConfigurer::disable);
+                .csrf(AbstractHttpConfigurer::disable)
+                .logout()
+                .invalidateHttpSession(true)
+                .deleteCookies("JSESSIONID");
         return http.build();
     }
 
