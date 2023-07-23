@@ -29,12 +29,4 @@ public class SrUserServiceValidator {
         }
         return srUserRepository.findUserByName(username);
     }
-
-    public void addUserToUDM(SrUser srUser){
-        UserDetails ad = User
-                .withUsername(srUser.getName())
-                .password(passwordEncoder.encode(srUser.getPassword()))
-                .roles("USER_ROLE")
-                .build();
-    }
 }

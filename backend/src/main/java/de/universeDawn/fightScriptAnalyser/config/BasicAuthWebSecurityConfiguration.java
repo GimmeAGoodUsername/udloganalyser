@@ -1,5 +1,6 @@
 package de.universeDawn.fightscriptanalyser.config;
 
+import de.universeDawn.fightscriptanalyser.user.Authority;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -30,9 +31,10 @@ public class BasicAuthWebSecurityConfiguration {
         http.authorizeHttpRequests(authorizationManagerRequestMatcherRegistry ->
                         authorizationManagerRequestMatcherRegistry
                                 .requestMatchers("/h2-console/**", "/auth/**", "/v3/**", "/swagger-ui/**").permitAll()
-                                .anyRequest().authenticated()
+                                .requestMatchers("/admin/**").hasAuthority(ADMIN)
+                                .anyRequest().hasAnyAuthority(ADMIN,USER)
                 )
-                .httpBasic().and()
+                .httpBasic(Customizer.withDefaults())
                 .sessionManagement(sessionManagement -> sessionManagement.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .cors(Customizer.withDefaults())
                 .csrf(AbstractHttpConfigurer::disable)
@@ -52,5 +54,8 @@ public class BasicAuthWebSecurityConfiguration {
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
+    public static final String ADMIN = "ADMIN";
+    public static final String USER = "USER";
+    public static final String NONE = "NONE";
 
 }

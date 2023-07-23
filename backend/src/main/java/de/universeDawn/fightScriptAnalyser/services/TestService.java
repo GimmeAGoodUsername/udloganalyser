@@ -1,5 +1,6 @@
 package de.universeDawn.fightscriptanalyser.services;
 
+import de.universeDawn.fightscriptanalyser.config.BasicAuthWebSecurityConfiguration;
 import de.universeDawn.fightscriptanalyser.repo.OrderRepository;
 import de.universeDawn.fightscriptanalyser.repo.PlanetRepository;
 import de.universeDawn.fightscriptanalyser.repo.SrUserRepository;
@@ -7,6 +8,7 @@ import de.universeDawn.fightscriptanalyser.user.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -33,6 +35,7 @@ public class TestService {
         srUser.setRole(Role.freelancer);
         srUser.setRace(Race.ozoid);
         srUser.setUser(true);
+        srUser.setAuthorities(new SimpleGrantedAuthority(BasicAuthWebSecurityConfiguration.USER));
         Planet p = new Planet();
         p.setPlanetName("Utopia");
         p.setX(342);
