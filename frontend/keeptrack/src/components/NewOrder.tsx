@@ -70,6 +70,7 @@ const NewOrder: React.FC = () => {
       getUserByName(user.name).then(
         (response) => {
           setUser(response.data)
+          setPlanet(response.data.planets?.[0])
         },
         (error) => {
           const _content =
@@ -79,7 +80,7 @@ const NewOrder: React.FC = () => {
             error.message ||
             error.toString();
 
-          setUser(_content);
+          setUser(_content)
         }
       );
     }
@@ -353,8 +354,8 @@ const NewOrder: React.FC = () => {
               <tr>
                 <td><label htmlFor="planet">Planet</label></td>
                 <td>
-                  {user && (
-                    <PlanetPicker planets={user.planets || []} selectedPlanet={planet || user?.planets?.[0]}
+                  {user && planet && (
+                    <PlanetPicker planets={user.planets || []} selectedPlanet={planet}
                                   updatePlanet={updatePlanet}/>
                   )}
                 </td>
