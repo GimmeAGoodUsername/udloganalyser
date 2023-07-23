@@ -2,9 +2,11 @@ package de.universeDawn.fightscriptanalyser.user;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
+import de.universeDawn.fightscriptanalyser.config.BasicAuthWebSecurityConfiguration;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import org.hibernate.annotations.DynamicUpdate;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -21,9 +23,9 @@ public class SrUser {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    @Column(name = "password")
+    @OneToOne(mappedBy = "srUser")
     @JsonIgnore
-    private String password;
+    private LoginInformation loginInformation;
     @Column(name = "name")
     private String name;
     @Column(name = "race")
@@ -42,7 +44,7 @@ public class SrUser {
     @Column(name = "isUser")
     private boolean isUser = false;
     @Column(name = "auth")
-    private SimpleGrantedAuthority authorities = new SimpleGrantedAuthority("NONE");
+    private String authorities = BasicAuthWebSecurityConfiguration.NONE;
 
 
 }

@@ -1,6 +1,7 @@
 package de.universeDawn.fightscriptanalyser.services;
 
 import de.universeDawn.fightscriptanalyser.config.BasicAuthWebSecurityConfiguration;
+import de.universeDawn.fightscriptanalyser.repo.LoginRepository;
 import de.universeDawn.fightscriptanalyser.repo.OrderRepository;
 import de.universeDawn.fightscriptanalyser.repo.PlanetRepository;
 import de.universeDawn.fightscriptanalyser.repo.SrUserRepository;
@@ -27,15 +28,23 @@ public class TestService {
     @Autowired
     private PlanetRepository planetRepository;
 
+    @Autowired
+    private LoginRepository loginRepository;
+
     @EventListener(ApplicationReadyEvent.class)
     public void generateTestData(){
+        LoginInformation loginInformation = new LoginInformation();
+        loginInformation.setName("Happy");
+        loginInformation.setPassword("133");
         SrUser srUser = new SrUser();
-        srUser.setName("Happy");
-        srUser.setPassword("133");
+        srUser.setName(loginInformation.getName());
         srUser.setRole(Role.freelancer);
         srUser.setRace(Race.ozoid);
         srUser.setUser(true);
-        srUser.setAuthorities(new SimpleGrantedAuthority(BasicAuthWebSecurityConfiguration.USER));
+        srUser.setAuthorities(BasicAuthWebSecurityConfiguration.USER);
+        srUser.setLoginInformation(loginInformation);
+        loginInformation.setSrUser(srUser);
+        loginRepository.saveAndFlush(loginInformation);
         Planet p = new Planet();
         p.setPlanetName("Utopia");
         p.setX(342);

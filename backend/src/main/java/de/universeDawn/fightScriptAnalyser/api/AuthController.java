@@ -31,7 +31,7 @@ public class AuthController {
         Optional<SrUser> srUser = srUserService.validUser(loginRequest);
         if (srUser.isPresent()) {
             SrUser user = srUser.get();
-            String s = Base64.getEncoder().encodeToString((user.getName() + ":" + user.getPassword()).getBytes());
+            String s = Base64.getEncoder().encodeToString((user.getName() + ":" + user.getLoginInformation().getPassword()).getBytes());
             return ResponseEntity.ok(new AuthResponse(user.getId(), user.getName(), s));
         }
         return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
