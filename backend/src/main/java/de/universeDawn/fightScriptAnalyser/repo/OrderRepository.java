@@ -17,4 +17,7 @@ public interface OrderRepository extends JpaRepository<SrOrder, Long> {
     @Query(value = "SELECT o FROM SrOrder o WHERE o.deliveryBoy = ?1")
     List<SrOrder> getOpenOrdersFromUser(SrUser srUser);
 
+    @Query(value = "SELECT o FROM SrOrder o WHERE o.status = false")
+    List<SrOrder> getAllNotDeliveredOrders();
+
 }

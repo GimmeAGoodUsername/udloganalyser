@@ -35,7 +35,7 @@ public class UserController {
         return new ResponseEntity<>(userByName, HttpStatus.OK);
     }
 
-    @DeleteMapping(value = "/deletePlanet/", produces = "application/json")
+    @DeleteMapping(value = "/deletePlanet/{id}", produces = "application/json")
     void deletePlanet(@PathVariable("id") long planetId) {
         srUserService.deletePlanet(planetId);
     }

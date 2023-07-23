@@ -24,6 +24,11 @@ public class OrderController {
         return new ResponseEntity<List<SrOrder>>(orderService.getAll(), HttpStatus.OK);
     }
 
+    @GetMapping(value = "/allNotDelivered", produces = "application/json")
+    ResponseEntity<List<SrOrder>> getAllNotDeliveredOrders() {
+        return new ResponseEntity<List<SrOrder>>(orderService.getAllNotDelivered(), HttpStatus.OK);
+    }
+
     @GetMapping(value = "/openOrders", produces = "application/json")
     ResponseEntity<List<SrOrder>> getOpenOrders() {
         return new ResponseEntity<List<SrOrder>>(orderService.getOpenOrders(), HttpStatus.OK);

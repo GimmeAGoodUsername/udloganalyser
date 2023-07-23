@@ -38,10 +38,10 @@ public class SrOrder {
     private int hydro;
     @Column(name = "credits")
     private int credits;
-
     @Column(name ="deliveryDate")
     private Date deliveryDate;
-
+    @Column(name ="creationDate")
+    private Date creationDate;
     @ManyToOne
     @JoinColumn(name="planet_id",nullable = true)
     private Planet target;
