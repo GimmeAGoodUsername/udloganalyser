@@ -36,12 +36,12 @@ public class TestService {
         LoginInformation loginInformation = new LoginInformation();
         loginInformation.setName("Happy");
         loginInformation.setPassword("133");
+        loginInformation.setUser(true);
         SrUser srUser = new SrUser();
         srUser.setName(loginInformation.getName());
         srUser.setRole(Role.freelancer);
         srUser.setRace(Race.ozoid);
-        srUser.setUser(true);
-        srUser.setAuthorities(BasicAuthWebSecurityConfiguration.USER);
+        srUser.setAuthorities(BasicAuthWebSecurityConfiguration.ADMIN);
         srUser.setLoginInformation(loginInformation);
         loginInformation.setSrUser(srUser);
         loginRepository.saveAndFlush(loginInformation);

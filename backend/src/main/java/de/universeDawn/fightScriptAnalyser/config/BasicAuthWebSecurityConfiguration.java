@@ -31,7 +31,7 @@ public class BasicAuthWebSecurityConfiguration {
         http.authorizeHttpRequests(authorizationManagerRequestMatcherRegistry ->
                         authorizationManagerRequestMatcherRegistry
                                 .requestMatchers("/h2-console/**", "/auth/**", "/v3/**", "/swagger-ui/**").permitAll()
-                                .requestMatchers("/admin/**").hasAuthority(ADMIN)
+                                .requestMatchers("/adminApi/**").hasAuthority(ADMIN)
                                 .anyRequest().hasAnyAuthority(ADMIN,USER)
                 )
                 .httpBasic(Customizer.withDefaults())

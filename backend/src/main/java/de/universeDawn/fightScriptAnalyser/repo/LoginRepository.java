@@ -8,6 +8,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface LoginRepository extends JpaRepository<LoginInformation, Long> {
-    @Query(value = "SELECT u FROM LoginInformation u WHERE u.name = ?1 AND u.password = ?2")
+    @Query(value = "SELECT u FROM LoginInformation u WHERE u.name = ?1 AND u.password = ?2 AND u.isUser = TRUE")
     LoginInformation findByValids(String srUserName, String srPassword);
 }

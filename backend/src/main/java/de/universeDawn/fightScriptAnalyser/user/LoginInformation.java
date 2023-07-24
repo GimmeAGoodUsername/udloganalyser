@@ -18,8 +18,10 @@ public class LoginInformation {
     private String password;
     @Column(name = "name")
     private String name;
-    @OneToOne
+    @OneToOne(cascade = CascadeType.REMOVE, orphanRemoval = true)
     @MapsId
     @JoinColumn(name="id",updatable = false)
     private SrUser srUser;
+    @Column(name = "isUser")
+    private boolean isUser = false;
 }
