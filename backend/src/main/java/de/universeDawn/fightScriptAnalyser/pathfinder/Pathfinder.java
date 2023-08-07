@@ -1,9 +1,11 @@
 package de.universeDawn.fightscriptanalyser.pathfinder;
 
+import org.springframework.security.core.parameters.P;
+
 import java.util.*;
 
 public class Pathfinder {
-     static class Point {
+     public static class Point {
         public double x;
         public double y;
         public double z;
@@ -13,6 +15,16 @@ public class Pathfinder {
             this.y = y;
             this.z = z;
         }
+    }
+
+    public List<Point> convertToPoint(List<String> list){
+         List<Point> pointList = new ArrayList<>();
+         for(String stringEntry : list){
+             String[] split = stringEntry.split("-");
+             pointList.add(new Point(Double.parseDouble(split[0]),Double.parseDouble(split[1]),Double.parseDouble(split[2])));
+         }
+
+         return pointList;
     }
 
     public static List<Point> findShortestPath(List<Point> coordinates) {
@@ -58,12 +70,14 @@ public class Pathfinder {
         double dz = p1.z - p2.z;
         return Math.sqrt(dx * dx + dy * dy + dz * dz);
     }
-    public void path(List<Point> coordinates){
+    public List<Point> path(List<Point> coordinates){
 
         List<Point> fastestRoute = findShortestPath(coordinates);
 
         for (Point point : fastestRoute) {
             System.out.println("(" + point.x + ", " + point.y + ", " + point.z + ")");
         }
+
+        return fastestRoute;
     }
 }

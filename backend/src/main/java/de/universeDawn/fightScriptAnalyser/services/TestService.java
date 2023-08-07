@@ -31,7 +31,6 @@ public class TestService {
     @Autowired
     private LoginRepository loginRepository;
 
-    @EventListener(ApplicationReadyEvent.class)
     public void generateTestData(){
         LoginInformation loginInformation = new LoginInformation();
         loginInformation.setName("Happy");
@@ -63,6 +62,10 @@ public class TestService {
         planetRepository.saveAndFlush(p);
         planetRepository.saveAndFlush(p2);
         srUser.setPlanets(List.of(p,p2));
+        SrUser test2 = new SrUser();
+        test2.setName("Test");
+        test2.setAuthorities(Authority.NONE.name());
+        srUserRepository.saveAndFlush(test2);
         srUserRepository.saveAndFlush(srUser);
         Random r = new Random();
         int min = 0;
@@ -81,6 +84,10 @@ public class TestService {
             order.setWater(r.nextInt(max-min) + min);
             order.setOrderedBy(srUser);
             order.setTarget(p);
+            order.setCreationDate(new Date());
+            if((i&1)==0){
+                order.setStatus(true);
+            }
             order.setDeliveryDate(new Date());
 
             orderRepository.saveAndFlush(order);

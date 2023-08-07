@@ -9,8 +9,6 @@ import de.universeDawn.fightscriptanalyser.repo.SrUserRepository;
 import de.universeDawn.fightscriptanalyser.user.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.security.core.userdetails.User;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.stereotype.Service;
@@ -50,18 +48,19 @@ public class SrUserService {
     public Optional<SrUser> validUser(LoginRequest loginRequest) {
         LoginInformation loginInformation = loginRepository.findByValids(loginRequest.getUsername(), loginRequest.getPassword());
         SrUser srUser = null;
-        if (loginInformation != null && loginInformation.getSrUser()!=null) {
-             srUser = loginInformation.getSrUser();
+        if (loginInformation != null && loginInformation.getSrUser() != null) {
+            srUser = loginInformation.getSrUser();
             if (inMemoryUserDetailsManager.userExists(srUser.getName())) {
                 return Optional.of(srUser);
             }
             inMemoryUserDetailsManager.createUser(mapUserToCustomUserDetails(srUser, Collections.singletonList(new SimpleGrantedAuthority(srUser.getAuthorities()))));
         }
-        if(srUser!=null){
+        if (srUser == null) {
             return Optional.of(null);
         }
         return Optional.of(srUser);
     }
+
     private AuthUser mapUserToCustomUserDetails(SrUser user, List<SimpleGrantedAuthority> authorities) {
         AuthUser customUserDetails = new AuthUser();
         customUserDetails.setId(user.getId());
@@ -81,16 +80,28 @@ public class SrUserService {
     }
 
 
-    public void createUser(UserCreateRequest userCreateRequest){
-        LoginInformation loginInformation = new LoginInformation();
-        loginInformation.setName(userCreateRequest.username());
-        loginInformation.setPassword(userCreateRequest.password());
-        loginInformation.setUser(true);
-        SrUser srUser = new SrUser();
-        srUser.setName(userCreateRequest.username());
-        srUser.setRace(Race.ozoid);
-        srUser.setRole(Role.freelancer);
+    public void createUser(UserCreateRequest userCreateRequest) {
+        LoginInformation loginInformation = loginRepository.findByName(userCreateRequest.username());
+        if (loginInformation != null) {
+            loginInformation.setName(userCreateRequest.username());
+            loginInformation.setPassword(userCreateRequest.password());
+            loginInformation.setUser(!(userCreateRequest.role().equals(BasicAuthWebSecurityConfiguration.NONE)));
+            loginRepository.saveAndFlush(loginInformation);
+        }else{
+            loginInformation = new LoginInformation();
+            loginInformation.setName(userCreateRequest.username());
+            loginInformation.setPassword(userCreateRequest.password());
+            loginInformation.setUser(!(userCreateRequest.role().equals(BasicAuthWebSecurityConfiguration.NONE)));
+        }
 
+        SrUser srUser = srUserRepository.findUserByName(loginInformation.getName());
+        if (srUser == null) {
+            srUser = new SrUser();
+            srUser.setName(userCreateRequest.username());
+            srUser.setRace(Race.ozoid);
+            srUser.setRole(Role.freelancer);
+
+        }
         srUser.setAuthorities(userCreateRequest.role());
         loginInformation.setSrUser(srUser);
         srUser.setLoginInformation(loginInformation);
@@ -100,9 +111,9 @@ public class SrUserService {
         srUserRepository.saveAndFlush(srUser);
     }
 
-    public void deleteUser(Long id){
+    public void deleteUser(Long id) {
         Optional<SrUser> byId = srUserRepository.findById(id);
-        if(!byId.isPresent()){
+        if (!byId.isPresent()) {
             return;
         }
         LoginInformation loginInformation = byId.get().getLoginInformation();

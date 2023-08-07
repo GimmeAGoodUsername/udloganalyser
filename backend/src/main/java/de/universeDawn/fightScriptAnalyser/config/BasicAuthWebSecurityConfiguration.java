@@ -30,7 +30,7 @@ public class BasicAuthWebSecurityConfiguration {
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.authorizeHttpRequests(authorizationManagerRequestMatcherRegistry ->
                         authorizationManagerRequestMatcherRegistry
-                                .requestMatchers("/h2-console/**", "/auth/**", "/v3/**", "/swagger-ui/**").permitAll()
+                                .requestMatchers("/h2-console/**", "/auth/**", "/v3/**", "/swagger-ui/**","/public/oxi**").permitAll()
                                 .requestMatchers("/adminApi/**").hasAuthority(ADMIN)
                                 .anyRequest().hasAnyAuthority(ADMIN,USER)
                 )

@@ -50,7 +50,6 @@ public class SrOrder {
     private SrUser orderedBy;
     @ManyToOne
     @JoinColumn(name="srUserTarget_id",nullable = true)
-    @JsonBackReference
     private SrUser deliveryBoy;
     @Column(name = "status")
     private boolean status = false;
