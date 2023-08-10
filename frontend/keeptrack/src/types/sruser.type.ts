@@ -2,7 +2,7 @@ import SrOrder from "./order.type";
 import IPlanet from "./planet.type";
 
 export default interface ISrUser {
-    id?: any | null,
+    id?: number | null,
     name?: string,
     race: Race,
     role: Role,

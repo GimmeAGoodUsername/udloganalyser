@@ -3,7 +3,7 @@ import authHeader from "./auth-header";
 import ISrUser from "../types/sruser.type";
 import IPlanet from "../types/planet.type";
 
-const API_URL = "http://localhost:8080/userApi/";
+const API_URL = "https://ud-be.elimar.xyz/userApi/";
 
 export const getPublicContent = () => {
   return axios.get(API_URL + "all");
@@ -25,10 +25,6 @@ export const deletePlanet = (planetId: IPlanet['id']) => {
   return axios.delete<void>(API_URL + "deletePlanet/" + planetId,  { headers: authHeader() });
 };
 
-export const getModeratorBoard = () => {
-  return axios.get(API_URL + "mod", { headers: authHeader() });
-};
-
-export const getAdminBoard = () => {
-  return axios.get(API_URL + "admin", { headers: authHeader() });
+export const getAllUsers = () => {
+  return axios.get<ISrUser[]>(API_URL + "getAllUsers",  { headers: authHeader() });
 };

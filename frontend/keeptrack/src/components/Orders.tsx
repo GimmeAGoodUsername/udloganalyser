@@ -11,12 +11,15 @@ import Paper from '@mui/material/Paper';
 import { Button } from "@mui/material";
 import * as AuthService from "../services/auth.service";
 import NewOrder from "./NewOrder";
+import ISrUser from "../types/sruser.type";
 
 const Order: React.FC = () => {
-  const [ content, setContent ] = useState<SrOrder[]>([]);
+  const [content, setContent] = useState<SrOrder[]>([]);
+  const [user, setUser] = useState<ISrUser>();
 
   useEffect(() => {
     getOpenOrders()
+    setUser(AuthService.getCurrentUser)
   }, []);
 
   const getOpenOrders = () => {
@@ -45,15 +48,19 @@ const Order: React.FC = () => {
   function assignOrderEvt(order: SrOrder) {
     let user = AuthService.getCurrentUser();
     orderApi.assignOrder(order, user.name);
+    window.location.reload()
   }
-
+  function deliverOrderEvt(order: SrOrder) {
+    orderApi.completeOrder(order);
+    window.location.reload()
+  }
   const onOrderAdded = () => {
     getOpenOrders()
   }
 
   return (
     <div>
-      <NewOrder onOrderAdded={onOrderAdded}/>
+      <NewOrder onOrderAdded={onOrderAdded} />
 
 
       <TableContainer component={Paper} sx={{ maxHeight: 500, minWidth: 1400, align: "left" }}>
@@ -74,7 +81,9 @@ const Order: React.FC = () => {
               <TableCell align="right">Total Mats</TableCell>
               <TableCell align="right">Creds</TableCell>
               <TableCell align="right">Plani</TableCell>
-              <TableCell align="center">Edit</TableCell>
+              <TableCell align="center">Lieferant</TableCell>
+              <TableCell align="center">Status</TableCell>
+
 
             </TableRow>
           </TableHead>
@@ -98,12 +107,32 @@ const Order: React.FC = () => {
                 <TableCell align="right">{order.credits}</TableCell>
                 <TableCell align="right">{order.target.x}-{order.target.y}-{order.target.z}</TableCell>
                 <TableCell align="center">
-                  <Button variant="contained"
-                          onClick={() => {
-                            assignOrderEvt(order)
-                          }}
-                  >
-                    Assign</Button>
+                  {order.deliveryBoy ? (
+                    <div>{order.deliveryBoy.name}</div>
+                  ) : (
+                    <Button size="small" variant="contained"
+                      onClick={() => {
+                        assignOrderEvt(order)
+                      }}
+                    >Liefern</Button>
+                  )
+                  }
+
+                </TableCell>
+                <TableCell align="center">
+                  
+                  {order.deliveryBoy?.name === user?.name ? (
+                    <Button size="small" variant="contained"
+                      onClick={() => {
+                        deliverOrderEvt(order)
+                      }}
+                    >Geliefert</Button>
+                  ) :
+                    (
+                      <div>Offen</div>
+                    )
+                  }
+
                 </TableCell>
 
 
