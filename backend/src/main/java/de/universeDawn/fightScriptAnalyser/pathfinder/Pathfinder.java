@@ -15,7 +15,12 @@ public class Pathfinder {
             this.y = y;
             this.z = z;
         }
-    }
+
+         @Override
+         public String toString() {
+             return (int)x+"-"+(int)y+"-"+(int)z;
+         }
+     }
 
     public List<Point> convertToPoint(List<String> list){
          List<Point> pointList = new ArrayList<>();
@@ -75,7 +80,7 @@ public class Pathfinder {
         List<Point> fastestRoute = findShortestPath(coordinates);
 
         for (Point point : fastestRoute) {
-            System.out.println("(" + point.x + ", " + point.y + ", " + point.z + ")");
+            System.out.println(point);
         }
 
         return fastestRoute;

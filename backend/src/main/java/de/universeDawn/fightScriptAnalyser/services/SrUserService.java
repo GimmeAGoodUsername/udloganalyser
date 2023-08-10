@@ -7,6 +7,7 @@ import de.universeDawn.fightscriptanalyser.repo.LoginRepository;
 import de.universeDawn.fightscriptanalyser.repo.PlanetRepository;
 import de.universeDawn.fightscriptanalyser.repo.SrUserRepository;
 import de.universeDawn.fightscriptanalyser.user.*;
+import lombok.Value;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.crypto.password.PasswordEncoder;

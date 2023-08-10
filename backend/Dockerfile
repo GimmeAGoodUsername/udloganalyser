@@ -1,6 +1,6 @@
-FROM eclipse-temurin:17-jdk-alpine
+FROM eclipse-temurin:17-jdk-jammy
 VOLUME /tmp
 ARG JAR_FILE
 COPY build/libs/*.jar app.jar
-EXPOSE 1337
+EXPOSE 8080:8080
 ENTRYPOINT ["java","-jar","/app.jar"]
